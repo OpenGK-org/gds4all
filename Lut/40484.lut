@@ -1,0 +1,32 @@
+0xFF, 0x01, Operational State
+0xFF, 0x02, Diagnostic State
+0xFF, 0x03, On-Demand Self-Test Mode
+0xFF, 0x04, Wiggle Test Mode
+0xFF, 0x05, General Test Mode
+0xFF, 0x06, Command Mode
+0xFF, 0x07, Information Transfer State
+0xFF, 0x09, No Stored Codes Logging State
+0xFF, 0x0A, Input Integrity Test State
+0xFF, 0x0B, Secure Diagnostic State
+0xFF, 0x0C, Execution Routine State
+0xFF, 0x0D, Manufacturer State
+0xFF, 0x81, Standard Diagnostic Mode
+0xFF, 0x85, Non CAN:Power Seat Calibration Test Mode,  CAN: ECU Programming Mode
+0xFF, 0x87, ECU Adjustment Mode
+0xFF, 0xF0, EOL Extended Diagnostics Session
+0xFF, 0xFF, Invalid Data
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -

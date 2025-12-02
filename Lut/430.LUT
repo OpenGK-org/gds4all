@@ -1,0 +1,31 @@
+0xFF, 0x10, 10 General Reject
+0xFF, 0x11, 11 Service Not Supported
+0xFF, 0x12, 12 SubFunction Not Supported - invalid Format
+0xFF, 0x13, 13 Incorrect Message Length Or Invalid Format
+0xFF, 0x21, 21 Busy-repeat Request
+0xFF, 0x22, 22 Conditions Not Correct/Request Sequence Error
+0xFF, 0x23, 23 Routine Not Complete
+0xFF, 0x31, 31 Request Out Of Range
+0xFF, 0x33, 33 Security Access Denied / Required
+0xFF, 0x35, 35 Invalid Key
+0xFF, 0x36, 36 Exceed Number Of Attempts
+0xFF, 0x37, 37 Required Time Delay Not Expired
+0xFF, 0x40, 40 Download Not Accepted
+0xFF, 0x41, 41 Improper Download Type
+0xFF, 0x42, 42 Can't Download To Specified Address
+0xFF, 0x43, 43 Can't Download Number Of Bytes Requested
+0xFF, 0x50, 50 Upload Not Accepted
+0xFF, 0x51, 51 Improper Upload Type
+0xFF, 0x52, 52 Can't Upload From Specified Address
+0xFF, 0x53, 53 Can't Upload Number Of Bytes Requested
+0xFF, 0x71, 71 Transfer Suspended
+0xFF, 0x72, 72 Transfer Aborted
+0xFF, 0x74, 74 Illegal Address In Block Transfer
+0xFF, 0x75, 75 Illegal Byte Count In Block Transfer
+0xFF, 0x76, 76 Illegal Block Transfer Type
+0xFF, 0x77, 77 Block Transfer Data Checksum Error
+0xFF, 0x78, 78 Request Correctly Received - Response Pending
+0xFF, 0x79, 79 Incorrect Byte Count During Block Transfer
+0xFF, 0x80, 80 Service Not Supported In Active Diagnostic Mode
+0xFF, 0xF0, F0 Requested User Password Cancelled
+0x00, 0x00, 00 Not Defined

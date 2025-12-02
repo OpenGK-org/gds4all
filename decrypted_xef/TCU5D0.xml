@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by kyc (git) -->
+<systemtree systemid="TCU5D0" mmcid="" version="" date="" author="" history="">
+  <commset moduleid="" testerid="" vsschannel="0x0800" protocolid="0x100023">
+    <funcsupport>
+      <function index="1000" desc="1" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0000" l_lineswitchstatus="0x0008" rxlineselect="0x0062" rxlinestatus="0x0040" pulluprelay="0x0000" k_linepullup="0x0001" l_linepullup="0x0000" l_linegnd="0x0010" k_linech="0x0001" l_linech="0x0000" rprogramch="0x00FF" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="10400 ( 4byte) 테이블참조" loopback="0 ※0:off 1:on" nodeaddress="00~FF 사이값(HEX)" networkline="0:bus normal 1:plus 2;minus" p1min="0~FFFF" p1max="0~FFFF" p2min="0~FFFF" p2max="0~FFFF" p3min="0~FFFF" p3max="0~FFFF" p4min="0~FFFF" p4max="0~FFFF" w1="0~FFFF" w2="0~FFFF" w3="0~FFFF" w4="0~FFFF" w5="0~FFFF" tidle="0~FFFF" tinil="0~FFFF" twup="0~FFFF" parity="0;no 1:odd 2;even" bitsamplepoint="0~100 (%값만)" syncjumpwidth="0~100 (%값만)" t1max="0~FFFF" t2max="0~FFFF" t3max="0~FFFF" t4max="0~FFFF" t5max="0~FFFF" iso15765bs="0~FF" iso15765stmin="0~FF" bstx="0~FF, FFFF (iso15765-2참조)" stmintx="0~FF, FFFF (iso15765-2참조)" databits="0;8data bit 1;7databit" fivebaudmod="0~3 (표참조)" toolmanufacturerspec="manufac" etc1="임시" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0001" />
+        <klinechannel channel="" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="" response="" />
+    <commdown>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="0" requesttime="1" searchtype="1" startpos="" readno="" skipno="" totalmasking="">
+    <requestcodetree>
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+    </requestcodetree>
+    <dtcitemtree header="P0500" index="P0500" maskingvalue="0000FFFF" commcode="0500" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0715" index="P0715-1" maskingvalue="0000FFFF" commcode="0715" compid="52300800">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0720" maskingvalue="0000FFFF" commcode="0720" compid="52301100" index="P0720-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0740" maskingvalue="0000FFFF" commcode="0740" compid="52150800" index="P0740">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0743" maskingvalue="0000FFFF" commcode="0743" compid="52150800" index="P0743-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0750" maskingvalue="0000FFFF" commcode="0750" compid="52150700" index="P0750-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P0755" maskingvalue="0000FFFF" commcode="0755" compid="52150700" index="P0755-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1701" index="P1701" maskingvalue="0000FFFF" commcode="1701" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+</systemtree>

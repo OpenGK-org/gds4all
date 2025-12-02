@@ -1,0 +1,8 @@
+0xFF, 0x00, Worldwide
+0xFF, 0x01, US, Canada
+0xFF, 0x02, Europe, Middle East, Egypt, Japan, South Africa, etc
+0xFF, 0x03, Korea, Southeast Asia, Taiwan, Hong Kong, Macau
+0xFF, 0x04, Central/South America, Brazil, Mexico, Australia, New Zealand, etc
+0xFF, 0x05, Russia, Ukraine, Belarus, Africa, India, etc
+0xFF, 0x06, China
+0x00, 0x00, -

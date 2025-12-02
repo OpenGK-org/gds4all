@@ -1,0 +1,89 @@
+01001,009$ $LV_IGK$LV_VB_JUMP$LV_CDN_VB_OBD1$LV_CDN_VB_OBD2$LV_CND_VB_MIN_DIAG$
+01002,009$ $LV_FUEL_TYPE_BOX$LV_FUEL_TYPE_BOX_BSW$LV_FUEL_TYPE_1$LV_FUEL_TYPE_2$LV_FUEL_TYPE_3$LV_FUEL_TYPE_4$LV_FUEL_TYPE_5$LV_FUEL_TYPE_6$
+01003,009$ $Error Emergency stop$Error gasoline injection path$Error gas injection path$Error gas system$Error auxiliary devices$Gas tank almost empty$OK ready to operate$OK with restrictions$
+01004,009$EFP_ON_DLY$EFP_ON_ENG_START$EFP_ON_ENG_RUN$EFP_OFF_DLY$EFP_OFF$EFP_CRASH$
+01005,009$ $LV_ES$LV_ST$LV_IS$LV_PL$LV_PU$LV_PUC$LV_FL$
+01006,002$CNG$LPG$
+01007,016$IMMO COIL ERROR$TP Virgin$TP Learnt/Valid$Not Valid$Not Present$Not Valid$Not Valid$Not Valid$Not Valid$Not Valid$-$-$-$-$-$Not Allow$
+01008,004$VIRGIN$UNDIFINED$LEARNT$NEUTRAL$
+01009,002$NORMAL$OPEN$
+01010,002$NORMAL$SCG$
+01011,008$DISABLE$변속레버연동$-$-$20 km/h$25 km/h$30 km/h$35 km/h$40 km/h$
+01012,004$DISABLE$키 탈거$운전석 언락SW$변속레버연동$
+01013,009$UNKNOWN$OFF$-$ALERT$T-SHUTDOWN$-$STATIONARY$ROLLING$LEARNING$FATE$
+01014,002$STATIONARY$ROLLING$
+01015,002$OK$FAILURE$
+01016,002$OK$LOW$
+01017,002$NO$RESPONSE$
+01018,004$테스트 정상$구간 결함 발견$테스트 안됨$테스트 안됨$
+01019,004$-$UNPROGRAMED$PROGRAMED$-$
+01020,008$-$-$-$3 FRAME$4 FRAME$-$-$-$
+01021,004$-$LOW LINE$HIGH LINE$-$
+01022,004$-$315 MHZ$433.92 MHZ$-$
+01023,008$-$-$-$-$4 Sensors$5 Sensors$-$-$
+01024,002$Km$miles$
+01025,008$Korea AVNT$-$Korea AVN$US/Canada$China$Middle East$-$-$-$
+01026,004$BH$VI$-$-$
+01027,008$Korea$-$Middle East/General$China$US/Canada$-$-$-$
+01028,008$-$Region 1$Region 2$Region 3$Region 4$Region 5$Region 6$-$
+01029,002$DISABLE$ENABLE$
+01030,004$VIRGIN$LEARNT$NEUTRAL$UNDEFINED$
+01031,002$NOT NORMAL$ NORMAL$
+01032,009$FAILURE$UNLOCKED$LOCKED$-$INTERMEDIATE$-$-$-$-$
+01033,009$TRUNK$-$LOCK$-$UNLOCK$PANIC$-$-$PANIC$
+01034,016$UNDEFINE$OFF Lock$OFF UNLock$ACC$IGN$IG START$ENGINE RUN$-$-$-$-$-$-$-$-$OFF ESCL$
+01035,009$NORMAL$DESYNC$DISABLE$-$UNKNOWN$-$-$-$LOW BATT$
+01036,009$-$NORMAL$NEUTRALIZED$-$VIRGIN$-$-$-$-$
+01037,009$DISABLE$LEVER$-$-$20 km/h$25 km/h$30 km/h$35 km/h$40 km/h$
+01038,004$DISABLE$KEY OUT$DR DOOR SW$LEVER$
+01039,016$IMMO COIL ERROR$TP Virgin$TP Learnt/Valid$Not Valid$Not Present$Not Valid$Not Valid$Not Valid$Not Valid$Not Valid$-$-$-$-$-$Not Allow$
+01040,002$<20km/h$>=20km/h$
+01041,006$OK$ERROR$ERROR$ERROR$ERROR$ERROR$
+01042,004$ALL Inactive$HLL Active$DBL Active$ALL Active$
+01043,009$-$LOCK$UNLOCK$-$TRUNK$-$PANIC$PANIC$PANIC$
+01044,256$-$20 km/h$40 km/h$P->R$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$
+01045,256$-$KEY OFF$R->P$DRIVER DOOR UNLOCK$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$
+01046,004$ENABLE ALL$ENABLE SCM$DISABLE ALL$
+01047,004$No Defect$Detect Defect$No test$No test$
+01048,008$NO SIGNAL$OK$RETRY$-$PROGRESS$-$-$-$
+01049,004$DISABLE$20km/h(12mile)$40km/h(25mile)$-$
+01050,008$KEY ON 구동$크랭킹시 구동$정상 구동$OFF 대기$OFF$강제 구동$-$-$
+01051,002$AWD MODE$LOCK MODE$
+01052,016$UNDEFINE$OFF Lock$OFF UNLock$ACC$IGN$IG START$START$ENGINE RUN$-$IG LPI HEV$-$-$-$-$-$ESCL FAIL$
+01053,008$-$UNLOCKED$LOCKED$-$INTERMEDIATE$-$-$-$
+01054,016$No DTC$Above Max threshold$Below Min threshold$-$No signal$-$Short to Ubat$-$Invalid signal$Interruption$-$-$-$-$Defect$-$
+01055,002$Not Coupled$Coupled$
+01056,002$Not Engaged$Engaged$
+01057,004$DISABLE$VEHICLE SPEED$SHIFT LEVER$-$
+01058,004$PASSIVE (0h)$RICH CHECK (1h)$LEAN CHECK (2h)$CHECK FINESHED (3h)$
+01059,002$passive [0000h]$active [0001h]$
+01060,008$NOT YET CHECKED$LEARNT$VIRGIN$NEUTRAL$LOCKED BY TIMER$-$-$-$
+01061,016$INI$READ_INI$TAM_SWI_DIAG$SMALL_LEAK_DIAG$COMPLETE_DIAG$CPS_CHECK$WAIT$STOP$ERROR$OFF$SLEEP$SW_VERSION$EOL$-$-$-$
+01062,016$inhibition due to related faillures$Vehicle speed is too high$Battery voltage is out of range$Canister load is too high&Canister control condition are unstable$TCO is too high or too low$EOL max timer has passed$RPM and Lambda control are not unstable$AMP is too low$HCU inhibition request$TAM is too high or too low$EOL IVVT diagnosis is ongoing$Gear is engaged$Gear is engaged$SOC is too low$Fuel tank level is too high$Fuel tank level is too unstable$                                                                                      
+01063,004$EOL_PAS$EOL_ACT$ EOL_RDY$-$
+01064,002$Off Mode$On Mode$
+01065,002$내수$유럽$
+01066,008$Korea$-$Export-EQUUS$China$US/Canada$Export-CENTENNIAL$-$-$
+01067,004$No data saved$Low RPM$Acceleration$Misfire$
+01068,002$Released$Actuated$
+01069,002$Enable$Disable$
+01070,002$release$actuated$
+01071,256$N$1 Gear$2 Gear$3 Gear$4 Gear$5 Gear$6 Gear$7 Gear$8 Gear$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$Reverse Gear$
+01072,016$P$L$2nd$3rd$4th$D$N$R$Sports mode$-$-$-$-$-$-$Fault$
+01073,004$No lock up$Slip lock up$Fully lock up$lock up off$
+01074,008$Engine stop$Crank$Idle$Part load$Pull$Fuel cut-off$-$-$
+01075,002$IGK off$IGK on$
+01076,008$Neutral/Parking$1st$2nd$3rd$4th$5th$6th$R-gear$
+01077,032$False$-$-$-$-$-$-$-$-$-$ON-STOP$-$-$-$-$-$-$-$-$-$ON-CMP$-$-$-$-$-$-$-$-$-$ON-CKP$-$
+01078,004$OFF$Imperfect$-$ON$
+01079,016$P$L$2$3$DS Mode$D$N$R$sports mode$Not Display$S-Rom Com.$S-Rom Com. Error$D-position$Reserved$Intermediate$fault$
+01080,008$-$KEY ON$Crank$Run$Stall$Power Off Delay$ShutDown$-$
+01081,016$1st$2nd$3rd$4th$5th$6th$7th$8th$uncertain$Park / Neutral$R-gear$-$-$-$-$-$
+01082,008$Open Loop$Normal Full Load$Normal Part Load$Rolling Full Load$Rolling Part Load$RPM drop prevention$-$-$
+01083,004$unlocked$slipping lockup$full lockup$off slip lockup$
+01084,004$MIL OFF$MIL ON$MIL Flashing$-$
+01085,016$acceleration$Cruise$Drag$-$-$Traction$-$-$Limit$-$-$-$-$-$-$-$
+01086,004$Disabled$-$-$Engaged$
+01087,008$Crank$Lambda$Lean$too Lean$Anti-knock$Warm-Up$Split-Intake$-$-$
+01088,004$OFF$ON$INVALID$-$
+01089,256$-$15 km/h$Shift Lever$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$

@@ -1,0 +1,8 @@
+0xFF, 0x00, 00 Diagnosis Finished. No Result
+0xFF, 0x03, 03 Test Completed! Fail P0455 Large Leak
+0xFF, 0x04, 04 Test Completed! Fail P0442 Small Leak
+0xFF, 0x05, 05 Test Completed! Fail P2442 Evap. Vent
+0xFF, 0x06, 06 Test Completed! Fail P0441 Cont. Purge Fail
+0xFF, 0x07, 07 Test Completed! Fail P0456 Very Small Leak
+0xFF, 0x00, 00 Test Failure! Condition Not Correct
+

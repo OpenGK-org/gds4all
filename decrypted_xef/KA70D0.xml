@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Gon (ORiON) -->
+<systemtree systemid="KA70D0" mmcid="" version="1.0" date="2005-11-04" author="GIT" history="">
+  <commset moduleid="" testerid="" vsschannel="0x0800" protocolid="0x100022">
+    <funcsupport>
+      <function index="1000" desc="1" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0004" l_lineswitchstatus="0x0000" rxlineselect="0x0062" rxlinestatus="0x0040" pulluprelay="0x0000" k_linepullup="0x0004" l_linepullup="0x0008" l_linegnd="0x0000" k_linech="0x0400" l_linech="0x0008" rprogramch="0x0000" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="" loopback="" nodeaddress="" networkline="" p1min="" p1max="" p2min="" p2max="" p3min="" p3max="" p4min="" p4max="" w1="" w2="" w3="" w4="" w5="" tidle="" tinil="" twup="" parity="" bitsamplepoint="" syncjumpwidth="" t1max="" t2max="" t3max="" t4max="" t5max="" iso15765bs="" iso15765stmin="" bstx="" stmintx="" databits="" fivebaudmod="" toolmanufacturerspec="" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0400" />
+        <klinechannel channel="" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="" response="" />
+    <commdown>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="" requesttime="" searchtype="1" startpos="" readno="" skipno="" totalmasking="">
+    <requestcodetree>
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+    </requestcodetree>
+    <dtcitemtree header="06" maskingvalue="FF" commcode="06" compid="" index="P0500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="12" index="14-18" maskingvalue="FF" commcode="12" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="55" index="55-2" maskingvalue="FF" commcode="55" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="60" index="60-2" maskingvalue="FF" commcode="60" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="61" index="61-9" maskingvalue="FF" commcode="61" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="62" index="62-6" maskingvalue="FF" commcode="62" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="63" index="63-6" maskingvalue="FF" commcode="63" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="57" index="57-6" maskingvalue="FF" commcode="57" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="64" index="64-2" maskingvalue="FF" commcode="64" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+</systemtree>

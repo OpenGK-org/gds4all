@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by kyc (git) -->
+<systemtree systemid="BAG7D0" mmcid="" version="1.0" date="2004-12-15" author="GIT" history="">
+  <commset moduleid="" testerid="" vsschannel="0x0800" protocolid="0x010001">
+    <funcsupport>
+      <function index="1000" desc="1" />
+      <function index="3000" desc="3" />
+      <function index="5000" desc="5" />
+      <function index="1060" desc="33" />
+      <function index="1070" desc="34" />
+      <function index="3010" desc="36" />
+      <function index="3020" desc="37" />
+      <function index="3021" desc="38" />
+      <function index="3022" desc="39" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0004" l_lineswitchstatus="0x0008" rxlineselect="0x0068" rxlinestatus="0x0000" pulluprelay="0x0000" k_linepullup="0x0001" l_linepullup="0x0002" l_linegnd="0x0000" k_linech="0x0200" l_linech="0x0000" rprogramch="0x0000" etc1="04FF7F" etc2="060700" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="10416" loopback="0" nodeaddress="0x00" networkline="0" p1min="0x0000" p1max="0x0014" p2min="0x0019" p2max="0x0032" p3min="0x0037" p3max="0x1388" p4min="0x0005" p4max="0x0014" w1="0x03E8" w2="0x03E8" w3="0x03E8" w4="0x001E" w5="0x012C" tidle="0x1388" tinil="0x0019" twup="0x0032" parity="0" bitsamplepoint="80" syncjumpwidth="15" t1max="0x0014" t2max="0x0064" t3max="0x0032" t4max="0x0014" t5max="0x0064" iso15765bs="0x00" iso15765stmin="0x00" bstx="0xFFFF" stmintx="0xFFFF" databits="0" fivebaudmod="0" toolmanufacturerspec="0" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="36" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0200" />
+        <klinechannel channel="0x0400" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="686AF1B10175" response="486BXXF1" />
+    <commdown>
+      <requestnode request="686AF111D4" response="" />
+      <requestnode request="" response="" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="0" requesttime="1" searchtype="2" startpos="5" readno="2" skipno="0" totalmasking="0000FFFF">
+    <requestcodetree>
+      <requestnode index="1" request="686AF113D6" response="486BXX53" />
+      <requestnode index="3" request="686AF1B376" response="486BXXF3" />
+    </requestcodetree>
+    <dtcitemtree header="B1346" maskingvalue="0000FFFF" commcode="D346" compid="81200100" index="B1346">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1346" maskingvalue="0000FFFF" commcode="9346" compid="81200100" index="B1346-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1347" maskingvalue="0000FFFF" commcode="D347" compid="81200100" index="B1347-6">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1347" maskingvalue="0000FFFF" commcode="9347" compid="81200100" index="B1347-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1348" index="B1348" maskingvalue="0000FFFF" commcode="D348" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1348" maskingvalue="0000FFFF" commcode="9348" compid="81200100" index="B1348-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1349" index="B1349-1" maskingvalue="0000FFFF" commcode="D349" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1349" maskingvalue="0000FFFF" commcode="9349" compid="81200100" index="B1349-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1353" maskingvalue="0000FFFF" commcode="D352" compid="81200200" index="B1353-12">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1353" maskingvalue="0000FFFF" commcode="9352" compid="81200200" index="B1353-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1352" maskingvalue="0000FFFF" commcode="D353" compid="81200200" index="B1352-12">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1352" maskingvalue="0000FFFF" commcode="9353" compid="81200200" index="B1352-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1354" maskingvalue="0000FFFF" commcode="9354" compid="81200200" index="B1354-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1354" maskingvalue="0000FFFF" commcode="D354" compid="81200200" index="B1354-9">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1355" maskingvalue="0000FFFF" commcode="D355" compid="81200200" index="B1355">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1355" maskingvalue="0000FFFF" commcode="9355" compid="81200200" index="B1355-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1400" index="B1400" maskingvalue="0000FFFF" commcode="D400" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1400" index="B1400-1" maskingvalue="0000FFFF" commcode="9400" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1401" maskingvalue="0000FFFF" commcode="D401" compid="81100300" index="B1401-3">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1401" index="B1401" maskingvalue="0000FFFF" commcode="9401" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1402" maskingvalue="0000FFFF" commcode="D402" compid="81100300" index="B1402-5">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1402" index="B1402" maskingvalue="0000FFFF" commcode="9402" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1403" index="B1403" maskingvalue="0000FFFF" commcode="D403" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1403" index="B1403-1" maskingvalue="0000FFFF" commcode="9403" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1404" maskingvalue="0000FFFF" commcode="D404" compid="81100300" index="B1404-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1404" maskingvalue="0000FFFF" commcode="9404" compid="81100300" index="B1404">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1405" maskingvalue="0000FFFF" commcode="D405" compid="81100300" index="B1405-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1405" maskingvalue="0000FFFF" commcode="9405" compid="81100300" index="B1405">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1409" index="B1409" maskingvalue="0000FFFF" commcode="D409" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1409" index="B1409-1" maskingvalue="0000FFFF" commcode="9409" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1410" index="B1410" maskingvalue="0000FFFF" commcode="D410" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1410" index="B1410-1" maskingvalue="0000FFFF" commcode="9410" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1414" index="B1414-4" maskingvalue="0000FFFF" commcode="D414" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1414" index="B1414" maskingvalue="0000FFFF" commcode="9414" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1415" index="B1415-5" maskingvalue="0000FFFF" commcode="D415" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1415" index="B1415" maskingvalue="0000FFFF" commcode="9415" compid="81100300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1481" index="B1481-2" maskingvalue="0000FFFF" commcode="D481" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1481" index="B1481-A" maskingvalue="0000FFFF" commcode="9481" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1482" index="B1482-2" maskingvalue="0000FFFF" commcode="D482" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1482" index="B1482-A" maskingvalue="0000FFFF" commcode="9482" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1483" index="B1483-2" maskingvalue="0000FFFF" commcode="D483" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1483" maskingvalue="0000FFFF" commcode="9483" compid="81200100" index="B1483-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1484" index="B1484-2" maskingvalue="0000FFFF" commcode="D484" compid="81200100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1484" maskingvalue="0000FFFF" commcode="9484" compid="81200100" index="B1484-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1485" index="B1485-2" maskingvalue="0000FFFF" commcode="D485" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1485" index="B1485" maskingvalue="0000FFFF" commcode="9485" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1486" index="B1486-2" maskingvalue="0000FFFF" commcode="D486" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1486" index="B1486" maskingvalue="0000FFFF" commcode="D486" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1487" index="B1487-2" maskingvalue="0000FFFF" commcode="D487" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1487" index="B1487" maskingvalue="0000FFFF" commcode="9487" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1488" index="B1488-3" maskingvalue="0000FFFF" commcode="D488" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1488" index="B1488" maskingvalue="0000FFFF" commcode="9488" compid="81200200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1491" index="B1491-1" maskingvalue="0000FFFF" commcode="D491" compid="81100800">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1491" index="B1491" maskingvalue="0000FFFF" commcode="9491" compid="81100800">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1492" index="B1492-1" maskingvalue="0000FFFF" commcode="D492" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1492" index="B1492" maskingvalue="0000FFFF" commcode="9492" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1493" maskingvalue="0000FFFF" commcode="D493" compid="81100800" index="B1493-2">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1493" maskingvalue="0000FFFF" commcode="9493" compid="81100800" index="B1493-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1494" index="B1493-2" maskingvalue="0000FFFF" commcode="D494" compid="81100800">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1494" index="B1493-1" maskingvalue="0000FFFF" commcode="9494" compid="81100800">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1511" index="B1512" maskingvalue="0000FFFF" commcode="D511" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1511" index="B1501-1" maskingvalue="0000FFFF" commcode="9511" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1513" index="B1513" maskingvalue="0000FFFF" commcode="D513" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1513" index="B1503-1" maskingvalue="0000FFFF" commcode="9513" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1515" index="B1515-5" maskingvalue="0000FFFF" commcode="D515" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1515" maskingvalue="0000FFFF" commcode="9515" compid="81100500" index="B1515-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1516" index="B1516-5" maskingvalue="0000FFFF" commcode="D516" compid="81100500">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1516" maskingvalue="0000FFFF" commcode="9516" compid="81100500" index="B1516-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1657" index="B1657-4" maskingvalue="0000FFFF" commcode="D657" compid="81100100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1657" maskingvalue="0000FFFF" commcode="9657" compid="81100100" index="B1657-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1670" index="B1670-6" maskingvalue="0000FFFF" commcode="D670" compid="81100100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1670" maskingvalue="0000FFFF" commcode="9670" compid="81100100" index="B1650-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1650" index="B1650-11" maskingvalue="0000FFFF" commcode="D650" compid="81100100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1650" maskingvalue="0000FFFF" commcode="9650" compid="81100100" index="B1650-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1651" index="B1651-2" maskingvalue="0000FFFF" commcode="D651" compid="81100100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1651" maskingvalue="0000FFFF" commcode="9651" compid="81100100" index="B1651-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1652" index="B1652-1" maskingvalue="0000FFFF" commcode="D652" compid="81100100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1652" maskingvalue="0000FFFF" commcode="9652" compid="81100100" index="B1652-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+  <erasememory functionid="2000" functionname="EraseMemory" functiontype="0" startrequiretime="0" endrequiretime="0" requesttime="1">
+    <requestnode index="1" request="686AF114D7" response="486BXX" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+  </erasememory>
+  <currentdata functionid="3000" functionname="Current Data" functiontype="0" requesttime="1">
+    <requestnode request="" response="" />
+    <requestnode request="" response="" />
+    <currentdatanode header="" index="224" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81200100" freeze="00036000000000000000">
+      <convrule convtype="3" A="50" B="1" C="1" D="0x01" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2202" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81200200" freeze="00036000000000000000">
+      <convrule convtype="3" A="50" B="1" C="1" D="0x04" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2406" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100800" freeze="00036000000000000000">
+      <convrule convtype="3" A="94" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2401" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00036000000000000000">
+      <convrule convtype="3" A="1" B="1" C="1" D="0x40" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00036000000000000000" index="197">
+      <convrule convtype="3" A="83" B="1" C="1" D="0x80" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2192" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="3" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="18" floatrange="1" compid="81100100" freeze="00036000000000000000">
+      <convrule convtype="1" A="5" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="199" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00036000000000000000">
+      <convrule convtype="3" A="51" B="3" C="1" D="0x07" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2409" requestcode="686AF1B1299D" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00036000000000000000">
+      <convrule convtype="3" A="51" B="3" C="1" D="0x38" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="201" requestcode="686AF1B12DA1" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00036000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="202" requestcode="686AF1B12DA1" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00036000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2617" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81200300" freeze="00038000000000000000">
+      <convrule convtype="3" A="50" B="1" C="1" D="0x01" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2401" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00038000000000000000">
+      <convrule convtype="3" A="1" B="1" C="1" D="0x40" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00038000000000000000" index="197">
+      <convrule convtype="3" A="83" B="1" C="1" D="0x80" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2192" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="3" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="18" floatrange="1" compid="81100100" freeze="00038000000000000000">
+      <convrule convtype="1" A="5" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="201" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00038000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="202" requestcode="686AF1B12EA2" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00038000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2619" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81200300" freeze="00039000000000000000">
+      <convrule convtype="3" A="50" B="1" C="1" D="0x01" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2406" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100800" freeze="00039000000000000000">
+      <convrule convtype="3" A="94" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2401" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00039000000000000000">
+      <convrule convtype="3" A="1" B="1" C="1" D="0x40" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="2" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81100100" freeze="00039000000000000000" index="197">
+      <convrule convtype="3" A="83" B="1" C="1" D="0x80" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2192" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="3" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="18" floatrange="1" compid="81100100" freeze="00039000000000000000">
+      <convrule convtype="1" A="5" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="201" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00039000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="202" requestcode="686AF1B12FA3" response="486BXX" startpos="6" realpos="4" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="81300100" freeze="00039000000000000000">
+      <convrule convtype="3" A="138" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+  </currentdata>
+  <ecuinfo functionid="5000" functionname="1" functiontype="0">
+    <ecuinfonode index="" startpos="5" readno="2" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="686AF1BE81" response="486BXXFE" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+  </ecuinfo>
+  <addfunction fuctionindex="1060" fuctiondesc="23">
+    <step stepno="1" stepdesc="46" screenmode="2">
+      <imagenode filename="0" xposition="0" yposition="0" width="0" height="0" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="2" messageindex="0" xposition="0" yposition="0" width="0" height="0" messagedisplaytype="0">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="3" requestvalue="686AF1B41C93">
+          <response responsevalue="486BXXF4" startposition="6" datasize="2" maskingvalue="07FFFF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+          <response responsevalue="486BXXF4" startposition="8" datasize="1" maskingvalue="FFFF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="1" A="5" B="0" C="0" D="0" E="1" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+          <response responsevalue="486BXXF4" startposition="9" datasize="1" maskingvalue="FFFF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="1" A="1" B="0" C="0" D="0" E="1" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="1070" fuctiondesc="24">
+    <step stepno="1" stepdesc="47" screenmode="2">
+      <imagenode filename="0" xposition="0" yposition="0" width="0" height="0" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="2" messageindex="0" xposition="0" yposition="0" width="0" height="0" messagedisplaytype="0">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="3" requestvalue="686AF1B41D94">
+          <response responsevalue="486BXXF4" startposition="6" datasize="2" maskingvalue="07FFFF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+          <response responsevalue="486BXXF4" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="1" A="5" B="0" C="0" D="0" E="1" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+          <response responsevalue="486BXXF4" startposition="8" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="1" A="1" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+</systemtree>

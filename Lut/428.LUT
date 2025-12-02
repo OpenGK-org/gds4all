@@ -1,0 +1,7 @@
+0xFF, 0x01, 01 The MT has been loaded
+0xFF, 0x02, 02 The AT has been loaded
+0xFF, 0xA0, A0 The recognition is not allowed
+0xFF, 0xA1, A1 The ECM is already recognized
+0xFF, 0xA2, A2 In AT, CAN signal is not inputted
+0xFF, 0xA3, A3 In MT, CAN signal is not inputted
+0x00, 0x00, 00 Not Define

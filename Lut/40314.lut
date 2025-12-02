@@ -1,0 +1,2 @@
+0xFF,  0x01,  Test NOT Aborted (bit-0 set)
+0xFF,  0x02,  Very Small Leak Test Aborted (bit-1 set)

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by 1 (ORiON) -->
+<CarNameList history="Test 용 으로 작업중...우승범이..">
+	<HY>
+		<FD Area="HMA" Length="6" Year="2007" Name="FD_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</FD>
+		<FD Area="HMU" Length="6" Year="2007" Name="FD_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</FD>
+		<FD Area="HME" Length="6" Year="2007" Name="FD____" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</FD>
+		<MC Area="HMA" Length="4" Year="2007" Name="MC 2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MC>
+		<MC Area="HMU" Length="4" Year="2007" Name="MC 2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MC>
+		<MC Area="HAC" Length="4" Year="2007" Name="MC 2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MC>
+		<MD Area="HMC" Length="2" Year="2010" Name="MD" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MD>
+		<MD Area="HMA" Length="3" Year="2010" Name="UD" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MD>
+		<MD Area="HMU" Length="3" Year="2010" Name="UD" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</MD>
+		<YF Area="HMC" Length="6" Year="2009" Name="YF_DO_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</YF>
+		<YF Area="HMA" Length="6" Year="2009" Name="YF_NA*" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</YF>
+		<YF Area="HMU" Length="6" Year="2009" Name="YF_NA*" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</YF>
+		<LM Area="HMC" Length="3" Year="2009" Name="LM2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</LM>
+		<LM Area="HMA" Length="2" Year="2009" Name="LM" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</LM>
+		<LM Area="HMU" Length="2" Year="2009" Name="LM" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</LM>
+		<LM Area="HME" Length="3" Year="2009" Name="LM3" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</LM>
+		<VI Area="HMA" Length="2" Year="2010" Name="VI" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</VI>
+		<VI Area="HMU" Length="2" Year="2010" Name="VI" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</VI>
+		<RB Area="HMA" Length="2" Year="2010" Name="RB" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</RB>
+		<RB Area="HMU" Length="2" Year="2010" Name="RB" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</RB>
+		<CMFL Area="HMC" Length="5" Year="2010" Name="CM FL" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</CMFL>
+		<CMFL Area="HME" Length="5" Year="2010" Name="CM FL" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</CMFL>
+		<JC Area="HME" Length="6" Year="2010" Name="JC_EU_" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</JC>
+	</HY>
+	<KM>
+		<GH Area="KMC" Length="3" Year="2008" Name="GHD" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</GH>
+		<GH Area="KMA" Length="3" Year="2008" Name="GH2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</GH>
+		<AM Area="KMA" Length="6" Year="2009" Name="AM_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</AM>
+		<AM Area="KMU" Length="6" Year="2009" Name="AM_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</AM>
+		<AM Area="KME" Length="6" Year="2009" Name="AM_EU_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</AM>
+		<TF Area="KMC" Length="6" Year="2010" Name="TF_DO*" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</TF>
+		<TF Area="KMA" Length="6" Year="2010" Name="TF_NA*" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</TF>
+		<TF Area="KMU" Length="6" Year="2010" Name="TF_NA*" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</TF>
+		<TF Area="KME" Length="6" Year="2010" Name="TF_EU*" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</TF>
+		<VG Area="KMC" Length="6" Year="2009" Name="VG_DO_" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</VG>
+		<VG Area="KMA" Length="6" Year="2009" Name="VG_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</VG>
+		<VG Area="KMU" Length="6" Year="2009" Name="VG_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</VG>
+		<XM Area="KMC" Length="6" Year="2009" Name="XM_EU_" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</XM>
+		<XM Area="KME" Length="6" Year="2009" Name="XM_EU_" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</XM>
+		<XM Area="KMA" Length="6" Year="2009" Name="XM_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</XM>
+		<XM Area="KMU" Length="6" Year="2009" Name="XM_NA_" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</XM>
+		<SL Area="KMC" Length="3" Year="2010" Name="SL2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</SL>
+		<SL Area="KME" Length="3" Year="2010" Name="SL3" HighLow="HIGH">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</SL>
+		<SL Area="KMA" Length="2" Year="2010" Name="SL" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</SL>
+		<SL Area="KMU" Length="2" Year="2010" Name="SL" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</SL>
+		<JB Area="KMA" Length="4" Year="2007" Name="JB 2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</JB>
+		<JB Area="KMU" Length="4" Year="2007" Name="JB 2" HighLow="LOW">
+			<Type Index="244" Desc="휠사이즈16, 17인치" Value="1"/>
+			<Type Index="245" Desc="휠사이즈18 인치" Value="2"/>
+		</JB>
+	</KM>
+</CarNameList>

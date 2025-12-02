@@ -1,0 +1,4 @@
+0xFF,  0x00,  EOL/Service point calibration OK
+0xFF,  0x0F,  EOL calibration OK
+0xFF,  0xF0,  Service point calibration OK
+0xFF,  0xFF,  Both calibration fail

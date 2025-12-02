@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Gon (ORiON) -->
+<systemtree systemid="ABSLN0" mmcid="" version="1.0" date="2005-08-29" author="GIT" history="">
+  <commset moduleid="28" testerid="F1" vsschannel="0x0800" protocolid="0x04">
+    <funcsupport>
+      <function index="1000" desc="1" />
+      <function index="3000" desc="3" />
+      <function index="4000" desc="4" />
+      <function index="5000" desc="5" />
+      <function index="14500" desc="85" />
+      <function index="14600" desc="57" />
+      <function index="14610" desc="57" />
+      <function index="14620" desc="57" />
+      <function index="14630" desc="57" />
+      <function index="14640" desc="57" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0004" l_lineswitchstatus="0x0008" rxlineselect="0x0068" rxlinestatus="0x0000" pulluprelay="0x0000" k_linepullup="0x0001" l_linepullup="0x0000" l_linegnd="0x0010" k_linech="0x0020" l_linech="0x0000" rprogramch="0x0000" etc1="임시" etc2="" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="10416" loopback="0" nodeaddress="0x00" networkline="0" p1min="0x0000" p1max="0x0014" p2min="0x0019" p2max="0x0032" p3min="0x0037" p3max="0x1388" p4min="0x0005" p4max="0x0014" w1="0x03E8" w2="0x03E8" w3="0x03E8" w4="0x001E" w5="0x012C" tidle="0x012C" tinil="0x0019" twup="0x0032" parity="0" bitsamplepoint="80" syncjumpwidth="15" t1max="0x0014" t2max="0x0064" t3max="0x0032" t4max="0x0014" t5max="0x0064" iso15765bs="0x00" iso15765stmin="0x00" bstx="0xFFFF" stmintx="0xFFFF" databits="0" fivebaudmod="0" toolmanufacturerspec="0" etc1="임시" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="8028F101811B" response="80F128XXC1" />
+      <requestnode request="8028F10210812C" response="XX" />
+      <requestnode request="8028F103301E200A" response="XX" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0020" />
+        <klinechannel channel="" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="8028F1013ED8" response="80F128XX7E" />
+    <commdown>
+      <requestnode request="8028F10330681145" response="XX" />
+      <requestnode request="8028F10120BA" response="XX" />
+      <requestnode request="8028F101821C" response="XX" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="0" requesttime="1" searchtype="2" startpos="7" readno="2" skipno="1" totalmasking="0000FFFF">
+    <requestcodetree>
+      <requestnode index="1" request="8028F1041800FF00B4" response="80F128XX58" />
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+    </requestcodetree>
+    <dtcitemtree header="C1101" index="B1101-D" maskingvalue="0000FFFF" commcode="5101" compid="11250100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1102" maskingvalue="0000FFFF" commcode="5102" compid="11250100" index="C1102-C">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1200" maskingvalue="0000FFFF" commcode="5200" compid="41300200" index="C1200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1201" maskingvalue="0000FFFF" commcode="5201" compid="41300200" index="C1201-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1202" maskingvalue="0000FFFF" commcode="5202" compid="41300200" index="C1202-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1203" maskingvalue="0000FFFF" commcode="5203" compid="41300200" index="C1203">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1204" maskingvalue="0000FFFF" commcode="5204" compid="41300200" index="C1204-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1205" index="C1205" maskingvalue="0000FFFF" commcode="5205" compid="41300200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1206" maskingvalue="0000FFFF" commcode="5206" compid="41300300" index="C1206">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1207" maskingvalue="0000FFFF" commcode="5207" compid="41300300" index="C1207-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1208" maskingvalue="0000FFFF" commcode="5208" compid="41300300" index="C1208-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1209" maskingvalue="0000FFFF" commcode="5209" compid="41300300" index="C1209-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1210" maskingvalue="0000FFFF" commcode="5210" compid="41300300" index="C1210">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1211" maskingvalue="0000FFFF" commcode="5211" compid="41300300" index="C1211-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1213" index="C1213" maskingvalue="0000FFFF" commcode="5213" compid="41300300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1261" index="C1261" maskingvalue="0000FFFF" commcode="5261" compid="41600700">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1513" maskingvalue="0000FFFF" commcode="5209" compid="41100500" index="C1513-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1604" maskingvalue="0000FFFF" commcode="5604" compid="41300100" index="C1604-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1626" index="C1626" maskingvalue="0000FFFF" commcode="5604" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2112" maskingvalue="0000FFFF" commcode="6112" compid="41300100" index="C2112-3">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2402" maskingvalue="0000FFFF" commcode="6402" compid="41300100" index="C2402">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1513" maskingvalue="0000FFFF" commcode="5513" compid="41100500" index="C1513-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1209" maskingvalue="0000FFFF" commcode="5209" compid="41300300" index="C1209-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1210" maskingvalue="0000FFFF" commcode="5210" compid="41300300" index="C1210">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1211" maskingvalue="0000FFFF" commcode="5211" compid="41300300" index="C1211-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2308" index="C2308" maskingvalue="0000FFFF" commcode="6308" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2312" index="C2312" maskingvalue="0000FFFF" commcode="6312" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2316" index="C2316" maskingvalue="0000FFFF" commcode="6316" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2320" index="C2320" maskingvalue="0000FFFF" commcode="6320" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2324" index="C2324" maskingvalue="0000FFFF" commcode="6324" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2328" index="C2328" maskingvalue="0000FFFF" commcode="6328" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2332" index="C2332" maskingvalue="0000FFFF" commcode="6332" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2336" index="C2336" maskingvalue="0000FFFF" commcode="6336" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2366" index="C2366" maskingvalue="0000FFFF" commcode="6366" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2370" index="C2370" maskingvalue="0000FFFF" commcode="6370" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2372" index="C2372" maskingvalue="0000FFFF" commcode="6372" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C2374" index="C2374" maskingvalue="0000FFFF" commcode="6374" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1605" index="C1610" maskingvalue="0000FFFF" commcode="5605" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1611" index="C1611" maskingvalue="0000FFFF" commcode="5611" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1612" index="C1612" maskingvalue="0000FFFF" commcode="5612" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1616" index="U0010" maskingvalue="0000FFFF" commcode="5616" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1213" index="C1213" maskingvalue="0000FFFF" commcode="5613" compid="41300300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1282" maskingvalue="0000FFFF" commcode="5282" compid="41600300" index="C1283">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1283" maskingvalue="0000FFFF" commcode="5283" compid="41600300" index="C1283">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1235" index="C1235" maskingvalue="0000FFFF" commcode="5235" compid="41600400">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1237" index="C1237" maskingvalue="0000FFFF" commcode="5237" compid="41600400">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1260" maskingvalue="0000FFFF" commcode="5260" compid="41600700" index="C1260-5">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1623" index="C1623" maskingvalue="0000FFFF" commcode="5623" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1625" index="C1625" maskingvalue="0000FFFF" commcode="5625" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1702" index="C1702" maskingvalue="0000FFFF" commcode="5702" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1261" index="C1261" maskingvalue="0000FFFF" commcode="5261" compid="41600700">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1626" index="C1626" maskingvalue="0000FFFF" commcode="5626" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="C1503" index="C1503" maskingvalue="0000FFFF" commcode="5503" compid="41300100">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+  <erasememory functionid="2000" functionname="EraseMemory" functiontype="0" startrequiretime="0" endrequiretime="0" requesttime="1">
+    <requestnode index="1" request="8028F10314FF00AF" response="XX" />
+    <requestnode index="1" request="8028F10314FF00AF" response="XX" />
+    <requestnode index="1" request="8028F10314FF00AF" response="80F128XX54" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+  </erasememory>
+  <currentdata functionid="3000" functionname="Current Data" functiontype="0" requesttime="3">
+    <requestnode request="" response="" />
+    <requestnode request="" response="" />
+    <currentdatanode header="" index="9" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="3" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="6" floatrange="1" compid="14201400" freeze="">
+      <convrule convtype="1" A="1" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="888" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="6" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="4" floatrange="2" compid="11250200" freeze="">
+      <convrule convtype="1" A="0.08" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="74" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="8" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="6" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="1" A="1" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="75" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="9" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="6" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="1" A="1" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="76" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="10" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="6" floatrange="1" compid="41300300" freeze="">
+      <convrule convtype="1" A="1" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="77" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="11" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="6" floatrange="1" compid="41300300" freeze="">
+      <convrule convtype="1" A="1" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="144" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="15" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300100" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="145" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="15" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="14200100" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2003" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="16" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="14204700" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="2170" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="17" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="14900200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="81" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="17" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300100" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="82" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="18" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="83" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="19" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="84" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="19" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="848" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="19" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x30" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="849" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="19" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0xC0" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="87" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="20" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x03" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="88" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="20" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x0C" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="852" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="20" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0x30" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="853" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="20" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="41300200" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0xC0" E="0" F="0" />
+    </currentdatanode>
+    <currentdatanode header="" index="162" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="28" datasize="1" datatype="1" minvalue="80" maxvalue="7F" unit="14" floatrange="2" compid="41300100" freeze="">
+      <convrule convtype="2" A="0.022" B="0" C="" D="" E="" F="255" />
+    </currentdatanode>
+    <currentdatanode header="" index="3175" requestcode="8028F1022101BD" response="80F128XX61" startpos="7" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="0" floatrange="1" compid="" freeze="">
+      <convrule convtype="3" A="64" B="2" C="1" D="0xC0" E="0" F="0" />
+    </currentdatanode>
+  </currentdata>
+  <actuationtest functionid="4000" functionname="ActuationTest" functiontype="0" startrequiretime="100" endrequiretime="2000" requesttime="1">
+    <actuationtestnode header="" index="36" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="8028F103300100CD" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" compid="" index="37">
+      <starttest>
+        <requestnode request="8028F103300200CE" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" compid="" index="38">
+      <starttest>
+        <requestnode request="8028F103300300CF" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" compid="" index="39">
+      <starttest>
+        <requestnode request="8028F103300400D0" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" index="40">
+      <starttest>
+        <requestnode request="8028F103300500D1" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" index="41">
+      <starttest>
+        <requestnode request="8028F103300600D2" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" index="42">
+      <starttest>
+        <requestnode request="8028F103300700D3" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" index="43">
+      <starttest>
+        <requestnode request="8028F103300800D4" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="2" actuationtesttime="2" requesttime="1" stopcondition="2" requestcondition="2" index="44">
+      <starttest>
+        <requestnode request="8028F103300900D5" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+        <requestnode request="8028F1013ED8" response="XX" />
+      </starttest>
+      <stoptest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+  </actuationtest>
+  <ecuinfo functionid="5000" functionname="1" functiontype="0">
+    <ecuinfonode index="0" startpos="7" readno="0" maskingvalue="FFFF" expresstype="1">
+      <requestnode request="8028F1021A8035" response="XX" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="3" startpos="7" readno="2" maskingvalue="FFFF" expresstype="1">
+      <requestnode request="8028F1021A8035" response="80F128XX5A" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="0" startpos="9" readno="0" maskingvalue="FFFFFF" expresstype="1">
+      <requestnode request="8028F1021A8035" response="XX" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="18" startpos="9" readno="3" maskingvalue="FFFFFF" expresstype="1">
+      <requestnode request="8028F1021A8035" response="80F128XX5A" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="0" startpos="13" readno="0" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="XX" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="2" startpos="13" readno="2" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="80F128XX5A" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="0" startpos="15" readno="0" maskingvalue="FFFFFFFFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="XX" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="4" startpos="15" readno="5" maskingvalue="FFFFFFFFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="80F128XX5A" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="0" startpos="25" readno="0" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="XX" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+    <ecuinfonode index="48" startpos="25" readno="2" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="8028F1021A8035" response="80F128XX5A" />
+      <requestnode request="" response="" />
+    </ecuinfonode>
+  </ecuinfo>
+  <addfunction fuctionindex="14500" fuctiondesc="5">
+    <step stepno="1" stepdesc="24" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="start.bmp" jumpstep="2" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="10000" />
+      <message messagetype="1" messageindex="256" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="2" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="20000" />
+      <message messagetype="1" messageindex="257" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="80F128XX" startposition="5" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="70" compare="1" jumpstep="5" />
+            <comcode code="70" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="9" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="20000" />
+      <message messagetype="1" messageindex="261" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="80F128XX" startposition="5" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="70" compare="1" jumpstep="11" />
+            <comcode code="70" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="5" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="10" />
+      <message messagetype="1" messageindex="258" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000024032004055">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="6" />
+            <comcode code="02" compare="2" jumpstep="5" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="11" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="10" />
+      <message messagetype="1" messageindex="262" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D00008403200405B">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="12" />
+            <comcode code="02" compare="2" jumpstep="11" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="6" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="10" />
+      <message messagetype="1" messageindex="259" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D0008040320040D3">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="7" />
+            <comcode code="02" compare="2" jumpstep="6" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="12" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="10" />
+      <message messagetype="1" messageindex="263" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000204032004073">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="13" />
+            <comcode code="02" compare="2" jumpstep="12" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="7" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="20000" />
+      <message messagetype="1" messageindex="259" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004064000045">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="8" />
+            <comcode code="02" compare="2" jumpstep="7" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="13" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="20000" />
+      <message messagetype="1" messageindex="263" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004064000045">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="14" />
+            <comcode code="02" compare="2" jumpstep="13" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="10" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="265" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004064000045">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="02" compare="1" jumpstep="15" />
+            <comcode code="02" compare="2" jumpstep="10" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="15" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="10000" />
+      <message messagetype="1" messageindex="265" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="80F128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="10" />
+      </message>
+    </step>
+    <step stepno="8" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="start.bmp" jumpstep="9" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="10000" />
+      <message messagetype="1" messageindex="260" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="14" stepdesc="31" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="10000" />
+      <message messagetype="1" messageindex="264" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="3" stepdesc="3" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="10000" />
+      <message messagetype="3" messageindex="8" xposition="0" yposition="0" width="0" height="0" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="4" stepdesc="4" screenmode="1">
+      <imagenode filename="inj_writing_2.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <imagenode filename="inj_writing_3.bmp" xposition="42" yposition="175" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="10000" />
+      <message messagetype="3" messageindex="12" xposition="0" yposition="0" width="0" height="0" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="0" D="0" E="0" F="0" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="14600" fuctiondesc="51">
+    <step stepno="1" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="cancel.bmp" jumpstep="10000" />
+      <message messagetype="1" messageindex="267" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="14610" fuctiondesc="51">
+    <step stepno="1" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="ok.bmp" jumpstep="2" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="266" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="2" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="268" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="4" />
+            <comcode code="02" compare="2" jumpstep="3" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="4" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="268" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D00003400C014031">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="5" />
+            <comcode code="02" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="5" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="268" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004032000013">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="6" />
+            <comcode code="02" compare="2" jumpstep="5" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="6" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="269" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="3" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="3" messageindex="270" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="14620" fuctiondesc="51">
+    <step stepno="1" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="ok.bmp" jumpstep="2" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="271" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="2" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="272" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="4" />
+            <comcode code="02" compare="2" jumpstep="3" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="4" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="272" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D0000C400C04403D">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="5" />
+            <comcode code="02" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="5" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="272" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004032000013">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="6" />
+            <comcode code="02" compare="2" jumpstep="5" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="6" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="273" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="3" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="3" messageindex="270" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="14630" fuctiondesc="51">
+    <step stepno="1" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="ok.bmp" jumpstep="2" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="274" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="2" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="275" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="4" />
+            <comcode code="02" compare="2" jumpstep="3" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="4" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="275" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D00030400C10406D">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="5" />
+            <comcode code="02" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="5" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="275" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004032000013">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="6" />
+            <comcode code="02" compare="2" jumpstep="5" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="6" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="276" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="3" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="3" messageindex="270" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+  <addfunction fuctionindex="14640" fuctiondesc="51">
+    <step stepno="1" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="435" yposition="448" filename="ok.bmp" jumpstep="2" />
+      <keystring type="1" value="0" xposition="570" yposition="448" filename="cancel.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="277" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="2" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="278" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004000004021">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="4" />
+            <comcode code="02" compare="2" jumpstep="3" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+    <step stepno="4" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="278" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000C0400C40402D">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="5" />
+            <comcode code="02" compare="2" jumpstep="4" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="5" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="0" value="0" xposition="0" yposition="0" filename="0" jumpstep="0" />
+      <message messagetype="1" messageindex="278" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="1" requestno="1" />
+        <request delaytime="0" looptime="0" repeattime="1" responseno="1" requestvalue="8028F10830D000004032000013">
+          <response responsevalue="8XF128XX" startposition="7" datasize="1" maskingvalue="FF" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="02" compare="1" jumpstep="6" />
+            <comcode code="02" compare="2" jumpstep="5" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="6" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="1" messageindex="279" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="1">
+        <datainput inputtype="1" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="100" />
+      </message>
+    </step>
+    <step stepno="3" stepdesc="106" screenmode="3">
+      <imagenode filename="igon.bmp" xposition="42" yposition="22" width="200" height="140" compid="0" />
+      <keystring type="1" value="0" xposition="503" yposition="448" filename="ok.bmp" jumpstep="13000" />
+      <message messagetype="3" messageindex="270" xposition="286" yposition="22" width="494" height="410" messagedisplaytype="2">
+        <datainput inputtype="0" inputno="0" readno="0" datatype="0" />
+        <loop beforedelaytime="0" looptime="0" repeattime="0" requestno="0" />
+        <request delaytime="0" looptime="0" repeattime="0" responseno="0" requestvalue="0">
+          <response responsevalue="0" startposition="0" datasize="0" maskingvalue="0" flagid="0" ifmessagedisplay="0">
+            <convrule convtype="0" A="0" B="0" C="" D="" E="" F="" />
+            <comcode code="0" compare="0" jumpstep="0" />
+          </response>
+        </request>
+        <afterdelay afterdelaytime="0" />
+      </message>
+    </step>
+  </addfunction>
+</systemtree>

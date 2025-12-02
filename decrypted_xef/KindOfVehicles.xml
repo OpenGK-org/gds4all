@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="euc-kr" standalone="yes"?>
+<!-- edited with XML Spy v3.0 NT (http://www.xmlspy.com) by Travis (GIT) -->
+<j2008 mfrcode="KM" revdate="2001-03-02" langcode="ENG">
+	<oeminfo>
+		<vehicles>
+			<vehicle vehsgmlid="veh-1130-2004" countrycode="kr" modelyr="2004" modelid="1130" vehtypenbr="1" modeldesc="PICANTO-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.1" mmcid="52" provideinfo="code" modelyr="2004" runecuid="KN29">
+							<runecuid runecudesc="KN29" runecuid="KN29"/>
+							<eculist>
+								<ecu mcseqnbr="KN29" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="ALL" mmcid="67" provideinfo="code" modelyr="2004" runecuid="KT1Q">
+							<runecuid runecudesc="KT1Q" runecuid="KT1Q"/>
+							<eculist>
+								<ecu mcseqnbr="KT1Q" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="ABSK">
+							<runecuid runecudesc="ABSK" runecuid="ABSK"/>
+							<eculist>
+								<ecu mcseqnbr="ABSK" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/BAG">
+						<configitem name="ALL" mmcid="2" provideinfo="code" modelyr="2004" runecuid="KB1A">
+							<runecuid runecudesc="KB1A" runecuid="KB1A"/>
+							<eculist>
+								<ecu mcseqnbr="KB1A" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="IMMO.">
+						<configitem name="ALL" mmcid="917" provideinfo="code" modelyr="2004" runecuid="IMM6">
+							<runecuid runecudesc="IMM6" runecuid="IMM6"/>
+							<eculist>
+								<ecu mcseqnbr="IMM6" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1510-2000" countrycode="kr" modelyr="2000" modelid="1510" vehtypenbr="1" modeldesc="RIO-General" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS/TCS">
+						<configitem name="NISHINBO" mmcid="1" provideinfo="code" modelyr="2000" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="2" provideinfo="code" modelyr="2000" runecuid="KA91">
+							<runecuid runecudesc="KA91" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1510-2002" countrycode="kr" modelyr="2002" modelid="1510" vehtypenbr="1" modeldesc="RIO-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.5SOHC" mmcid="72" provideinfo="all" modelyr="2002" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.5SOHC" mmcid="52" provideinfo="symptom" modelyr="2002" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1510-2003" countrycode="kr" modelyr="2003" modelid="1510" vehtypenbr="1" modeldesc="RIO-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.3SOHC" mmcid="71" provideinfo="all" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="1.5DOHC" mmcid="73" provideinfo="all" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="ALL" mmcid="52" provideinfo="all" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="AUTONET" mmcid="4" provideinfo="code" modelyr="2003" runecuid="KB02">
+							<runecuid runecudesc="KB02" runecuid="KB02"/>
+							<eculist>
+								<ecu mcseqnbr="KB02" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1530-2000" countrycode="kr" modelyr="2000" modelid="1530" vehtypenbr="1" modeldesc="RIO-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS/TCS">
+						<configitem name="NISHINBO" mmcid="1" provideinfo="code" modelyr="2000" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="2" provideinfo="code" modelyr="2000" runecuid="KA91">
+							<runecuid runecudesc="KA91" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1530-2002" countrycode="kr" modelyr="2002" modelid="1530" vehtypenbr="1" modeldesc="RIO-Europe" lpup="2001-03-02" provideinfo="symptom" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="1.5SOHC" mmcid="52" provideinfo="symptom" modelyr="2002" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1530-2003" countrycode="kr" modelyr="2003" modelid="1530" vehtypenbr="1" modeldesc="RIO-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.3SOHC" mmcid="71" provideinfo="all" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="1.5DOHC" mmcid="73" provideinfo="all" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="ALL" mmcid="52" provideinfo="all" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="AUTONET" mmcid="4" provideinfo="code" modelyr="2003" runecuid="KB02">
+							<runecuid runecudesc="KB02" runecuid="KB02"/>
+							<eculist>
+								<ecu mcseqnbr="KB02" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1710-1999" countrycode="kr" modelyr="1999" modelid="1710" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.5 DOHC" mmcid="86" provideinfo="all" modelyr="1999" runecuid="KA0R">
+							<runecuid runecudesc="KA0R" runecuid="KA0R"/>
+							<eculist>
+								<ecu mcseqnbr="KA0R" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.5DOHC" mmcid="52" provideinfo="all" modelyr="1999" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1710-2000" countrycode="kr" modelyr="2000" modelid="1710" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.6 DOHC" mmcid="89" provideinfo="all" modelyr="2000" runecuid="KAW5">
+							<runecuid runecudesc="KAW5" runecuid="KAW5"/>
+							<eculist>
+								<ecu mcseqnbr="KAW5" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="NISHINBO" mmcid="1" provideinfo="code" modelyr="2000" runecuid="K205">
+							<runecuid runecudesc="NISHINBO" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/BAG">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="2000" runecuid="KA91">
+							<runecuid runecudesc="TRW" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1710-2003" countrycode="kr" modelyr="2003" modelid="1710" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.8 DOHC" mmcid="74" provideinfo="all" modelyr="2003" runecuid="KA0Q">
+							<runecuid runecudesc="KA0Q" runecuid="KA0Q"/>
+							<eculist>
+								<ecu mcseqnbr="KA0Q" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.8D" mmcid="52" provideinfo="code" modelyr="2003" runecuid="KT16">
+							<runecuid runecudesc="BOSCH" runecuid="KT16"/>
+							<eculist>
+								<ecu mcseqnbr="KT16" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS0E">
+							<runecuid runecudesc="MANDO" runecuid="KS0E"/>
+							<eculist>
+								<ecu mcseqnbr="KS0E" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1730-1999" countrycode="kr" modelyr="1999" modelid="1730" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="1.5 DOHC" mmcid="52" provideinfo="all" modelyr="1999" runecuid="KN0H">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1730-2000" countrycode="kr" modelyr="2000" modelid="1730" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS">
+						<configitem name="NISHINBO" mmcid="1" provideinfo="code" modelyr="2000" runecuid="K205">
+							<runecuid runecudesc="NISHINBO" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/BAG">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="2000" runecuid="KA91">
+							<runecuid runecudesc="TRW" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1730-2003" countrycode="kr" modelyr="2003" modelid="1730" vehtypenbr="1" modeldesc="SHUMA/SEPHIA-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.6 DOHC" mmcid="89" provideinfo="all" modelyr="2003" runecuid="KAWO">
+							<runecuid runecudesc="KAW5" runecuid="KAW5"/>
+							<eculist>
+								<ecu mcseqnbr="KAW5" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.8 DOHC" mmcid="52" provideinfo="code" modelyr="2003" runecuid="KT16">
+							<runecuid runecudesc="BOSCH" runecuid="KT16"/>
+							<eculist>
+								<ecu mcseqnbr="KT16" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS0E">
+							<runecuid runecudesc="MANDO" runecuid="KS0E"/>
+							<eculist>
+								<ecu mcseqnbr="KS0E" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1910-2004" countrycode="kr" modelyr="2004" modelid="1910" vehtypenbr="1" modeldesc="CERATO-General" lpup="2001-03-02" provideinfo="symptom" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.6 DOHC" mmcid="41" provideinfo="symptom" modelyr="2004" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC" mmcid="30" provideinfo="symptom" modelyr="2004" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0(COMMON RAIL)" mmcid="36" provideinfo="symptom" modelyr="2004" runecuid="KAE4">
+							<runecuid runecudesc="2.0 S COMMON RAIL" runecuid="KAE4"/>
+							<eculist>
+								<ecu mcseqnbr="1.8 D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.6DOHC(A4AF3)" mmcid="19" provideinfo="symptom" modelyr="2004" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0(COMMON RAIL)" mmcid="18" provideinfo="symptom" modelyr="2004" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1910-2004" countrycode="kr" modelyr="2004" modelid="1910" vehtypenbr="1" modeldesc="CERATO-General" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="1.6" mmcid="19" provideinfo="code" modelyr="2004" runecuid="TCUO">
+							<runecuid runecudesc="TCUO" runecuid="TCUO"/>
+							<eculist>
+								<ecu mcseqnbr="TCUO" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1930-2004" countrycode="kr" modelyr="2004" modelid="1930" vehtypenbr="1" modeldesc="CERATO-Europe" lpup="2001-03-02" provideinfo="symptom" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.6 DOHC" mmcid="41" provideinfo="symptom" modelyr="2004" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC" mmcid="30" provideinfo="symptom" modelyr="2004" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0(COMMON RAIL)" mmcid="36" provideinfo="symptom" modelyr="2004" runecuid="KAE4">
+							<runecuid runecudesc="2.0 S COMMON RAIL" runecuid="KAE4"/>
+							<eculist>
+								<ecu mcseqnbr="1.8 D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.0(COMMON RAIL)" mmcid="18" provideinfo="symptom" modelyr="2004" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1930-2004" countrycode="kr" modelyr="2004" modelid="1930" vehtypenbr="1" modeldesc="CERATO-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.6" mmcid="41" provideinfo="code" modelyr="2004" runecuid="EEBJ">
+							<runecuid runecudesc="EEBJ" runecuid="EEBJ"/>
+							<eculist>
+								<ecu mcseqnbr="EEBJ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0" mmcid="30" provideinfo="code" modelyr="2004" runecuid="KN31">
+							<runecuid runecudesc="KN31" runecuid="KN31"/>
+							<eculist>
+								<ecu mcseqnbr="KN31" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DIESEL" mmcid="36" provideinfo="code" modelyr="2004" runecuid="DSLA">
+							<runecuid runecudesc="DSLA" runecuid="DSLA"/>
+							<eculist>
+								<ecu mcseqnbr="DSLA" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.6" mmcid="19" provideinfo="code" modelyr="2004" runecuid="TCUO">
+							<runecuid runecudesc="TCUO" runecuid="TCUO"/>
+							<eculist>
+								<ecu mcseqnbr="TCUO" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0" mmcid="18" provideinfo="code" modelyr="2004" runecuid="TCUQ">
+							<runecuid runecudesc="TCUQ" runecuid="TCUQ"/>
+							<eculist>
+								<ecu mcseqnbr="TCUQ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="KS1H">
+							<runecuid runecudesc="KS1H" runecuid="KS1H"/>
+							<eculist>
+								<ecu mcseqnbr="KS1H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="TCS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="KS1H">
+							<runecuid runecudesc="KS1H" runecuid="KS1H"/>
+							<eculist>
+								<ecu mcseqnbr="KS1H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/BAG">
+						<configitem name="ALL" mmcid="2" provideinfo="code" modelyr="2004" runecuid="KB19">
+							<runecuid runecudesc="KB19" runecuid="KB19"/>
+							<eculist>
+								<ecu mcseqnbr="KB19" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="IMMO.">
+						<configitem name="GASOLINE" mmcid="917" provideinfo="code" modelyr="2004" runecuid="IMM6">
+							<runecuid runecudesc="IMM6" runecuid="IMM6"/>
+							<eculist>
+								<ecu mcseqnbr="IMM6" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="DIESEL" mmcid="913" provideinfo="code" modelyr="2004" runecuid="IMM8">
+							<runecuid runecudesc="IMM8" runecuid="IMM8"/>
+							<eculist>
+								<ecu mcseqnbr="IMM8" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-1930-2005" countrycode="kr" modelyr="2005" modelid="1930" vehtypenbr="1" modeldesc="CERATO-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="IMMO.">
+						<configitem name="U1.5 Diesel" mmcid="920" provideinfo="code" modelyr="2005" runecuid="IMM8">
+							<runecuid runecudesc="IMM8" runecuid="IMM8"/>
+							<eculist>
+								<ecu mcseqnbr="IMM8" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2110-2001" countrycode="kr" modelyr="2001" modelid="2110" vehtypenbr="1" modeldesc="OPTIMA/MAGENTIS-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.0 DOHC(A/T)" mmcid="22" provideinfo="code" modelyr="2001" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC(M/T)" mmcid="23" provideinfo="code" modelyr="2001" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGME"/>
+							<eculist>
+								<ecu mcseqnbr="EGME" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC(M/T)" mmcid="22" provideinfo="symptom" modelyr="2001" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC(A/T)" mmcid="23" provideinfo="symptom" modelyr="2001" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGME"/>
+							<eculist>
+								<ecu mcseqnbr="EGME" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.5 V6" mmcid="24" provideinfo="all" modelyr="2001" runecuid="KGSK">
+							<runecuid runecudesc="SIEMENS 2.5D V6" runecuid="KGSK"/>
+							<eculist>
+								<ecu mcseqnbr="KGSK" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.0 DOHC" mmcid="18" provideinfo="all" modelyr="2001" runecuid="KN0H">
+							<runecuid runecudesc="KT01" runecuid="KT01"/>
+							<eculist>
+								<ecu mcseqnbr="KT01" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2001" runecuid="ABS9">
+							<runecuid runecudesc="MANDO" runecuid="ABS9"/>
+							<eculist>
+								<ecu mcseqnbr="ABS9" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/BAG">
+						<configitem name="AUTONET" mmcid="6" provideinfo="code" modelyr="2001" runecuid="KAG5">
+							<runecuid runecudesc="AUTONET" runecuid="KAG5"/>
+							<eculist>
+								<ecu mcseqnbr="KAG5" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="4" provideinfo="code" modelyr="2001" runecuid="FAC3">
+							<runecuid runecudesc="FAC3" runecuid="FAC3"/>
+							<eculist>
+								<ecu mcseqnbr="FAC3" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2110-2003" countrycode="kr" modelyr="2003" modelid="2110" vehtypenbr="1" modeldesc="OPTIMA/MAGENTIS-General" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS/TCS">
+						<configitem name="BOSCH" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS05">
+							<runecuid runecudesc="BOSCH" runecuid="KS05"/>
+							<eculist>
+								<ecu mcseqnbr="KS05" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2130-2001" countrycode="kr" modelyr="2001" modelid="2130" vehtypenbr="1" modeldesc="OPTIMA/MAGENTIS-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="2.0 DOHC" mmcid="207" provideinfo="code" modelyr="2001" runecuid="KT01">
+							<runecuid runecudesc="2.0 HIVEC" runecuid="KT01"/>
+							<eculist>
+								<ecu mcseqnbr="KCUZ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.5 V6" mmcid="18" provideinfo="code" modelyr="2001" runecuid="KCUZ">
+							<runecuid runecudesc="KCUZ" runecuid="KCUZ"/>
+							<eculist>
+								<ecu mcseqnbr="KCUZ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2001" runecuid="ABS9">
+							<runecuid runecudesc="MANDO" runecuid="ABS9"/>
+							<eculist>
+								<ecu mcseqnbr="ABS9" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/BAG">
+						<configitem name="AUTONET" mmcid="6" provideinfo="code" modelyr="2001" runecuid="KAG5">
+							<runecuid runecudesc="AUTONET" runecuid="KAG5"/>
+							<eculist>
+								<ecu mcseqnbr="KAG5" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="4" provideinfo="code" modelyr="2001" runecuid="FAC3">
+							<runecuid runecudesc="FAC3" runecuid="FAC3"/>
+							<eculist>
+								<ecu mcseqnbr="FAC3" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.0DOHC" mmcid="18" provideinfo="symptom" modelyr="2001" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2130-2003" countrycode="kr" modelyr="2003" modelid="2130" vehtypenbr="1" modeldesc="OPTIMA/MAGENTIS-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.5 D V6" mmcid="24" provideinfo="all" modelyr="2003" runecuid="KGSK">
+							<runecuid runecudesc="SIEMENS 2.5D V6" runecuid="KGSK"/>
+							<eculist>
+								<ecu mcseqnbr="KGSK" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 DOHC" mmcid="23" provideinfo="all" modelyr="2003" runecuid="EGMC">
+							<runecuid runecudesc="MELCO 2.0D" runecuid="EGMC"/>
+							<eculist>
+								<ecu mcseqnbr="EGMC" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="BOSCH" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS05">
+							<runecuid runecudesc="BOSCH" runecuid="KS05"/>
+							<eculist>
+								<ecu mcseqnbr="KS05" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2130-2004" countrycode="kr" modelyr="2004" modelid="2130" vehtypenbr="1" modeldesc="OPTIMA/MAGENTIS-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="EPS">
+						<configitem name="ALL" mmcid="921" provideinfo="code" modelyr="2004" runecuid="EPS2">
+							<runecuid runecudesc="EPS2" runecuid="EPS2"/>
+							<eculist>
+								<ecu mcseqnbr="EPS2" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="IMMO.">
+						<configitem name="2.0" mmcid="917" provideinfo="code" modelyr="2004" runecuid="IMM1">
+							<runecuid runecudesc="IMM1" runecuid="IMM1"/>
+							<eculist>
+								<ecu mcseqnbr="IMM1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.5" mmcid="918" provideinfo="code" modelyr="2004" runecuid="IMM1">
+							<runecuid runecudesc="IMM1" runecuid="IMM1"/>
+							<eculist>
+								<ecu mcseqnbr="IMM1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2310-2003" countrycode="kr" modelyr="2003" modelid="2310" vehtypenbr="1" modeldesc="OPIRUS-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="3.5 V6DOHC" mmcid="28" provideinfo="code" modelyr="2003" runecuid="KN0W">
+							<runecuid runecudesc="KN0W" runecuid="KN0W"/>
+							<eculist>
+								<ecu mcseqnbr="KN0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="MELCO" mmcid="27" provideinfo="code" modelyr="2003" runecuid="KT1P">
+							<runecuid runecudesc="KT1P" runecuid="KT1P"/>
+							<eculist>
+								<ecu mcseqnbr="KT1P" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="Engine">
+						<configitem name="3.5 D V6" mmcid="37" provideinfo="symptom" modelyr="2003" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="3.5 D V6" mmcid="212" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2330-2003" countrycode="kr" modelyr="2003" modelid="2330" vehtypenbr="1" modeldesc="OPIRUS-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="3.5 V6-MELCO" mmcid="37" provideinfo="code" modelyr="2003" runecuid="KM0B">
+							<runecuid runecudesc="KM0B" runecuid="KM0B"/>
+							<eculist>
+								<ecu mcseqnbr="KM0B" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="Engine">
+						<configitem name="3.5 D V6" mmcid="37" provideinfo="symptom" modelyr="2003" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="3.5 D V6" mmcid="212" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="MELCO" mmcid="27" provideinfo="code" modelyr="2003" runecuid="KT1P">
+							<runecuid runecudesc="KT1P" runecuid="KT1P"/>
+							<eculist>
+								<ecu mcseqnbr="KT1P" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-2330-2004" countrycode="kr" modelyr="2004" modelid="2330" vehtypenbr="1" modeldesc="OPIRUS-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="KS1G">
+							<runecuid runecudesc="KS1G" runecuid="KS1G"/>
+							<eculist>
+								<ecu mcseqnbr="KS1G" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="TCS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="KS1G">
+							<runecuid runecudesc="KS1G" runecuid="KS1G"/>
+							<eculist>
+								<ecu mcseqnbr="KS1G" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ESP">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2004" runecuid="KS1G">
+							<runecuid runecudesc="KS1G" runecuid="KS1G"/>
+							<eculist>
+								<ecu mcseqnbr="KS1G" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ECS">
+						<configitem name="ALL" mmcid="931" provideinfo="code" modelyr="2004" runecuid="KE00">
+							<runecuid runecudesc="KE00" runecuid="KE00"/>
+							<eculist>
+								<ecu mcseqnbr="KE00" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="EPS">
+						<configitem name="ALL" mmcid="921" provideinfo="code" modelyr="2004" runecuid="KC02">
+							<runecuid runecudesc="KC02" runecuid="KC02"/>
+							<eculist>
+								<ecu mcseqnbr="KC02" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="BCM">
+						<configitem name="ALL" mmcid="951" provideinfo="code" modelyr="2004" runecuid="KC10">
+							<runecuid runecudesc="KC10" runecuid="KC10"/>
+							<eculist>
+								<ecu mcseqnbr="KC10" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="PIC">
+						<configitem name="ALL" mmcid="952" provideinfo="code" modelyr="2004" runecuid="PIC1">
+							<runecuid runecudesc="PIC1" runecuid="PIC1"/>
+							<eculist>
+								<ecu mcseqnbr="PIC1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="IMMO.">
+						<configitem name="ALL" mmcid="953" provideinfo="code" modelyr="2004" runecuid="IMMD">
+							<runecuid runecudesc="IMMD" runecuid="IMMD"/>
+							<eculist>
+								<ecu mcseqnbr="IMMD" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="AHLS">
+						<configitem name="ALL" mmcid="7" provideinfo="code" modelyr="2004" runecuid="1HLS">
+							<runecuid runecudesc="1HLS" runecuid="1HLS"/>
+							<eculist>
+								<ecu mcseqnbr="1HLS" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="941" provideinfo="code" modelyr="2004" runecuid="KC03">
+							<runecuid runecudesc="KC03" runecuid="KC03"/>
+							<eculist>
+								<ecu mcseqnbr="KC03" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5110-2002" countrycode="kr" modelyr="2002" modelid="5110" vehtypenbr="1" modeldesc="SPORTAGE-General" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.0 RF/TCI" mmcid="84" provideinfo="code" modelyr="2002" runecuid="KAV1">
+							<runecuid runecudesc="ZEXEL" runecuid="KAV1"/>
+							<eculist>
+								<ecu mcseqnbr="KAV1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5130-2002" countrycode="kr" modelyr="2002" modelid="5130" vehtypenbr="1" modeldesc="SPORTAGE-Europe" lpup="2001-03-02" provideinfo="symptom" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.0RFTCI" mmcid="84" provideinfo="symptom" modelyr="2002" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0DOHC" mmcid="77" provideinfo="symptom" modelyr="2002" runecuid="KAV1">
+							<runecuid runecudesc="2.0S" runecuid="KAV1"/>
+							<eculist>
+								<ecu mcseqnbr="2.0D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.0DOHC" mmcid="56" provideinfo="symptom" modelyr="2002" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5210-1999" countrycode="kr" modelyr="1999" modelid="5210" vehtypenbr="1" modeldesc="CARENS-General" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS/TCS">
+						<configitem name="NISINBO" mmcid="2" provideinfo="code" modelyr="1999" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="1999" runecuid="KA91">
+							<runecuid runecudesc="KA91" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5210-2003" countrycode="kr" modelyr="2003" modelid="5210" vehtypenbr="1" modeldesc="CARENS-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.8 DOHC" mmcid="74" provideinfo="all" modelyr="2003" runecuid="KA0Q">
+							<runecuid runecudesc="KA0Q" runecuid="KA0Q"/>
+							<eculist>
+								<ecu mcseqnbr="KA0Q" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="BOSCH" mmcid="52" provideinfo="code" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="MELCO" mmcid="18" provideinfo="code" modelyr="2003" runecuid="KCUZ">
+							<runecuid runecudesc="KCUZ" runecuid="KCUZ"/>
+							<eculist>
+								<ecu mcseqnbr="KCUZ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="K206">
+							<runecuid runecudesc="K206" runecuid="K206"/>
+							<eculist>
+								<ecu mcseqnbr="K206" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="N-TRW" mmcid="6" provideinfo="code" modelyr="2003" runecuid="BAG0">
+							<runecuid runecudesc="BAG0" runecuid="BAG0"/>
+							<eculist>
+								<ecu mcseqnbr="BAG0" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.8 DOHC" mmcid="52" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 S COMMON RAIL" mmcid="18" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5230-1999" countrycode="kr" modelyr="1999" modelid="5230" vehtypenbr="1" modeldesc="CARENS-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="ABS/TCS">
+						<configitem name="NISHINBO" mmcid="2" provideinfo="code" modelyr="1999" runecuid="K205">
+							<runecuid runecudesc="K205" runecuid="K205"/>
+							<eculist>
+								<ecu mcseqnbr="K205" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="1999" runecuid="KA91">
+							<runecuid runecudesc="KA91" runecuid="KA91"/>
+							<eculist>
+								<ecu mcseqnbr="KA91" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5230-2003" countrycode="kr" modelyr="2003" modelid="5230" vehtypenbr="1" modeldesc="CARENS-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="1.8 DOHC" mmcid="74" provideinfo="all" modelyr="2003" runecuid="KAE4">
+							<runecuid runecudesc="1.8 D" runecuid="KAE4"/>
+							<eculist>
+								<ecu mcseqnbr="1.8 D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 COMMON RAIL" mmcid="36" provideinfo="all" modelyr="2003" runecuid="KAE4">
+							<runecuid runecudesc="2.0 S COMMON RAIL" runecuid="KAE4"/>
+							<eculist>
+								<ecu mcseqnbr="1.8 D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="BOSCH" mmcid="52" provideinfo="code" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="MELCO" mmcid="18" provideinfo="code" modelyr="2003" runecuid="KCUZ">
+							<runecuid runecudesc="KCUZ" runecuid="KCUZ"/>
+							<eculist>
+								<ecu mcseqnbr="KCUZ" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="K206">
+							<runecuid runecudesc="K206" runecuid="K206"/>
+							<eculist>
+								<ecu mcseqnbr="K206" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="N-TRW" mmcid="6" provideinfo="code" modelyr="2003" runecuid="BAG0">
+							<runecuid runecudesc="BAG0" runecuid="BAG0"/>
+							<eculist>
+								<ecu mcseqnbr="BAG0" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="1.8 DOHC" mmcid="52" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.0 S COMMON RAIL" mmcid="18" provideinfo="symptom" modelyr="2003" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5610-2003" countrycode="kr" modelyr="2003" modelid="5610" vehtypenbr="1" modeldesc="SORENTO-General" lpup="2001-03-02" provideinfo="symptom" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.4DOHC" mmcid="23" provideinfo="symptom" modelyr="2003" runecuid="KN0H">
+							<runecuid runecudesc="EKM1" runecuid="EKM1"/>
+							<eculist>
+								<ecu mcseqnbr="EKM1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.4DOHC" mmcid="28" provideinfo="symptom" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.5 common rail" mmcid="27" provideinfo="symptom" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="3.5D V6" mmcid="26" provideinfo="symptom" modelyr="2003" runecuid="KT1E">
+							<runecuid runecudesc="KT1E" runecuid="KT1E"/>
+							<eculist>
+								<ecu mcseqnbr="KT1E" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5630-2003" countrycode="kr" modelyr="2003" modelid="5630" vehtypenbr="1" modeldesc="SORENTO-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.5 common rail" mmcid="88" provideinfo="all" modelyr="2003" runecuid="KN0H">
+							<runecuid runecudesc="KN0H" runecuid="KN0H"/>
+							<eculist>
+								<ecu mcseqnbr="KN0H" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.4 DOHC" mmcid="23" provideinfo="code" modelyr="2003" runecuid="KM0B">
+							<runecuid runecudesc="KM0B" runecuid="KM0B"/>
+							<eculist>
+								<ecu mcseqnbr="KM0B" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="3.5 V6" mmcid="37" provideinfo="all" modelyr="2003" runecuid="EKM1">
+							<runecuid runecudesc="EKM1" runecuid="EKM1"/>
+							<eculist>
+								<ecu mcseqnbr="EKM1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.4DOHC" mmcid="28" provideinfo="symptom" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.5 common rail" mmcid="27" provideinfo="symptom" modelyr="2003" runecuid="K100">
+							<runecuid runecudesc="K100" runecuid="K100"/>
+							<eculist>
+								<ecu mcseqnbr="K100" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="3.5D V6" mmcid="26" provideinfo="all" modelyr="2003" runecuid="KT1E">
+							<runecuid runecudesc="KT1E" runecuid="KT1E"/>
+							<eculist>
+								<ecu mcseqnbr="KT1E" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS/TCS">
+						<configitem name="ALL" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS1C">
+							<runecuid runecudesc="KS1C" runecuid="KS1C"/>
+							<eculist>
+								<ecu mcseqnbr="KS1C" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="ALL" mmcid="2" provideinfo="code" modelyr="2003" runecuid="BAG8">
+							<runecuid runecudesc="BAG8" runecuid="BAG8"/>
+							<eculist>
+								<ecu mcseqnbr="BAG8" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="4WD">
+						<configitem name="EST" mmcid="3" provideinfo="code" modelyr="2003" runecuid="TCM2">
+							<runecuid runecudesc="TCM2" runecuid="TCM2"/>
+							<eculist>
+								<ecu mcseqnbr="TCM2" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="TOD" mmcid="4" provideinfo="code" modelyr="2003" runecuid="TOD1">
+							<runecuid runecudesc="TOD1" runecuid="TOD1"/>
+							<eculist>
+								<ecu mcseqnbr="TOD1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="5" provideinfo="code" modelyr="2003" runecuid="FAC1">
+							<runecuid runecudesc="FAC1" runecuid="FAC1"/>
+							<eculist>
+								<ecu mcseqnbr="FAC1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5630-2004" countrycode="kr" modelyr="2004" modelid="5630" vehtypenbr="1" modeldesc="SORENTO-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="ALL" mmcid="66" provideinfo="code" modelyr="2004" runecuid="KT1S">
+							<runecuid runecudesc="KT1S" runecuid="KT1S"/>
+							<eculist>
+								<ecu mcseqnbr="KT1S" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="Fuel Fired Heater">
+						<configitem name="ALL" mmcid="901" provideinfo="code" modelyr="2004" runecuid="KH01">
+							<runecuid runecudesc="KH01" runecuid="KH01"/>
+							<eculist>
+								<ecu mcseqnbr="KH01" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="EPS">
+						<configitem name="ALL" mmcid="921" provideinfo="code" modelyr="2004" runecuid="KC00">
+							<runecuid runecudesc="KC00" runecuid="KC00"/>
+							<eculist>
+								<ecu mcseqnbr="KC00" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="IMMO.">
+						<configitem name="3.5 V6" mmcid="919" provideinfo="code" modelyr="2004" runecuid="IMM1">
+							<runecuid runecudesc="IMM1" runecuid="IMM1"/>
+							<eculist>
+								<ecu mcseqnbr="IMM1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="DIESEL" mmcid="913" provideinfo="code" modelyr="2004" runecuid="IMM8">
+							<runecuid runecudesc="IMM8" runecuid="IMM8"/>
+							<eculist>
+								<ecu mcseqnbr="IMM8" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5710-1999" countrycode="kr" modelyr="1999" modelid="5710" vehtypenbr="1" modeldesc="CARNIVAL-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.9 J3TCI" mmcid="82" provideinfo="code" modelyr="1999" runecuid="KA0S">
+							<runecuid runecudesc="KA0S" runecuid="KA0S"/>
+							<eculist>
+								<ecu mcseqnbr="KA0S" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="AISIN(OLD)" mmcid="54" provideinfo="code" modelyr="1999" runecuid="KT14">
+							<runecuid runecudesc="KT14" runecuid="KT14"/>
+							<eculist>
+								<ecu mcseqnbr="KT14" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.9DIGEL" mmcid="64" provideinfo="symptom" modelyr="1999" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="KELSEY" mmcid="2" provideinfo="code" modelyr="1999" runecuid="KS09">
+							<runecuid runecudesc="KS09" runecuid="KS09"/>
+							<eculist>
+								<ecu mcseqnbr="KS09" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="1999" runecuid="KB08">
+							<runecuid runecudesc="KB08" runecuid="KB08"/>
+							<eculist>
+								<ecu mcseqnbr="KB08" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="4" provideinfo="code" modelyr="1999" runecuid="FAC2">
+							<runecuid runecudesc="FAC2" runecuid="FAC2"/>
+							<eculist>
+								<ecu mcseqnbr="FAC2" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5710-2001" countrycode="kr" modelyr="2001" modelid="5710" vehtypenbr="1" modeldesc="CARNIVAL-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="MELCO" mmcid="205" provideinfo="code" modelyr="2001" runecuid="KA64">
+							<runecuid runecudesc="KA64" runecuid="KA64"/>
+							<eculist>
+								<ecu mcseqnbr="KA64" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.5V " mmcid="205" provideinfo="symptom" modelyr="2001" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5710-2003" countrycode="kr" modelyr="2003" modelid="5710" vehtypenbr="1" modeldesc="CARNIVAL-General" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.4 V6 DOHC(SIEMENS)" mmcid="80" provideinfo="code" modelyr="2003" runecuid="KAU3">
+							<runecuid runecudesc="KAU3" runecuid="KAU3"/>
+							<eculist>
+								<ecu mcseqnbr="KAU3" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="AISIN(NEW)" mmcid="64" provideinfo="code" modelyr="2003" runecuid="KT05">
+							<runecuid runecudesc="KT05" runecuid="KT05"/>
+							<eculist>
+								<ecu mcseqnbr="KT05" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="1" provideinfo="code" modelyr="2003" runecuid="KS06">
+							<runecuid runecudesc="KS06" runecuid="KS06"/>
+							<eculist>
+								<ecu mcseqnbr="KS06" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="AUTONET" mmcid="6" provideinfo="code" modelyr="2003" runecuid="KB02">
+							<runecuid runecudesc="KB02" runecuid="KB02"/>
+							<eculist>
+								<ecu mcseqnbr="KB02" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="Engine">
+						<configitem name="2.4D V6(SIEMENS)" mmcid="80" provideinfo="symptom" modelyr="2003" runecuid="KAU1">
+							<runecuid runecudesc="KAU1" runecuid="KAU1"/>
+							<eculist>
+								<ecu mcseqnbr="KAU1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5730-1999" countrycode="kr" modelyr="1999" modelid="5730" vehtypenbr="1" modeldesc="CARNIVAL-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="AISIN(OLD)" mmcid="54" provideinfo="code" modelyr="1999" runecuid="KT14">
+							<runecuid runecudesc="KT14" runecuid="KT14"/>
+							<eculist>
+								<ecu mcseqnbr="KT14" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="KELSEY" mmcid="2" provideinfo="code" modelyr="1999" runecuid="KS09">
+							<runecuid runecudesc="KS09" runecuid="KS09"/>
+							<eculist>
+								<ecu mcseqnbr="KS09" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="TRW" mmcid="5" provideinfo="code" modelyr="1999" runecuid="KB08">
+							<runecuid runecudesc="KB08" runecuid="KB08"/>
+							<eculist>
+								<ecu mcseqnbr="KB08" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="FATC">
+						<configitem name="ALL" mmcid="4" provideinfo="code" modelyr="1999" runecuid="FAC2">
+							<runecuid runecudesc="FAC2" runecuid="FAC2"/>
+							<eculist>
+								<ecu mcseqnbr="FAC2" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.9DIGEL" mmcid="64" provideinfo="symptom" modelyr="1999" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5730-2001" countrycode="kr" modelyr="2001" modelid="5730" vehtypenbr="1" modeldesc="CARNIVAL-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="A/T">
+						<configitem name="MELCO" mmcid="205" provideinfo="code" modelyr="2001" runecuid="KA64">
+							<runecuid runecudesc="KA64" runecuid="KA64"/>
+							<eculist>
+								<ecu mcseqnbr="KA64" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="2.5V " mmcid="205" provideinfo="symptom" modelyr="2001" runecuid="KA0W">
+							<runecuid runecudesc="KA0W" runecuid="KA0W"/>
+							<eculist>
+								<ecu mcseqnbr="KA0W" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-5730-2003" countrycode="kr" modelyr="2003" modelid="5730" vehtypenbr="1" modeldesc="CARNIVAL-Europe" lpup="2001-03-02" provideinfo="all" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.5D V6(SIEMENS)" mmcid="80" provideinfo="all" modelyr="2003" runecuid="KAU1">
+							<runecuid runecudesc="KAU1" runecuid="KAU1"/>
+							<eculist>
+								<ecu mcseqnbr="KAU1" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="EURO-III 2.5D-V6 (BOSCH)" mmcid="1" provideinfo="all" modelyr="2003" runecuid="KN00">
+							<runecuid runecudesc="KN00" runecuid="KN00"/>
+							<eculist>
+								<ecu mcseqnbr="KN00" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+						<configitem name="2.9 COMMON RAIL" mmcid="87" provideinfo="all" modelyr="2003" runecuid="KN07">
+							<runecuid runecudesc="KN07" runecuid="KN07"/>
+							<eculist>
+								<ecu mcseqnbr="KN07" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="A/T">
+						<configitem name="AISIN(NEW)" mmcid="64" provideinfo="code" modelyr="2003" runecuid="KT05">
+							<runecuid runecudesc="KT05" runecuid="KT05"/>
+							<eculist>
+								<ecu mcseqnbr="KT05" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="ABS">
+						<configitem name="MANDO" mmcid="3" provideinfo="code" modelyr="2003" runecuid="KS06">
+							<runecuid runecudesc="KS06" runecuid="KS06"/>
+							<eculist>
+								<ecu mcseqnbr="KS06" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+					<configitem name="SRS A/Bag">
+						<configitem name="AUTONET" mmcid="6" provideinfo="code" modelyr="2003" runecuid="KB02">
+							<runecuid runecudesc="KB02" runecuid="KB02"/>
+							<eculist>
+								<ecu mcseqnbr="KB02" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+			<vehicle vehsgmlid="veh-8030-2004" countrycode="kr" modelyr="2004" modelid="8030" vehtypenbr="1" modeldesc="PREGIO-Europe" lpup="2001-03-02" provideinfo="code" mfrcode="KM" mfrdesc="KIA MOTORS">
+				<configgroups>
+					<configitem name="Engine">
+						<configitem name="2.5 DIESEL" mmcid="32" provideinfo="code" modelyr="2004" runecuid="KN0D">
+							<runecuid runecudesc="KN0D" runecuid="KN0D"/>
+							<eculist>
+								<ecu mcseqnbr="KN0D" checkseqnbr="1"/>
+							</eculist>
+						</configitem>
+					</configitem>
+				</configgroups>
+			</vehicle>
+		</vehicles>
+	</oeminfo>
+</j2008>

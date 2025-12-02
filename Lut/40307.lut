@@ -1,0 +1,16 @@
+0xFF,  0x00,  NO Reason
+0xFF,  0x01,  Disabling Fault Present
+0xFF,  0x02,  Ignition Voltage
+0xFF,  0x03,  IAT Decreasing
+0xFF,  0x04,  Off Board Purge Or Vent Control
+0xFF,  0x05,  Off Board Device Control Active
+0xFF,  0x06,  Purge or Vent Valve Slewing
+0xFF,  0x07,  Start Up Coolant Too high
+0xFF,  0x08,  Fuel Level Out of Range
+0xFF,  0x09,  Cold Test Criteria Not Met
+0xFF,  0x0A,  Off-board Device Diagnostic Clear
+0xFF,  0x0B,  Baro Pressure Out of Range
+0xFF,  0x0C,  Intrusive Control Of Purge Not Achieved
+0xFF,  0x0D,  Refueling
+-
+-

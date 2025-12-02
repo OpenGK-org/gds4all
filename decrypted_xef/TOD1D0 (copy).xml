@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Gon (ORiON) -->
+<systemtree systemid="TOD1D0" mmcid="" version="1.0" date="2006-01-17" author="GIT" history="">
+  <commset moduleid="19" testerid="F1" vsschannel="0x0800" protocolid="0x04">
+    <funcsupport>
+      <function index="1000" desc="1" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0004" l_lineswitchstatus="0x0008" rxlineselect="0x0068" rxlinestatus="0x0000" pulluprelay="0x0000" k_linepullup="0x0001" l_linepullup="0x0002" l_linegnd="0x0000" k_linech="0x0008" l_linech="0x0000" rprogramch="0x0000" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="10416" loopback="0" nodeaddress="0x00" networkline="0" p1min="0x0000" p1max="0x0014" p2min="0x0019" p2max="0x0032" p3min="0x0037" p3max="0x1388" p4min="0x0005" p4max="0x0014" w1="0x03E8" w2="0x03E8" w3="0x03E8" w4="0x001E" w5="0x012C" tidle="0x012C" tinil="0x0019" twup="0x0032" parity="0" bitsamplepoint="80" syncjumpwidth="15" t1max="0x0014" t2max="0x0064" t3max="0x0032" t4max="0x0014" t5max="0x0064" iso15765bs="0x00" iso15765stmin="0x00" bstx="0xFFFF" stmintx="0xFFFF" databits="0" fivebaudmod="0" toolmanufacturerspec="0" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="8119F1810C" response="8XF119C1XX" />
+      <requestnode request="" response="" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0008" />
+        <klinechannel channel="" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="8119F13EC9" response="81F1197E" />
+    <commdown>
+      <requestnode request="8119F1820D" response="8XF119C2" />
+      <requestnode request="" response="" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="4" requesttime="1" searchtype="2" startpos="6" readno="2" skipno="1" totalmasking="0000FFFF">
+    <requestcodetree>
+      <requestnode index="1" request="8419F118010000A7" response="XXF11958" />
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+    </requestcodetree>
+    <dtcitemtree header="P1717" index="P1717-2" maskingvalue="0000FFFF" commcode="1717" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1718" maskingvalue="0000FFFF" commcode="1718" compid="" index="P1718-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1719" maskingvalue="0000FFFF" commcode="1719" compid="" index="P1719-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1725" index="P1725-1" maskingvalue="0000FFFF" commcode="1725" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1726" maskingvalue="0000FFFF" commcode="1726" compid="" index="P1726-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1726" index="P1726-1" maskingvalue="0000FFFF" commcode="5726" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1727" index="P1727-1" maskingvalue="0000FFFF" commcode="1727" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1727" index="P1727-2" maskingvalue="0000FFFF" commcode="5727" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1728" maskingvalue="0000FFFF" commcode="1728" compid="" index="P1728-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1728" index="P1728-2" maskingvalue="0000FFFF" commcode="5728" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1729" index="P1729-1" maskingvalue="0000FFFF" commcode="5729" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1729" index="P1743-1" maskingvalue="0000FFFF" commcode="1729" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1730" index="P1730-1" maskingvalue="0000FFFF" commcode="5730" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1730" index="P1730-3" maskingvalue="0000FFFF" commcode="1730" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1731" index="P1731-1" maskingvalue="0000FFFF" commcode="5731" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1731" index="P1731-2" maskingvalue="0000FFFF" commcode="1731" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1732" index="P1732-1" maskingvalue="0000FFFF" commcode="5732" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1732" index="P1732-2" maskingvalue="0000FFFF" commcode="1732" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1733" index="P1733-2" maskingvalue="0000FFFF" commcode="5733" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1733" index="P1733-1" maskingvalue="0000FFFF" commcode="1733" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1734" index="P1734-1" maskingvalue="0000FFFF" commcode="1734" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1734" index="P1734-2" maskingvalue="0000FFFF" commcode="5734" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1735" index="P1735-1" maskingvalue="0000FFFF" commcode="1735" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1735" index="P1735-3" maskingvalue="0000FFFF" commcode="5735" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1736" index="P1736-1" maskingvalue="0000FFFF" commcode="1736" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1736" index="P1736-2" maskingvalue="0000FFFF" commcode="5736" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1737" index="P1737-2" maskingvalue="0000FFFF" commcode="5737" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1737" index="P1737-1" maskingvalue="0000FFFF" commcode="1737" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1738" index="P1738-2" maskingvalue="0000FFFF" commcode="5738" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1738" index="P1738-1" maskingvalue="0000FFFF" commcode="1738" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1739" index="P1739-1" maskingvalue="0000FFFF" commcode="5739" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1739" index="P1739-2" maskingvalue="0000FFFF" commcode="1739" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1740" index="P1740-1" maskingvalue="0000FFFF" commcode="5740" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1740" index="P1740-2" maskingvalue="0000FFFF" commcode="1740" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1741" index="P1741-2" maskingvalue="0000FFFF" commcode="5741" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1741" index="P1741-1" maskingvalue="0000FFFF" commcode="1741" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1742" index="P1742-1" maskingvalue="0000FFFF" commcode="5742" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1742" index="P1742-3" maskingvalue="0000FFFF" commcode="1742" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1743" index="P1743-2" maskingvalue="0000FFFF" commcode="5743" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1743" index="P1743-3" maskingvalue="0000FFFF" commcode="1743" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1750" index="P1750-2" maskingvalue="0000FFFF" commcode="1750" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1751" index="P1751-1" maskingvalue="0000FFFF" commcode="1751" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1752" index="P1752-1" maskingvalue="0000FFFF" commcode="1752" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1753" index="P1753-2" maskingvalue="0000FFFF" commcode="1753" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1764" index="P1764" maskingvalue="0000FFFF" commcode="1764" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="P1765" maskingvalue="0000FFFF" commcode="1765" compid="" index="P1765-B">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+  <erasememory functionid="2000" functionname="EraseMemory" functiontype="0" startrequiretime="0" endrequiretime="0" requesttime="1">
+    <requestnode index="1" request="8119F1149F" response="8XF11954" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+  </erasememory>
+</systemtree>

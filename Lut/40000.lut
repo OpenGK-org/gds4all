@@ -1,0 +1,864 @@
+40002,009$-$2H$-$4L$AUTO$4H$-$-$-$
+40003,003$Auto$4H$4L$
+40004,004$COMPORTABLE$NORMAL$SPORT 1$SPORT 2$
+40005,064$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$No Emergency$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40006,002$NOT READY$READY$
+40007,004$OFF$ON$BLINKING$-$
+40008,008$NO EPB$STATIC EPB$DYNAMIC EPB$DYNAMIC EPB SLIP$DYNAMIC EPB W/O EPB$EPB INITIALIZATION$-$-$
+40009,004$RELEASE$CLAMP$SUSPICION CLAMP$-$
+40010,004$NEUTRAL$STATIC$DYNAMIC$NOT LATCHED$
+40011,004$NO FAILURE$LIMITED FUNCTION$SYTEM FAILURE$PARTIAL FUNCTION$
+40012,004$NEUTRAL$APPLY$RELEASE$-$
+40013,004$NEUTRAL$BRAKE$RELEASE$INVALID$
+40014,004$NO ACTIVATION$BRAKE POSITION$RELEASE POSITION$BRAKE & RELEASE POSITION$
+40015,004$-$-$Hold$STD$
+40016,008$Class0$Class1$Class2$-$Fault$-$-$Not Supported$
+40017,004$OFF$ON$Fault$Not Supported$
+40018,008$-$-$PL SOL$-$Hold Lamp$-$-$-$
+40019,008$P,N,R$1$2$3$4$5$6$-$
+40020,032$-$L$2$3$4$5$-$-$D$N$R$P$Sports Mode$-$-$-$E Mode$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40021,016$P/N$1$2$3$4$5$6$7$8$-$-$-$-$-$R$-$
+40022,002$Valid$Invalid$
+40023,004$INHSW_1$INHSW_2$INHSW_3$INHSW_4$
+40024,004$No L/Up$Slip L/Up$Fully L/Up$Off Slip L/Up$
+40025,064$H.Mode-0/Driver-0$H.Mode-0/Driver-1$H.Mode-0/Driver-2$H.Mode-0/Driver-3$H.Mode-0/Driver-4$H.Mode-1/Driver-0$H.Mode-1/Driver-1$H.Mode-1/Driver-2$H.Mode-1/Driver-3$H.Mode-1/Driver-4$H.Mode-2/Driver-0$H.Mode-2/Driver-1$H.Mode-2/Driver-2$H.Mode-2/Driver-3$H.Mode-2/Driver-4$H.Mode-3/Driver-0$H.Mode-3/Driver-1$H.Mode-3/Driver-2$H.Mode-3/Driver-3$H.Mode-3/Driver-4$H.Mode-4/Driver-0$H.Mode-4/Driver-1$H.Mode-4/Driver-2$H.Mode-4/Driver-3$H.Mode-4/Driver-4$Reserved$Reserved$Sports Mode$Reserved$Hot Mode$Warm-up Mode 1$Warm-up Mode 2$Reserved$Reserved$FGR Hill Mode 0$FGR Hill Mode 1$FGR Hill Mode 2$FGR Hill Mode 3$FGR Hill Mode 4$Hot Mode 1$Hot Mode in Tip Mode$ACC Hill Mode 0$ACC Hill Mode 1$ACC Hill Mode 2$ACC Hill Mode 3$ACC Hill Mode 4$Engine Temperature$Reserved$Reserved$Engine Overtemperature in Tip Mode$Cold Mode$Cold Mode in Tip Mode$-$-$-$-$-$-$-$-$-$-$-$-$
+40026,002$R$D$
+40027,008$Resting State$ON/OFF$Cancel$RES/ACC$SET/COAST$Out of Range$-$-$
+40028,016$NO Error$N_32_MON$TQ_DIF_P_D_IS_MON$TQ_DIF_I_IS_MON$TQ_LOSS_MON$TQ_MIN_CLU_MON$TQ_MAX_CLU_MON$PVS_MON$TPS_MON$MAF_MON$-$-$-$-$-$-$
+40029,008$Stop$Start$Idle$Part Load$Throttle Close$Fuel Cut$-$-$
+40030,008$Not Active$No Purge$Min. Purge$Ramp Open$Max Purge$Ramp Close$Wait Ramp Open$-$
+40031,004$ST$END$CNL$INH$
+40032,032$START$PRS DYN$CLOSE CPS$DLY SOV$DLY PRS COR$PRS COR BEG$DTP COR$PRS EVAC BEG$DTP EVAC$DLY DIAG$DTP DIAG$T DLY 3$ERR CLOSE CPS$PAS$CLD$VAP CHK$DLY VAP CHK$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40033,008$No Result$Aborted$Passed Enabled Tests$Fail Large Leak$Fail Small Leak$Fail EVP Vent$Fail Cont. Purge Fail$Fail Very Small Leak$
+40034,016$No Reason$Disabling Fault Present$Ignition Voltage$IAT Decreasing$Off Board Purge or Vent Control$Off Board Device Control Active$Purge or Vent Valve Slewing$Start Up Coolant Too High$Fuel Level Out Of Range$Cold Test Criteria Not Met$Off Board Device Diagnostic Clear$Baro Pressure Out Of Range$Intrusive Control Of Purge Not Achieved$Refueling$-$-$
+40035,008$System Not Enabled$System Test Aborted$System Continous Purge Flow$System Cold Leak Test$System Warm Large Leak Test$System Restricted Vent Path$System Test Complete$-$
+40036,002$Not Aborted$Aborted$
+40037,032$No Delay$Power Up Delay$Other Intrusive Test Running$Disabling Key ON Fault$Disabling Active Fault$Iginition Voltage Range$Engine Speed Range$Coolant Temperature Range$TCC Locked$Fuel Level Low$Negative Torque Driving Conditions$Large Throttle Change$Consecutive Positive Reference Deltas$Consecutive Negative Reference Deltas$Negative Torque Load$Undetectable Region$Torque Reduction Active$AC Clutch Transition$Auto Trans Shift$DFCO Conditions$Fuel Cut Off$CAM Sync Fault Active$Abusive Engine Speed$Engine Speed Hi and Tec not Learnt$CQ not Ready$Returnless Fuel System Prime Delay$-$-$-$-$-$-$
+40038,004$Not Started$Progressing$OK$Fail$
+40039,008$old timed RF data$new timed RF message received$new initialted RF message received$old initiated RF data$no data available$-$-$-$
+40040,004$Non-Specific Mode$Base Mode$Auto Locate mode$-$
+40041,016$Initiate Configuration State$-$Alert State$-$Storage State$Data Echo State$Battery/Temperature State$Life Counter State$Software Version State$-$Normal Delay State$Normal Fixed State$Normal Fixed State$Alert State$Storage State$Manufacturer LF Test State$
+40042,002$Normal Timed Transmission$LF Initiated Transmission$
+40043,008$UNKNOWN$Sensor 1$Sensor 2$Sensor 3$Sensor 4$Sensor 5$-$-$
+40044,008$Check not yet performed$Check in progress$Check successful$Check failure - No initied learned sensor RF responses received$Check failure - LF initiator power fault reported$Check aborted by diagnostics$-$-$
+40045,004$UNKNOWN$Timed$Initiated$Alert$
+40046,004$-$Active$Historic$-$
+40047,004$-$Inflation$Air Leak$-$
+40048,004$No Warning$Inflation$Leak$Inflation and Leak$
+40049,002$Unrestricted$Restricted$
+40050,004$None$Speedometer$ABS/ESP Sensor$ABS/ESP Sensor$
+40051,004$Not Supported$OFF$ON$Invalid Data$
+40052,004$OFF$ON$Engaged$Invalid Data$
+40053,004$inactive$HLL act$DBL act$all act$
+40054,008$LV_IGK$LV_VB_JUMP$LV_CDN_VB_OBD1$LV_CDN_VB_OBD2$LV_CND_VB_MIN_DIAG$-$-$-$
+40055,016$-$Stop$Cranking$Idle$Partial load$Decelerate $Fuel Cut$Full Load$-$-$-$-$-$-$-$-$
+40056,008$LV_FUEL_TYPE_BOX$LV_FUEL_TYPE_BOX_BSW$TYPE1$TYPE2$TYPE3$TYPE4$TYPE5$TYPE6$
+40057,002$CNG$LPG$
+40058,008$STOP$ERROR A$ERROR B$ERROR C$ERROR D$NON$NORMAL$LIMP$
+40059,008$Initial Operation$Cranking$Engine Run$KEY OFF$Ready$Emergency Stop$-$-$
+40060,004$Buckled/Forward$Unbuckled/Rearward$Failure$Not Supported$
+40061,004$OFF$ON$FAULT$Not Supported$
+40062,004$Lock-UP, Releasede$Slip Lock-UP$Full Lock-UP$Deceleration Lock-UP$
+40063,016$AUTO OFF$SLOW$S_M$MIDDLE$M_F$FAST$FAST_P$M_FAST_P $MIDDLE_P-$S_M_P$SLOW_P$TESTMODE$-$-$-$-$
+40064,016$OFF$RAIN DET$LOW SPEED$HI SPEED$FAULT1$FAULT2$FAULT3$-$-$-$-$-$-$-$-$-$
+40065,002$Nomal$OPEN(Disconnection)$
+40066,002$Nomal$SCG(Ground)$
+40067,004$NEUTRAL $LEFT$RIGHT$Not Supported$
+40068,004$OFF$Blinking$ON$-$
+40069,004$-$-$-$Not supported$
+40070,008$STEP 1$STEP 2$STEP 3$STEP 4$STEP 5$-$-$-$
+40071,008$OFF$RES$SET$DISTANCE$CANCEL$-$-$-$
+40072,002$Front$Rear$
+40073,004$All Functions Inactive$HLL Active$DBL Active$All Functions Active$
+40074,016$INVALID$P/N$R$D$-$-$-$-$SPORTS$-$-$-$-$-$-$-$
+40075,016$-$P$N$R$D$4$3$2$L$SPORTS$-$-$-$-$-$-$
+40076,002$Not Press$Press$
+40077,002$FULL CLOSE$POP-UP$
+40078,002$Position Unknown$Position known$
+40079,008$Normal$Limit S1$Limit int1$Limit int2$Limit Max$-$-$-$
+40080,004$DESYNC$DISABLE$UNKNOWN$LOW BATT$
+40081,004$PANIC$LOCK$UNLOCK$TRUNK$
+40082,016$DISARM $ARM$ALARM$A/LOCK1$A/LOCK2$ARM WAIT$PREARM$ARM HOLD$REARM $-$-$-$-$-$-$-$
+40083,009$-$SHIFT SOL#1$SHIFT SOL#2$SHIFT SOL#3$SHIFT SOL#4$SFT SOL RLY$N/A$SHIFT LOCK$START LOCK$
+40084,002$Not Present$Present$
+40085,256$Not Valid$Lock$Unlock$-$Panic$Tailgate Open/Close$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$Not valid key button$key button as Lock$key button as Unlock$-$key button as Panic$key button as Tailgate open/close$key button as Left sliding door open/close$key button as Right sliding door open/close$key button as Power window open$-$key button as Power window close$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$No Tx data coming$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40086,009$P/R/N$-$1$2$3$4$5$6$-$
+40087,002$KPH$MPH$
+40088,008$OFF$ON$Lane Recognized$Lane Unrecognized$-$-$-$System Fail$
+40089,002$Not Operate$Operate$
+40090,002$Not Exceed$Exceed$
+40091,004$-$OFF$ON$Not Supported$
+40092,009$-$EMG. STOP$ECU INJ. LINE$IFB INJ. LINE$FUEL SYS.$IFB Parts$NON$NO$LIMP HOME$
+40093,002$OK$Failure$
+40094,002$Inserted$Not Inserted$
+40095,008$No Tx Saved$1 Tx Saved$2  Tx Saved$3 Tx Saved$4 Tx Saved$-$-$-$
+40096,002$Low$Ok$
+40097,002$Not Ok$Ok$
+40098,004$Unknown$Normal$Low$-$
+40099,008$-$CLASS 1$CLASS 2$INDETERMINATED STATUS$BODY SENSE DEFECT$BODY SENSE COMM. FAULT$-$Not Supported$
+40100,004$OFF$ON$DEFECT$Not Supported$
+40101,004$UNBUCKLED$BUCKLED$FAULT$Not Supported$
+40102,008$-$CLASS 1$CLASS 2$INDETERMINATED STATUS$FAULT$-$-$Not Supported$
+40103,002$RELEASED$PRESSED$
+40104,002$BROKEN$NORMAL$
+40105,002$Not Worn$Wearing$
+40106,008$CLASS 0$CLASS 1$CLASS 2$-$OC DEFECT$OC COMM. FAULT$-$Not Supported$
+40107,016$UNDEFINE$OFF LOCK$OFF UNLOCK$ACC$IGN$IG START$START$ENG. RUN$-$-$-$-$-$-$-$OFF ESCL$
+40108,004$MT$AT1$AT2$AT3$
+40109,004$Released$Activated$-$Not supported$
+40110,004$Not Calibrated$Calibrated$-$Not Supported$
+40111,004$-$Virgin$Programmed$-$
+40112,004$Disable$20 km/h$40 km/h$Shift Lever$
+40113,004$Disable$Key Out$Shift Lever$Dr Door Unlock$
+40114,002$Release$Insert$
+40115,004$Engaged$Disengaged$Fully Disengaged$-$
+40116,002$INACTIVE$ACTIVE$
+40117,002$NORMAL$LIMP HOME$
+40118,002$NORMAL$NO EMS REQUEST$
+40119,002$NON$NORTH$
+40120,002$Can Start the Engine$Prohibition$
+40121,002$NO$DEMAND$
+40122,002$Park$Not Park$
+40123,256$No Delay$Power Up Delay$Other Intrusive Test Running$Disabling Key ON Fault$Disabling Active Fault$Iginition Voltage Range$Engine Speed Range$Coolant Temperature Range$TCC Locked$Fuel Level Low$Negative Torque Driving Conditions$Large Throttle Change$Consecutive Positive Reference Deltas$Consecutive Negative Reference Deltas$Negative Torque Load$Undetectable Region$Torque Reduction Active$AC Clutch Transition$Auto Trans Shift$DFCO Conditions$Fuel Cut Off$CAM Sync Fault Active$Abusive Engine Speed$Engine Speed Hi and Tec not Learnt$CQ not Ready$Returnless Fuel System Prime Delay$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$Other Reason$Misfire Detection Deactivated By Codeword$
+40124,008$Empty$Small Occ$Large Occ$Indeterminate$PODS Defect$PODS Fault$-$Not Supported$
+40125,009$OK$COM ERR DETECT$WCS SNR DEFECT$WCS ECU DEFECT$IGN HIGH$IGN LOW$REQ. WEIGHT. CHK$-$-$
+40126,256$-$Fan Stop$1$2$3$4$5$6$7$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40127,004$Forward$Rearward$Failure$Not Supported$
+40128,004$Buckled$Unbuckled$Failure$Not Supported$
+40129,004$None $In-Line $In-Line and After Sales $-$
+40130,002$Virgin$Set$
+40131,004$Initial$Active$Exit$-$
+40132,004$Diagnostic Reset$Diagnostic Powertrain$Diagnostic Chassis$-$
+40133,004$Initial$Command Mode$Data Mode$Comm. Fail$
+40134,008$Engine Off$Warm-up$Running$Idle$Stall$-$-$-$
+40135,016$No Alarm$Idle Diag. Alarm$IG Diag. Alarm$Scanner Alarm$Bluetooth Comm. Fail Alarm$AP connect Alarm$Goods Manage Alarm$Warm-up Alarm$Run Time 2HR Alarm$AP Notice Alarm$CUbiS Fail Alarm$CUbiS Initial Alarm$Text Clear Alarm$-$-$-$
+40136,008$CLASS 0$CLASS 1$CLASS 2$INDETER$FAULT$-$-$Not Supported$
+40137,004$EOL_PAS$EOL_ACT$EOL_RDY$-$
+40138,004$OFF$ON$ON/OFF Active$-$
+40139,008$Not Yet Checked$Learnt$Virgin$Locked$Teaching not Accepted$-$-$-$
+40140,002$Manual$Auto$
+40141,002$Possible$Impossible$
+40142,009$DISABLE$LEVER$-$-$20km/h$25km/h$30km/h$35km/h$40km/h$
+40143,004$DISABLE$KEY OUT$DR DOOR SW$LEVER$
+40144,256$-$20Km/h$40Km/h$P->R$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$Disable$
+40145,256$-$KEY OFF$R->P$DD UNLOCK$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$Disable$
+40146,004$ENABLE ALL$ENABLE SCM$DISABLE ALL$-$
+40147,008$DISABLE$20 Km/h$40 Km/h$SHIFT LEV.$LEV&20Km/h$LEV&40Km/h$-$-$
+40148,002$NONE$HID$
+40149,004$NONE$DISABLE$ENABLE$-$
+40150,032$NONE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$ENABLE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40151,002$Operating$Stop$
+40152,064$NONE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$ENABLE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40153,064$NONE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$DISABLE$ENABLE$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40154,002$Not P$P$
+40155,004$NORMAL$OPEN$SHORT$-$
+40156,002$0$1$
+40157,008$ON_IG$ON_ST$ON_RUN$OFF_DLY$OFF$EXT_ADJ$-$-$
+40158,009$SEL1$SEL2$SEL3$PsB$PsC$-$-$-$-$
+40159,016$-$L$2$3$D$N$R$P$Sports Mode$4$5$6$7$-$-$-$
+40160,004$Unlock$Lock$-$Not Supported$
+40161,256$NO SHIFT$1-2 SHIFT$2-3 SHIFT$3-4 SHIFT$4-5 SHIFT$5-6 SHIFT$2-1 SHIFT$3-1 SHIFT$3-2 SHIFT$4-1 SHIFT$4-2 SHIFT$4-3 SHIFT$5-1 SHIFT$-$5-2 SHIFT$5-3 SHIFT$5-4 SHIFT$6-1 SHIFT$6-2 SHIFT$6-3 SHIFT$6-4 SHIFT$6-5 SHIFT$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40162,008$UNLOCATED$FRONT LEFT$FRONT RIGHT$REAR RIGHT$REAR LEFT$SPARE$-$-$
+40163,016$P/N/R$1st$2nd$3rd$4th$5th$6th$CLUTCH ON$-$P/N RANGE$D/R RANGE$-$-$-$P/N/R$-$
+40164,008$STANDBY$READY$CRANKING$RUNNING$STOPPING$FINISHED$-$-$
+40165,002$Stable$Unstable$
+40166,004$Low$Middle 1$Middle 2$High$
+40167,004$Normal$Wait WO. Limit$Limitation$-$
+40168,009$-$OL CDN$CL$OL INTR$OL ERR$CL ERR$-$-$-$
+40169,008$Gear Box$ABS$Wheel$Learning$TCU CAN$-$-$-$
+40170,008$PUC Timer$Short Stop$Long Stop$Plausible Check$OK$Error$-$-$
+40171,009$-$ERR MTC$ERR TPS$ERR BLS BTS or CS$ERR VS$ERR L2 MON$ERR CAN BUS OFF$ERR PVS$ERR CRU SWI$
+40172,008$Passive$Detection of AD OPP$Request AR RED AD CLC$Adaptation Active$Optimization$Post Optimization$-$-$
+40173,009$Failure at Injection$Path Failure at Fuel Temperature$Failure at Fuel Pressure$Failure at Fuel System Component$Low Fuel Pressure State$Not OK due to Fuel System Failure$OK with Restriction$OK without Restriction or Failure$-$
+40174,004$UnFolding$Folding$Auto$-$
+40175,002$Normal$Gnd Short$
+40176,002$None$SW Off$
+40177,016$DISABLE$LEVER$-$-$20Km/h$25Km/h$30Km/h$35Km/h$40Km/h$-$-$-$-$-$-$-$
+40178,004$DISABLE$KEY OUT$SW ENABLE$LEVER$
+40179,002$EEPROM$ROM$
+40180,002$NOT Requested$Requested$
+40181,002$NOT STARTED$STARTED$
+40182,002$NORMAL$Battery Short$
+40183,002$No External$External $
+40184,004$NOT OK$OK$-$Not Supported$
+40185,004$-$NOT Aborted$Aborted$-$
+40186,008$-$System Not Yet Satisfied for Closed Loop$In Closed Loop$In Open Loop, due to Driving Condition$In Open Loop, due to System Fault$In Closed Loop, But Only Using One O2 Sensor due to a Fault With at least One Sensor$-$-$
+40187,008$-$LV_IGK$LV_VB_JUMP$LV_CDN_VB_OBD1$LV_CDN_VB_OBD2$LV_CND_VB_MIN_DIAG$-$-$
+40188,016$P$L$E$-$-$D$N$R$-$-$-$-$-$-$-$Fault$
+40189,032$No Delay$Power Up Delay$Other Intrusive Test Running$Disabling Key ON Fault$Disabling Active Fault$Ignition Voltage Range$Engine Speed Range$Coolant Temperature Range$TCC Locked$Fuel Level Low$Negative Torque Driving Condition$Large Throttle Change$Consecutive Positive Reference Delta---$Consecutive Negative Reference Delta---$Negative Load Torque$Undetectable Region$Torque Reduction Active$AC Clutch Transitoin$Auto Transmission Shift$Fuel Pulse Width is Zero$Fuel Cut Off$CAM Sync Fault Active$Abusive Engine Speed$Engine Speed High and TEC Not Learned$CQ Not Ready$Returnless Fuel System Prime Delay$LPI Panic Switch$Minimum Baro$Cylinder CDAS Transition$-$-$-$
+40190,009$By Fuel System$By Torque System$By Exhaust System$By Vehicle Speed Condition$By ISG Component Error$By Operation Data$By Air Conditioning System$By Invalid Battery Sensor Data$-$
+40191,002$FALSE$TRUE$
+40192,008$AT1$AT2$AT3$MT1$MT2$MT3$-$-$
+40195,008$-$Level 1$Level 2$Level 3$Level 4$Level 5$-$-$
+40197,002$Previous Diagnosis Performed$Previous Diagnosis Not Performed$
+40198,016$NO RX$INVALID TX$INVALID TX$INVALID TX$INVALID TX$INVALID TX$INVALID CODE$LOCK$UNLOCK$PANIC$TRUNK$-$-$-$-$-$
+40200,004$STOPPED$CRANKING$RUNNING$STALLING$
+40201,008$RPC_TL_DUMPING$RPC_TL_FILLING_RAIL$RPC_TL_HPV_ONLY$RPC_TL_IMV_AND_CO$RPC_TL_IMV_ONLY$RPC_TL_RAIL_DISCHARGE$RPC_TL_PRIMING$-$
+40202,008$T_D_MAX_TRQ_RAIL_PRESSURE$T_D_MAX_TRQ_VLC$T_D_MAX_TRQ_ABS$T_D_MAX_TRQ_TURBO$T_D_MAX_TRQ_AIRDNS$T_D_MAX_TRQ_START$T_D_MAX_TRQ_VSL$T_D_MAX_TRQ_SYST_CAPACITY$
+40203,004$Not Activated$Activated$-$Not Supported$
+40204,008$DISABLE$20Km/h$25Km/h$30Km/h$35Km/h$40Km/h$Shift P$-$
+40205,008$Empty$Small OC$Large OC$Indeterminate Status$Fault$-$-$Not Supported$
+40206,008$Empty$Small Occupant$Large Occupant$Indeterminate Status$Fault$-$Not Calibrated$Not Supported$
+40207,008$DISABLE$12 mile/h$24 mile/h$SHIFT LEV.$LEV&12mile/h$LEV&24mile/h$-$-$
+40208,004$LOCK$UNLOCK$-$Not Supported$
+40209,004$NORMAL$1st WARNING$2nd WARNING$-$
+40210,008$Empty$Small Occupant$Large Occupant$Indeterminate Status$Defect$Comm. Fault$-$Not Supported$
+40211,004$가나다라마바사아자$-$-$-$
+40212,004$DISABLE$KEY OFF$P LEVER$-$
+40213,004$DISABLE$ENABLE$ENABLE$-$
+40214,002$ECU/TCU$PCU$
+40215,002$NOT Installed$Installed$
+40216,004$Gasoline$Diesel$LPI$Others$
+40217,004$Automatic$Manual$-$-$
+40218,002$Disk$Drum$
+40219,002$Controller CAN Message Transmitted$Controller CAN Message NOT Transmitted$
+40220,008$Completed$Error$Running$Activated$Ready$Initial$-$-$
+40221,009$NORMAL$MAX. Level$MIN. Level$-$-$-$-$-$-$
+40222,016$-$-$MFB$-$-$-$-$-$-$-$Parking Mode$-$-$-$Driving Mode$-$
+40223,002$Normal Battery Level$Low Battery Level$
+40224,004$Transmitter Setup ID A$Transmitter Setup ID B$Transmitter Setup ID C$Transmitter Setup ID D$
+40225,004$-$-$Battery Good$Battery Bad$
+40226,002$NORMAL$ACTIVATED$
+40227,009$-$LOCK Mode$AUTO Mode$-$-$-$-$-$-$
+40228,004$-$Off Mode$20Km/40Km$Shift-Lever$
+40229,008$-$Off Mode$Key Out$Shift-Lever$OverRide$-$-$-$
+40230,004$-$Off Mode$On Mode$-$
+40231,004$NO FIRE$FIRE$FIRE$IGNORE$
+40232,004$NO FIRE$NO FIRE$FIRE$IGNORE$
+40233,004$NO ADULT$NO ADULT$ADULT$IGNORE$
+40234,016$DBC OFF$DBC Fault$DBC Ready$DBC Initial Check$DBC ON$-$-$-$-$-$-$-$-$-$-$Not Support$
+40238,004$ALL Inactive$HLL Active$DBL Active$ALL Active$
+40239,004$-$Tilt & Tele Off$Tilt & Tele On$-$
+40240,002$EMS/TCU Detachable$EMS/TCU Intergrated$
+40241,002$Unapplied$Apply$
+40242,004$Gasoline$Diesel$LPI$Others$
+40243,004$A/T$M/T$-$-$
+40244,002$Disk Brake$Drum Brake$
+40245,016$P/N$1$2$3$4$5$6$-$-$-$-$-$-$-$R$-$
+40246,004$No Align. No Old Value$Aligned$No Align. Old Value Existing$-$
+40248,009$-$B1S1$B1S2$B2S1$B2S2$B3S1$B3S2$B4S1$B4S2$
+40249,016$-$-$Alert$-$Storage$-$-$-$-$-$Normal Delay$Normal Fixed$Normal Fixed$Alert$Storage$-$
+40251,002$Belted$Unbelted$
+40252,016$DISABLE$LEVER$-$-$15km/h$25km/h$30km/h$35km/h$40km/h$-$-$-$-$-$-$-$
+40253,008$LM SL TF$-$-$-$-$-$-$-$
+40254,032$-$GEAR 1$GEAR 2$GEAR 3$GEAR 4$GEAR 5$GEAR 6$GEAR 7$GEAR 8$-$-$-$CVT_FWD$N, P$R$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40255,004$Idle Start$Idle Stop$Automatic Start$-$
+40256,004$DISABLE$ENABLE$Shift Lever(A/T only)$-$
+40257,004$DISABLE$20km/h$15km/h$SHIFT LEV.$
+40258,009$P/N/R$-$1$2$3$4$5$6$7$
+40259,004$-$Not Set$Set$-$
+40260,002$P/R/N$D/1/2/other$
+40261,002$Domestic$Europe$
+40262,002$LHD$RHD$
+40263,002$MT$AT$
+40265,008$No_Fault$Timeout$Not Used$Vertical angle above$Horizontal angle above$Unknown$Not Used$Not Used$
+40266,008$OFF$Ready$Fail$Success$Busy$-$-$-$
+40267,008$OFF$Busy$Success$Fail No Target$Fail Dev Too Large$Fail Var Too Large$Only Left Target Found$Only Right Target Found$
+40268,008$Disabled$Standby Disabled$Standby Enabled$Engaged$Transitioned$-$-$-$
+40269,032$-$L$2$3$D$N$R$P$ECO MODE$4$-$-$-$-$-$-$5$6$7$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40270,004$Empty (Class0)$Small Occupant (Class1)$Large Occupant (Class2)$Undetermined$
+40271,004$DISABLE$15 Km/h$40 Km/h$Shift Lever$
+40272,004$Open$Slip$Lock$reserved$
+40273,004$readiness info$freeze frame request$MIL on request$MIL blinking request$
+40274,004$No Failure$Diagnostic Failure$Diagnostic limp-home activated$reserved$
+40275,016$Mechanical Limphome$Electrical Limphome$-$Engine Clutch VFS failure$Mechanical Limphome & Engine Clutch VFS failure$-$-$EOP failure$-$-$-$Engine Clutch VFS failure & EOP failure$-$-$-$-$
+40276,004$No Failure$OPU Diagnostic failure$Diagnostic limp-home activated$EOP Diagnostic failure$
+40284,002$None$Initialized$
+40285,004$No Failure$OPU Failure$OPU Limphome Activated$EOP Failure$
+40286,002$Not Set$Set$
+40287,008$ERR$P$R$N$D$Ds Mode$Sports Mode$-$
+40288,016$Disable$20Km/h$40Km/h$Shift Lever$-$-$-$-$15Km/h$-$-$-$-$-$-$-$
+40289,002$No Noise$Noise$
+40290,009$-$-$8$9$10$-$-$-$Reverse$
+40291,016$None$Not Power Supplied$Unlock$Lock$Learning Neutral$Unlock in Progress$Lock in Progress$Anti Scaning$Power OFF$ESCL GND SCG$-$-$-$-$-$-$
+40292,008$None$Fob not around Vehicle$Periodic Search Wait $Authentication Wait $Other States$-$-$-$
+40293,016$OFF$ESCL Unlock ACC $ACC$IGN$Start$Engine Running$ACC to Start$ACC Search$IGN Search$ESCL Unlock OFF to Start$ESCL Unlock Start$OFF to Start$-$-$-$-$
+40294,016$IMMO COIL ERROR$TP/VIRGIN TP$VALID TP$INVALID TP$NO TP$INVALID TP$INVALID TP$TP LEARNT$Undefined Error$INVALID TP$-$-$-$-$-$-$
+40295,004$VIRGIN$LEARNT$NEUTRAL$Undefined$
+40296,016$No Factor$No Power for ESCL$-$PDM ESCL Output Fault$Sub MCU Failed$ESCL Unlock Timeout$ESCL Lock Timeout$-$-$-$ESCL Broken$Communication Timeout with ESCL$ESCL State Inconsistency$ESCL Enable fault (SCB or SCB or Open Wire)$Crypto Failed Between IPM and ESCL$ESCL Power OFF Confirmation Failed$
+40297,016$-$Lock$Unlock$-$Trunk$-$-$-$Panic$-$-$-$-$-$-$-$
+40298,004$-$Close$Open$Unknown$
+40299,008$Normal$High Speed Mode$High Performance Mode$HS & HP Mode$Coast Down Mode$Fail Safety Mode$Safe Mode$Emission Mode$
+40300,008$Not Yet Checked$LEARNT$VIRGIN$NEUTRAL$INVALID$-$-$-$
+40301,002$Non Immo.$Immo.$
+40310,008$Engine Stop$Engine Passive$Idle$Part Load$Full Load$-$-$-$
+40316,002$Non North America$North America$
+40317,002$Disable$Available$
+40318,002$All door mode$Driver door Mode$
+40319,002$Disable$Enable$
+40326,002$Not Connected$Connected$
+40330,004$OFF$ON$Blinking$Reserved$
+40331,004$Not Active$Applying$Releasing$-$
+40332,004$Unknown$Applied$Released$-$
+40333,008$Default$AutoFix Calibration$Service Calibration Driving/SPTAC$EOL Calibration TAC$Default$Default$Default$Default$
+40334,004$Gear R OFF$Gear R ON$Reserved$Invalid$
+40335,002$ESC Lamp OFF$ESC Active$
+40336,002$VSM Control Inactive$VSM Control Active$
+40337,002$De-activate$Activate$
+40338,008$-$North America$Europe(West)$Europe(East)$Austrailia$Korea$-$-$
+40339,004$-$Left hand$Right hand$-$
+40341,004$-$Sedan$Wagon$-$
+40342,004$-$Automatic$Manual$No Value$
+40343,004$OFF$ON$Fault$-$
+40344,004$OFF$ON$Failure$Not Supported$
+40345,004$No Control$Reducing$Normal$-$
+40346,002$Failure$OK$
+40347,002$Application$Boot$
+40348,016$Default$Default$Programming$Extended$-$ECU Programming$-$-$-$-$Extended Diagnostic$-$-$-$-$-$
+40350,004$Not Detected$OK$NG$-$
+40351,004$Test in Progress$Test incompleted$No Leak$Leak Detected$
+40352,008$South Korea$North America$Europe$Asia$Afica$South America$-$-$
+40353,016$Map 0$Map 1$Map 2$Map 3$Map 4$Map 5$Map 6$Map 7$Map 8$Map 9$Map 10$Map 11$Map 12$Map 13$Map 14$Map 15$
+40355,008$OFF$BUSY$SUCCESS$Fail (NO Target)$Fail (Deviation too big)$Fail (Variation too big)$Target Found(Left Only)$Target Found(Right Only)$
+40356,008$P/N$D$-$-$-$-$-$R$
+40359,002$none$CAN Type$
+40360,004$CBS$ABS$ESC$Reserved$
+40361,004$Logger Off$EPB Standard Logger On$TMO Logger On$DAA_AG Logger On$
+40362,016$CP NOT ACT$NO PURGE$RAMP TO NO PURGE$WAIT RAMP OPEN$MIN PURGE$-$-$-$RAMP OPEN$RAMP OPEN FAST$MAX PURGE$RAMP CLOSE$-$-$-$-$
+40363,004$OFF$Shift Lever$Vehicle Speed$-$
+40364,004$OFF$Shift Lever$Key Out$Override On(Driver Safety Knob)$
+40366,016$No specifications$Contury$Village$Over 100km/h$Over 130km/h$Wet$Hi-Beam$-$-$Traffic Change$-$-$-$-$-$-$
+40367,008$OFF$Fault1$Fault2$Fault3$RainDetect$Low$High$-$
+40368,016$OFF$Step5$Step4$Step3$Step2$Step1$Washer$Step1 Inwipe$Step2 Inwipe$Step3 Inwipe$Step4 Inwipe$Step5 Inwipe$-$-$-$-$
+40369,002$Normal$LF Response$
+40370,002$Normal$AL$
+40371,002$Not Roll$Roll$
+40372,008$Exit Off$Alert$Test Mode$Off Mode$Left$Right$Normal$-$
+40373,002$NO$Learning$
+40374,004$Disable$Vehicle Speed$Shift Lever$-$
+40375,008$Warning Off$First Warning$Second Warning$Third Warning$Fault Warning$Bus Off$Noise Bit ON$Long Warning$
+40376,009$-$P$R$N$D$E$L$Brake Lamp Switch$Brake Switch$
+40377,002$Fault$OK$
+40378,004$Ready for OBC$Fault for OBC$Main relay off request$Charge finished for OBC$
+40379,008$-$-$-$-$-$-$HW OVP flag$HW OCP flag$
+40380,004$OFF$Short$Long$-$
+40381,008$Reserved$Not aligned$Unkown Failure$Horizontal alignment failure$Vertical alignment failure$Horizontal alignment failure - Driving Mode$Reserved$Reserved$
+40382,008$Disable$15Km/h$20Km/h$40Km/h$15km/h & Shift Lever$20km/h & Shift Lever$40km/h & Shift Lever$Shift Lever$
+40383,002$Not done$Done$
+40384,016$-$-$Alert$-$Storage$-$-$-$-$-$Sleep$RDD Phase 1 or 2$Normal$Rest$RDD Phase 3$-$
+40385,002$Normal$AL/ALO$
+40386,004$Passive$ECO$LDW$VSM$
+40387,002$Release$Push$
+40388,008$Not Used$Empty/Child Seat$Seat Occupied$Indeterminate Status$Fault$-$-$Not Supported$
+40389,008$Not Used$Empty/Child Seat$Seat Occupied$Indeterminate Status$Fault$-$Not Calibrated$Not Supported$
+40390,008$Not Used$Empty/Child Seat$Seat Occupied$-$OC DEFECT$OC FAULT$-$Not Supported$
+40391,008$Not Used$Empty/Child Seat$Seat Occupied$INDETER$DEFECT$FAULT$-$Not Supported$
+40392,004$No Warning$White Lane$Yellow Lane$-$
+40393,004$No Warning$1st Warning$2nd Warning$-$
+40394,004$No Active$Green$Yellow$Red$
+40395,002$Not Sports Mode$Sports Mode$
+40396,004$Not Detect$Detect$Limphome$-$
+40397,004$Rediness Info$F/F Request$MIL ON$MIL Blinking$
+40398,004$-$LPI$Diesel$-$
+40400,008$Not Used$Empty/Child Seat$Seat Occupied$INDETER$FAULT$NOT CALI.$-$Not Supported$
+40401,004$OFF$ON$Abnormal$-$
+40402,004$OFF$25% -ON$100% -ON$-$
+40403,016$OFF(Fail)$OFF(Screen)$Rear-AVM$Front-AVM$Rear-Left$Front-Left$Rear-Right$Front-Right$Rear-Wide$Front-Wide$Front 2-Section$-$-$-$-$-$
+40404,008$Empty$Child Seat$Seat Occupied$-$Fault$-$-$Not Supported$
+40405,008$Empty$Child Seat$Seat Occupied$Indeterminate Status$Fault$-$-$Not Supported$
+40406,008$Empty$Child Seat$Seat Occupied$Indeterminate Status$Fault$-$Not Calibrated$Not Supported$
+40407,008$Empty$Child Seat$Seat Occupied$Indeterminate Status$Fault$Not Calibrated$-$Not Supported$
+40408,008$Empty$Child Seat$Seat Occupied$Indeterminate Status$Defect$Comm.Fault$-$Not Supported$
+40409,008$Normal$Empty$Full$-$Refill$-$-$-$
+40410,002$Not Approved$Approved$
+40411,002$Empty$Not Empty$
+40412,008$ECULine$WCS Assy Line$Seat Frame Assy Line$Seat Assy Line$Vehicle Line$-$-$-$
+40413,008$Empty (Class0)$Small Occupant (Class1)$Large Occupant (Class2)$-$Undetermined$-$-$-$
+40414,016$MFB$-$-$-$-$-$-$-$MP$-$-$-$MD$-$-$-$
+40415,008$-$Front Left$Front Right$Rear Right$Rear Left$Spare$-$-$
+40416,008$Hybrid$Reserved$2DR (Coupe)$3DR (2DR Hatch Back)$4DR (Sedan)$5DR (Hatch back)$4DR (Limousine)$5DR (Wagon)$
+40417,002$Malfunction$Operated$
+40418,016$Disable$20km/h$40km/h$Shift Lever$20km/h & Shift Lever$40km/h & Shift Lever$-$-$15 km/h$15km/h & Shift Lever$-$-$-$-$-$-$
+40419,016$SW1~SW4 OFF$SW1$SW2$SW1,SW2$SW3$SW1,SW3$SW2,SW3$SW1,SW2,SW3$SW4$SW1,SW4$SW2,SW4$SW1,SW2,SW4$SW3,SW4$SW1,SW3,SW4$SW2,SW3,SW4$SW1,SW2,SW3,SW4$
+40420,004$Not Detected$Detected$Short to +Ubat$Wire Broken$
+40421,004$OFF$ON$Inactive$-$
+40422,004$Not Moving$Opening$Closing$-$
+40423,004$OFF$Active Cinching$Active Rewinding$-$
+40424,004$Not Complete$Full Open$User Setting $-$
+40425,002$No Error$Error$
+40426,004$InActive$Tailgate Active$Latch Active$-$
+40427,002$No Timeout$Timeout$
+40428,008$    << OFF >>$   << Before >>$   << Heat Up >>$<< Regeneration >>$    << After >>$   << Aborted >>$  << Finished >>$-$
+40429,008$DISABLE$Key Out$Shift Lever$Unlock Driver Door $Keyout or Shift Lever$-$-$-$
+40430,016$Initial$-$-$-$-$-$-$-$Normal$Limited Operation$Limp home$-$Normal$-$-$-$
+40431,008$No Error$-$Pos-Control$DC Control$OFF State$-$-$-$
+40432,008$Disable$Shift Lever$15km/h$20km/h$25km/h$40km/h$-$-$
+40433,002$None$Open Load$
+40434,002$None$Short Circuit GND$
+40435,008$OFF$UP$DOWN$LEFT$RIGHT$OK$-$-$
+40436,002$Status 1$Status 2$
+40437,002$Before$After$
+40438,002$In Gear$Neutral$
+40439,016$-$VIRGIN$LEARNT$-$NEUTRAL$-$-$-$Undefined$-$-$-$-$-$-$-$
+40440,004$Retry$In Progress$Unknown$OK$
+40441,016$-$-$-$R$-$-$-$D$Nr$Nd$M$M+$M-$-$-$-$
+40442,002$P$NOT P$
+40443,002$Release$Lock$
+40444,004$BH$VI$KH$-$
+40445,008$Korea$EU$Middle East$China$US/Canada$General$-$-$
+40446,008$AVN$AVN+MTS(TMU)$AVN+RSE$AVN+MTS+RSE$AV$AV+RSE$-$-$
+40447,002$LP$KD$
+40448,002$12.3$4.3$
+40450,008$-$US/Canada$General/Middle East$Korea$General/Middle East$General/Middle East$China$-$
+40451,008$9K/100K$10K/200K$9K/50K$10K/100K$9K/200K$-$-$-$
+40452,032$Sleep$Wakening$Ignition$Standstill$Drive$-$-$-$-$-$-$-$-$-$-$-$Carlift$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40453,008$-$-$-$-$Highway$Normal$Offroad$-$
+40454,008$-$A$B$C$D$-$-$-$
+40455,016$P$L$2$3$Not Used$D$N$R$Sport$no display$comm.$Error comm.$-$-$Intermediate Position$Fault$
+40456,002$Normal$Overheated$
+40457,004$Release$FullRet$Haptic$-$
+40458,016$P$L$2$3$DS Mode$D$N$R$Sport/Manual$-$-$-$Paddle Shift(D-position)$-$-$Fault$
+40459,008$-$P$Error$Not P$Reserved$-$-$-$
+40460,009$-$Solenoid1 on$Solenoid2 on$Solenoid3 on$Solenoid4 on$-$-$-$-$
+40461,016$P$-$-$-$-$D$N$R$M$Init$-$-$-$-$-$-$
+40462,008$Key OFF$Key IN$ACC$IGN$Start$-$-$-$
+40463,004$OFF$OFF$ON$-$
+40464,016$ALL OFF$SOL 1 ON$SOL 2 ON$SOL 1,2 ON$SOL 3 ON$SOL 1,3 ON$SOL 2,3 ON$SOL 1,2,3 ON$SOL 4 ON$SOL 1,4 ON$SOL 2,4 ON$SOL 1,2,4 ON$SOL 3,4 ON$SOL 1,3,4 ON$SOL 2,3,4 ON$SOL1,2,3,4 ON$
+40465,008$Standard$Sports$-$-$-$-$-$Not coded$
+40466,008$Inactive$REFU_DET$DFT_ST_ACT$ERU_DET_ACT$ERU_DET_VLD$LAM_DET_ACT$LAM_CLT_ACT$LAM_DET_VLD$
+40467,008$Finished$Wait$CHG$Learn$VLD_Learn$Validation$-$-$
+40468,008$-$Empty/Child Seat$Seat Occupied$Indeterminate status$Defect$Comm.Fault$-$Not Supported$
+40469,008$Empty$Child Seat$Seat Occupied$Indeterminate status$Defect$Comm.Fault$Not Calibrate$Not Supported$
+40470,008$-$Empty/Child Seat$Seat Occupied$Indeterminate status$Defect$Comm.Fault$Not Calibrate$Not Supported$
+40471,004$InActive$Trunk Active$Latch Active$-$
+40472,008$-$Region 1$Region 2$Region 3$Region 4$Region 5$Region 6$-$
+40473,008$Disable$Key out$Shift-lever$Override ON$-$-$-$-$
+40474,004$OFF$ON$Blinking$Invalid$
+40475,004$OK$Failure$Fired$Invalid$
+40476,002$OFF$Alive$
+40477,004$All OFF$EMS$TCS$ABS$
+40478,008$All OK$LH fail/RH OK$LH OK/RH fail$All fail$Not actuated$-$-$-$
+40479,008$Empty$Child Seat(1Y)$Seat Occupied$Indeterminate $Defect$Comm.Fault$-$Not Supported$
+40480,008$New$PSM$TSM$Normal$ITM$-$-$-$
+40481,004$Off$Nomal$Fail-Safe$-$
+40482,008$Closed Loop$Open Loop$Half Closed Loop$Half Closed Loop Lean$-$-$-$-$
+40483,002$OFF$DRL$
+40486,009$-$Power ON engine off$Key on engine off$Engine running$Halt engine$Power-latch started$End Power-Latch$-$-$
+40487,009$-$A/F Sensor non operative$Lean Mixture$Transition to Rich$rich mixture$Transition to lean$Fault by lean mixture$Fault by Rich mixture$-$
+40488,004$No Fault$Waiting fault validation$MI Lamp On$-$
+40489,008$-$Flywheell-not-syncro$Flywhell-syncro$-$Flywhell-presyncro$-$-$-$
+40490,016$INIT_FF$WAIT_LEARNING$COLD_LEARN_TIME$COLD_STATIONARY$COLD_LEARNCONDOK$LEARN_TIME$STATIONARY$LEARNCONDOK$-$END_FF $-$-$-$-$-$-$
+40491,002$High$High$
+40493,002$Normal$Fail$
+40494,008$OFF$Passive ON$Active ON$Failure$Blockage$OverTemperature$System minor failure$-$
+40495,008$Standard$Sport$Comfort$-$-$-$-$-$
+40496,008$N/P$1$2$3$4$5$6$Reverse$
+40497,008$-$1 / Reverse$2$3$4$5$-$-$
+40498,008$-$A$B$C$-$-$F$-$
+40499,008$Empty$Child Seat(1Y)$Seat Occupied$Indeterminate$Fault$-$-$Not Supported$
+40500,004$OK$NG$OK$-$
+40501,008$-$Complete$Cylinder Imbalance$-$Enging Imbalance$-$-$-$
+40502,016$-$sw1$sw2$-$sw3$-$-$-$sw4$-$-$-$-$-$-$-$
+40503,016$P$L$2$3$-$D$N$R$Sports Mode $Not display at cluster $-$-$paddle shift $-$intermediate position $-$
+40504,016$-$1st Gear$2nd Gear $3rd Gear $4th Gear $5th Gear $6th Gear $7th Gear $8th Gear $-$-$-$-$-$-$-$
+40505,002$Empty$Complete$
+40506,002$Imbalance$Good$
+40512,016$-$Desynckey$FobIDDisabled$-$UnknowKey$-$-$-$LowBattery$-$-$-$-$-$-$-$
+40514,008$Normal$3rd Disable$2nd&3rd Disable$Disable$-$-$-$-$
+40515,004$OFF$ON$Fail$-$
+40516,004$OFF$ON$ON$-$
+40517,016$-$Coutury$Village$Express way$Reserved$Wet$Hi-Beam$-$-$Traffic Change$-$-$-$-$-$-$
+40519,009$-$P$R$N$D$E$L$Mode Select$N/A$
+40520,016$Not Supported$OFF$ON$Invalid Data$-$-$-$-$-$-$-$-$-$-$-$-$
+40521,016$OFF$ON$Fault$Not Supported$-$-$-$-$-$-$Fault$Not supported$-$-$-$-$
+40522,002$1 event$2 event$
+40523,016$OFF$ON$Invalid data$Not Supported$-$-$-$-$-$-$Invalid data(or defect)$not supported$-$-$-$-$
+40524,016$OFF$ON$Engaged$Invalid Data or Not Supported$-$-$-$-$-$-$Engaged$Invalid data or not supported$-$-$-$-$
+40525,016$OFF$ON$Fault$Not Supported$-$-$-$-$-$-$Fault$Not Supported$-$-$-$-$
+40526,008$NO$YES$NO$NO$NO$NO$-$Not Supported$
+40527,004$Torque$RPM$Position$-$
+40528,004$NO$YES$Fault$Not Supported$
+40529,008$Unused$Low sens$Med Low sens$Med sens$Med High sens$High sens$Unused$Unused$
+40530,004$OFF$Start$ACC$IGN1&IGN2$
+40531,008$OFF(Ready)$ON$Lane Recognized$Lane Unrecognized$-$-$Not Calibrated$System Fail$
+40533,009$-$P$R$N$D$-$-$-$-$
+40534,002$Not Recognized$Recognized$
+40535,008$Domestic$Europe/Russia$Australia$-$-$-$-$-$
+40536,008$OFF$‘RES’ On$‘SET’ On$‘DISTANCE’ On$‘CANCEL’ On$-$-$-$
+40538,004$None$Succeed$Fail$-$
+40540,008$Standard$Type 2$Type 3$Type 4$-$-$-$-$
+40541,002$None$LED Turn Option$
+40543,016$OFF(Ready)$ON$Lane Unrecognized$Lane Recognized$-$-$Not Calibrated$System Fail$-$-$-$-$-$-$-$-$
+40545,004$Disable$Three Times$Five Times$Seven Times$
+40546,008$-$OFF mode$3 Flashing$5 Flashing$7 Flashing$-$-$-$
+40547,002$Prohibition$Permission$
+40548,002$Progress$Reverse$
+40549,002$No operation$Operate$
+40550,002$Unrecognized$Recognized$
+40551,004$-$Left$Right$-$
+40552,008$-$-$EU$-$-$KOR$-$-$
+40553,002$KOR$EU$
+40554,008$Ready$OFF$ON$-$-$-$-$Fail$
+40555,008$Ready$ON$ON & Recognize$ON & Unrecognized$-$-$Not Calibrated$Fail$
+40556,004$None$First step $Second step$-$
+40557,008$OFF$Resume / Acceleration$Set / Coast$Distance Gap$Cancel$-$-$-$
+40558,004$Not Active$Factory Failure$Service Failure$Auto Failure$
+40559,002$Idle$Busy$
+40560,032$Not Executed$Success$Time Out$Unknown$Target Not Found$Horizontal Multiple Target Found$Incorrect Target Range$Received Target Power Error$Target Angle Deviation$Horizontal Bad Angle$Vertical Bad Angle$Market Code Not Correct$H/W Failure$Vertical Multiple Target Found$Overvoltage$Under Voltage$Under Voltage (Hysteresis)$RADAR Sensor Over - Temperature$RADAR Sensor Blockage$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40561,002$Not Converged$Converged$
+40562,008$Disable$Standby Disable$Standby Enable$Engaged$Transitioned$-$-$-$
+40563,004$OFF$Lumbar$Bolster$-$
+40564,008$OFF$UP$Down$Left$Right$Invalid$-$-$
+40568,002$Steel Sus$Air Sus$
+40569,002$HID$LED$
+40570,004$-$E$L$-$
+40571,002$None$LED Fog Lamp Option$
+40572,002$Normal State$Inactive or Timeout$
+40573,002$DH Platform$CF Platform$
+40574,002$Dealer$Customer$
+40575,008$OFF(Ready)$ON$Lane Unrecognized$Lane Recognized$-$-$Not Calibrated$System Fail$
+40576,008$STANDARD (Bumper 1)$-$-$-$-$-$-$-$
+40577,004$Standard(16/17 Inch)$Type2(18 Inch) $Type3$Type4$
+40578,004$Forward gear$Reverse gear$reserved$Invalid$
+40579,016$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$low to high forward gears$reserved$reserved$reserved$reserved$reserved$Reverse gear$reserved$
+40581,004$OFF$ON$Inactive$Invalid$
+40582,004$Not Moving$Opening$Closing$Invalid$
+40583,004$OFF$Active Cinching$Active Rewinding$Invalid$
+40584,004$Inactive$Trunk Active$Latch Active$Invalid$
+40585,004$OFF Mode$3 Flashinig$5 Flashinig$7 Flashinig$
+40586,002$Needed$Done$
+40587,004$Ready$Actuating$Complete$Fail$
+40588,016$Off$Normal View$Top View$Garage Parking Step1$Garage Parking Step2$Parallel Parking Step1$Parallel Parking Step2$Parallel Parking Step3$Abnormal Parking Stop(Speed)$-$-$-$-$-$-$-$
+40589,004$No Fault$Failure/Service Required$Defect/PSB Warning Light Off$-$
+40590,002$Matched$MisMatched$
+40591,002$Parking$Driving$
+40593,002$Executed$Not Executed$
+40594,002$Success or Not Executed$Failure$
+40595,008$Not Executed$Success$Failure - Out of Alignment Range$Failure - H/W Failure$Failure - Blockage$-$-$-$
+40596,004$Not Executed$Success$Failure$-$
+40597,002$NO$YES$
+40598,016$Japan$US/Mexico$EU$Canada$UK$Australia$-$South Africa$-$Other Countries$Taiwan$China$Thailand$Near and Middle East$Korea$-$
+40599,008$Disabled$Shut off$Standby$Engaged$Transitioned$-$-$-$
+40600,004$-$OFF$ON$Invalid data or Not supported$
+40601,004$OFF$ON$-$Invalid data or Not supported$
+40602,008$-$Class C$Class V$Class E$Class E1$Class E2$Class W$AIM’G Mode$
+40603,004$Unused$Normal$Fail Driver$Fail Stall$
+40604,004$Unused$Normal$Fail LDM$Fail LED$
+40605,004$Unused$OFF$ON$Fail$
+40606,004$Unused$Normal$Fail$-$
+40607,008$Sleep Mode$Initialize Mode$Normal Mode$Low Volt Mode$Over Volt Mode$Retraction Mode$Residual Mode$Failure Mode $
+40608,002$2WD$4WD$
+40609,016$-$Storage$Rest$Normal Motion Alert$-$-$-$-$-$-$-$Normal Motion$Sleep$Sleep State Alert$Normal Fixed$-$
+40610,004$Short-Circuit to Ground (SCG)$Open Load (OL)$Short-Circuit to Ubatt (SCB)$Power Stage OK (No Fault)$
+40611,016$Initiate$Checking$Auto Calibration$FCU Ready$PWM ON$Normal$-$-$-$-$PWM Disable$P3S Disable$Log BPCU_AB$SD complete$-$-$
+40612,008$Fault$1$2$3$4$5$6$Fault$
+40615,002$Deactivate$Activate$
+40616,002$Activate CAN$Activate MOST$
+40617,016$FM100K / AM9K$FM200K / AM9K$FM50K / AM9K$-$FM200K / AM10K$-$FM100K / AM10K$-$-$-$-$-$-$-$-$-$
+40618,002$LHD$RHD$
+40619,002$Limo Mode$Sedan Mode$
+40620,002$Lexicon Amp$Actune Amp$
+40621,004$Rear Camera Only$Front + Rear Camera$PGS$AVM$
+40622,002$AV / Navi TBT / Extended Navi$AV / Navi TBT$
+40624,004$OFF$Low Operating$High Operating$-$
+40626,004$LP(AMP)$KD(JBL)$KD(A/V)$-$
+40627,004$OFF$ON (50mm)$ON (75mm)$-$
+40628,008$Korea$-$Export-EQUUS$China$US/Canada$Export-CENTENNIAL$-$-$
+40629,004$Not Applied$Not Completed$Completed - Disabled$Completed - Enabled$
+40630,004$Not Applied$Not Completed$Completed - Active Wheel Sensor$Completed - Smart Wheel Sensor$
+40631,002$Available$Not Available$
+40632,008$Primary Position$Before Primary Position$Secondary Position$Secondary Mid Position$Unlatched Position$Unknown Position$Error Position$-$
+40633,008$Not Started$Step One$Step One Complete$Step Two$Complete$-$-$-$
+40634,008$Detect None$Detect Time Based$Detect Voltage Based$Detect Current Based$Detect On Pinch$-$-$-$
+40635,002$Vehicle Speed  >= 5km/h$Vehicle Speed  < 5km/h$
+40636,002$North America$Non-North America$
+40637,002$Unlocked$Locked$
+40638,004$OFF$Drive On $Assist On$-$
+40639,008$Key OFF$Key IN$ACC$Ignition$START$-$-$-$
+40641,008$-$Empty/Child Seat$Seat Occupied$-$Undetermined$-$-$-$
+40642,004$Open$Slip$-$Lock$
+40643,002$Nomal$Reserve$
+40644,016$None$Vehicle Stop$EV Propulsion$Power Assist$Engine Only Propulsion$Engine Generation$Regeneration$Engine Brake$Power Researve$Engine Generation/Motor Drive$Engine Generation/ Regeneration$Engine Brake / Regeneration$-$-$-$-$
+40645,008$Open phase$Speed Control Phase$Slip Control Phase$Max Pressure Control Phase$Full Lock-up Phase$Release Control Phase$-$-$
+40646,008$None$Launch$Sync$E-Brake$GearShift$Map Check$Map Check$-$
+40647,016$-$Class C$Class V$Class E$Class E1$Class E2$Class H$Class W$LED Aming$Traffic Change$-$-$-$-$-$-$
+40648,004$Unused$Nomal$Fail Module$Fail Light$
+40649,004$Unused$Nomal$Fail Frequency$Fail Duty$
+40650,016$P$1$2$3$DS$D (MT:R Switch Off)$N$R (MT:R Switch On)$Sports$Not Display$Sub-rom Communication$Sub-rom Communication Error$Paddle Shift$-$Intermediate Position$Fault(MT:Invaild)$
+40651,016$Not Support$Not Press$Pressed$Failure$-$-$-$-$-$-$-$-$-$-$-$-$
+40652,002$No Error$Defective$
+40653,004$Normal Condition$AFLS Off$System Not Calibration$AFLS Defective$
+40654,002$Normal$Traffic Change Mode$
+40655,004$Normal$FAN Fail$LED Fail$-$
+40656,004$Default mode$Normal$Traffic Change Mode$Error$
+40657,002$None Europe$Europe$
+40658,004$OFF$ON$-$Invalid$
+40661,004$OFF$ON$Invalid Data or Not Supported$Invalid Data or Not Supported$
+40663,004$-$Close$Open$-$
+40664,008$None$Outside Handle$Interior Switch(Console Switch)$RKE Command$Hand Free$-$-$-$
+40666,002$BCM$HBA$
+40667,008$No Error$Not Calibrated$AEB Option Error$NAVI Option Error$4WD Option Error$-$-$-$
+40669,004$Unavailable$LDW mode$LKA mode$LDWS Only$
+40670,008$HBA off$HBA On/High Bean Off$HBA On/High Bean On$-$-$-$-$System Fail$
+40671,002$None HBA Option(Default)$HBA System Enable$
+40672,008$Off$On(Unrecognition of vehicle)$On(Recognition of vehicle)$On(Collision Warning)$-$-$-$Fail$
+40673,004$None FCW Option$Disable by USM$Enable by USM$-$
+40674,008$-$America$Europe$Austrailia$Middle East$Korea$China$-$
+40675,008$-$Sedan(4DR)$Sedan(3DR)$Sedan(5DR)$Wagon$HEV$-$-$
+40676,016$-$P$-$R$-$N$-$D$-$-$M(Ds)$M+$M-$-$-$-$
+40677,004$-$4H$-$2H$
+40679,016$Not Executed$Success$Horizontal Receive Power Error$Target Missing Error$Target Range Error$Multi Target Detection_1 Error$Multi Target Detection_2 Error$Vertical Receive Power Error$Motor Error$Horizontal Out Of Range$Vertical Out Of Range$Time Out$Unknown$-$-$-$
+40680,004$Success$BUSY$Failure - Horizontal Out Of Range$Failure - Unknown$
+40681,002$OFF$Active$
+40682,008$OFF$Auto Light$Tail$Head LP Low$Ground Short$-$-$Invalid$
+40683,008$OFF$Passing$Dimmer$Ground Short$-$-$-$Invalid$
+40684,008$OFF$Mist$Int$Wiper Low$Wiper High$Ground Short$-$Invalid$
+40685,008$OFF$Front Fog$Rear Fog$Ground Short$-$-$-$Invalid$
+40686,008$VOL1(Fast)$VOL2(Mid-Fast)$VOL3(Mid)$VOL4(Mid-Slow)$VOL5(Slow)$Ground Short$B+ Short$Invalid$
+40687,008$OFF$Rear Wiper Low$Rear Wiper High$Ground Short$-$-$-$Invalid$
+40688,008$OFF$Turn LH$Turn RH$Ground  Short$-$-$-$Invalid$
+40689,002$KOR, AUS$EUR, CHN$
+40690,004$Standard (16 inch)$Type2 (17/18 inch)$-$-$
+40691,004$Not Transmitting$Low Power Transmitting$Normal Power Transmitting$-$
+40694,002$No acknowledgement$Acknowledgement$
+40695,002$Not Operating$Operating$
+40696,004$Not Support$OFF$ON$Failure$
+40697,008$Gasoline,ETC-No$LPI(LPG),ETC-No$Diesel,ETC-No$-$Gasoline,ETC$ LPI(LPG),ETC$Diesel,ETC$GDI Type Engine$
+40698,002$Active$Passive $
+40699,008$Stop$Cranking$Stalled$Running$-$-$-$Fault$
+40700,004$Not Pressed$Pressed$-$Failure$
+40701,008$OFF$Preparation$ON$-$-$-$-$Fault$
+40702,002$Engine control is available$ETC Limphome mode$
+40703,008$No display$1$2$3$4$5$6$Error ID$
+40704,002$Initial Value$ON$
+40705,002$Not Fuel Consumption$Fuel Consumption$
+40706,002$Stop or Starting Phase $Running $
+40707,002$Not Received$Received$
+40708,004$The Desired Intervention$Can not be Adjusted Precisely$The Torque Reduction Regarding$Due to a Failure Detected$
+40709,256$0$1$2$3$4$5$6$7$8$9$10$11$12$13$14$15$16$17$18$19$20$21$22$23$24$25$26$27$28$29$30$31$32$33$34$35$36$37$38$39$40$41$42$43$44$45$46$47$48$49$50$51$52$53$54$55$56$57$58$59$60$61$62$63$64$65$66$67$68$69$70$71$72$73$74$75$76$77$78$79$80$81$82$83$84$85$86$87$88$89$90$91$92$93$94$95$96$97$98$99$100$101$102$103$104$105$106$107$108$109$110$111$112$113$114$115$116$117$118$119$120$121$122$123$124$125$126$127$128$129$130$131$132$133$134$135$136$137$138$139$140$141$142$143$144$145$146$147$148$149$150$151$152$153$154$155$156$157$158$159$160$161$162$163$164$165$166$167$168$169$170$171$172$173$174$175$176$177$178$179$180$181$182$183$184$185$186$187$188$189$190$191$192$193$194$195$196$197$198$199$200$201$202$203$204$205$206$207$208$209$210$211$212$213$214$215$216$217$218$219$220$221$222$223$224$225$226$227$228$229$230$231$232$233$234$235$236$237$238$239$240$241$242$243$244$245$246$247$248$249$250$251$252$253$254$255$
+40710,004$CAN_VERS$CONF_TCU$OBD_FRF_ACK$TQ_STND$
+40711,002$No Battery Disconnection Detected$Battery Disconnection Detected and Dailure Memory Erased$
+40712,008$No MIL$MIL Treatment OBD-I$MIL Treatment OBD-II$MIL Treatment OBD-II$MIL Treatment E-OBD$MIL Treatment K-OBD$-$-$
+40713,002$Normal operation$Over Drive Off$
+40714,002$Continue to Fuel Cut Off$Indication of Fuel Cut$
+40715,008$ISG is Not Operating$Idle Stop is Activated$Automatically Started$ISG is Prohibited$Fault is Existing$Idle Stop is Inhibited$Auto Start is Deactivated$N to D Range Without Braking$
+40716,002$Not in High Pressure$High Pressure $
+40717,004$Default$Not-Activated Battery Sensor$In Auto Start status$-$
+40720,032$458.98$469.71$480.44$491.17$501.90$512.63$523.36$534.10$544.83$555.56$566.29$577.02$587.75$598.49$609.22$619.95$630.68$641.41$652.14$662.88$673.61$684.34$695.07$705.80$716.53$727.27$738.00$748.73$759.46$770.19$780.92$791.66$
+40721,008$Exit Off$Alert$Test Mode$Off Mode$PAL Sync$PAL No-sync$Normal$-$
+40722,004$Light Switch Off$Tail Switch On$Head Lamp Low Switch On$Auto Light Switch On$
+40723,004$-$Disabled$Enabled$-$
+40724,004$Eco$Nomal$Sports$-$
+40725,032$Off$Korean$English$English$Chinese$Chinese$French$Spanish$Arabic$Czech$Danish$German$Italian$Dutch$Polish$Portuguese$Russian$Slovak$Swedish$Turkish$French(US)$Spanish(US)$-$-$-$-$-$-$-$-$-$Invalid$
+40728,002$BULB$LED$
+40729,002$Not Active(OFF)$Active(ON)$
+40730,002$Park/Neutral$Forward/Reverse Gear$
+40731,002$Neutral/Clutch Depressed$Trans in Gear$
+40732,002$DPF Regen not in progress$DPF Regen in progress$
+40733,002$Passive$Active$
+40734,002$Adsorption in progress (no regen)$Desorption (regen) in progress$
+40735,002$Desulfurization not in progress$Desulfurization in progress$
+40736,002$-$Sensor actively measuring (YES)$
+40737,002$-$Sensor regenerating (YES)$
+40738,002$-$Closed Loop Control$
+40740,004$Reserved, Not Defined$Open Loop$Closed Loop$Fault Present$
+40741,008$Unknown State$Success$Failure - Horizontal Out Of Range$BUSY$Failure - Time Out$Failure - CANCEL$-$-$
+40742,016$OFF(Fail)$OFF(Screen)$Rear-SVM$Front-SVM$Rear-Left$Front-Left$Rear-Right$Front-Right$Rear-Wide$Front-Wide$-$-$-$-$-$-$
+40743,016$0$1$2$3$4$5$6$7$8$9$10$11$12$13$14$15$
+40744,008$OFF(Ready)$ON$Full Lane Recognized$Lane Unrecognized$Right Lane Recognized$Left Lane Recognized$Not Calibrated$System Fail$
+40745,004$Nomal$Sports$Snow$Eco$
+40746,016$-$-$-$-$-$-$-$-$Vector$-$-$-$-$-$-$-$
+40747,004$-$Issue 001$-$Issue 003$
+40748,009$-$Reagent Level Too Low$Incorrect Reagent$Deviation of Reagent Consumption$NOx Emissions Too High$-$-$-$Inducement System Active$
+40749,016$-$Reagent Level Too Low$Incorrect Reagent$-$Deviation of Reagent Consumption$-$-$-$NOx Emissions Too High$-$-$-$-$-$-$-$
+40752,004$Not Complete$On Adaptation$Complete$Not Support$
+40753,004$A Non-Discriminatory MI$A Discriminatory MI$-$Not Available/Not Required$
+40754,016$MI Mode1 (MI Off)$MI Mode2 (On Demand MI)$MI Mode3 (Short MI)$MI Mode4 (Continuous MI)$-$-$-$-$-$-$-$-$-$Error$-$Not Available/Not Required$
+40755,004$Inactive$Enabled$Active$Not Supported$
+40756,002$Application$Not Apply$
+40757,009$-$Front Left Valve - Inlet$Front Left Valve - Outlet$Front Right Valve - Inlet$Front Right Valve - Outlet$Rear Left Valve - Inlet$Rear Left Valve - Outlet$Rear Right Valve - Inlet$Rear Right Valve - Outlet$
+40758,009$-$TCV1$TCV2$HSV1$HSV2$Reserved$Reserved$Reserved$Motor$
+40759,004$-$FL/RR Circuit$FR/RL Circuit$-$
+40760,004$Failure$-$Complete$-$
+40761,004$ECO$NORMAL$SPORT$Not Support$
+40762,002$None$Enable$
+40763,002$Not Controllable$Controllable$
+40764,008$Engine Stop$Engine Stop$Cranking$Running$Engine Stop$Engine Stop$-$-$
+40765,016$OFF(Fail)$OFF(Screen)$Rear-MCS$Front-MCS$Rear-Left$Front-Left$Rear-Right$Front-Right$Rear-Wide$Front-Wide$Front 2-Section$-$-$-$-$-$
+40766,004$No Control$Reducing$Nomal$-$
+40767,004$Normal$Not Calibrated$Navigation Option Error$-$
+40768,008$OFF$Passive$Active$Failure$Blockage$N/A$MinorFailure$-$
+40769,002$Error$OK$
+40773,008$M/T$A/T$-$-$DCT$-$-$-$
+40774,016$OFF$Stand By$Cruise$Acceleration$Deceleraion$Tip Up$Tip Down$Resume From Above$Resume From Below$Error$-$-$-$-$-$-$
+40775,002$Implausible$Plausible$
+40776,004$None$Idle Stop$Engine Stall$-$
+40777,004$NEUTRAL$LEFT$RIGHT$OFF/Not Support$
+40778,004$Not Control$Reducing$Normal$-$
+40779,004$OPEN$SLIP$LOCK$-$
+40781,032$-$Passenger(M1)$Bus(M2)$Bus(M3)$Lightweight Cargo(N1)$Heavyweight Cargo(N2)$Heavyweight Cargo(N3)$Motor Cycle (L1e)$Motor Cycle (L2e)$Motor Cycle (L3e)$Motor Cycle (L4e)$Motor Cycle (L5e)$Motor Cycle (L6e)$Motor Cycle (L7e)$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40782,009$Not Specified$Gasoline$Diesel$Liquefied Natural Gas (CNG)$Liquid Propane (LPG)$Electricity (more than 42V and 100Ah)$Hydrogen$Not Used$Not Used$
+40785,016$P$L$2$3$4$D$N$R$Sports mode$-$-$-$-$-$ Intermediated Range$Fault$
+40786,016$P/N$1$2$3$4$5$6$R$-$-$-$-$-$-$Intermediated Range$-$
+40787,008$-$America$Europe$Australia$Middle East$Korea$China$-$
+40788,008$-$Sedan(4DR)$Sedan(3DR)$Sedan(5DR)$Wagon$HEV$-$-$
+40789,008$-$JF$AD$LF PE$JD PE$UM PE$HG$-$
+40790,004$HI$HI Limousine$DH$-$
+40791,016$Korea$General. Rest of World$Middle East$Europe$China$USA$Canada$Russia$Brazil$Iran$-$-$-$-$-$-$
+40792,004$Premium$Super Premium$-$-$
+40793,016$Korea$EU$Turkey$China$NA$Latine America$Chile$Argentina$-$Middle East$North Africa$-$Israel$-$-$-$
+40794,008$AVN$AVNT$AVN+RSE$AVNT+RSE$AV$AV+RSE$-$-$
+40796,004$EQUUS$Centinniel$EQUUS+Blue Link$Centinniel+Blue Link$
+40797,004$RVC$MCS(HY) or SVM(KM)$PGS$-$
+40798,004$3.5"$7.0"$12.3"$-$
+40800,002$AIR Suspension$ASD Suspension$
+40801,004$LP(Domestic)$KD 10ch$KD 12ch$-$
+40803,004$None$Internal$External$-$
+40804,004$3 Zone$4 Zone$Dual$3 Zone+$
+40806,008$Disenabled$Shut off$Enabled$Engaged$Transitioned$-$-$-$
+40807,009$-$Lock$Unlock$Trunk$Panic Button$Drive PSD$Assist PSD$-$-$
+40808,008$Korea$Europe$Austrailia$Middle East$America$China$-$-$
+40809,008$Default$Vehicle Tunning MAP1$Vehicle Tunning MAP2$-$-$-$-$-$
+40810,008$Default$Vehicle Type 1$Vehicle Type 2$-$-$-$-$-$
+40811,008$None (Default)$LDWS$LKAS$-$-$-$-$-$
+40812,002$None (Default)$HBA$
+40813,002$None (Default)$SLIF$
+40814,008$NONE (Default)$FCWS (CAMERA ONLY)$AEB URBAN$AEB PEDESTRIAN$-$-$-$-$
+40815,009$-$-$1st$2nd$3rd$4th$5th$6th$7th$
+40816,032$Not available$Gasoline/petrol$Methanol$Ethanol$Diesel$Liquefied Petroleum Gas (LPG)$Compressed Natural Gas (CNG)$Propane$Battery/electric$Bi-fuel vehicle using gasoline$Bi-fuel vehicle using methanol$Bi-fuel vehicle using ethanol$Bi-fuel vehicle using LPG$Bi-fuel vehicle using CNG$Bi-fuel vehicle using propane$-$-$-$-$-$-$-$-$-$Bi-fuel vehicle using Natural Gas$Bi-fuel vehicle using diesel$Natural Gas (Compressed or Liquefied Natural Gas)$Dual Fuel - Diesel and CNG$-$-$-$-$
+40817,256$-8$-7$-6$-5$-4$-3$-2$-1$0$1$2$3$4$5$6$7$8$9$10$11$12$13$14$15$16$17$18$19$20$21$22$23$24$25$26$27$28$29$30$31$32$33$34$35$36$37$38$39$40$41$42$43$44$45$46$47$48$49$50$51$52$53$54$55$56$57$58$59$60$61$62$63$64$65$66$67$68$69$70$71$72$73$74$75$76$77$78$79$80$81$82$83$84$85$86$87$88$89$90$91$92$93$94$95$96$97$98$99$100$101$102$103$104$105$106$107$108$109$110$111$112$113$114$115$116$117$118$119$120$121$122$123$124$125$126$127$128$129$130$131$132$133$134$135$136$137$138$139$140$141$142$143$144$145$146$147$148$149$150$151$152$153$154$155$156$157$158$159$160$161$162$163$164$165$166$167$168$169$170$171$172$173$174$175$176$177$178$179$180$181$182$183$184$185$186$187$188$189$190$191$192$193$194$195$196$197$198$199$200$201$202$203$204$205$206$207$208$209$210$211$212$213$214$215$216$217$218$219$220$221$222$223$224$225$226$227$228$229$230$231$232$233$234$235$236$237$238$239$240$241$242$243$244$245$246$247$
+40818,008$Dissatisfaction$Warm Up Cycle OK$-$-$Driving Cycle OK$ALL OK$-$-$
+40819,002$OK$Error$
+40820,004$Engine Stop$Cranking$Running$Stalling$
+40821,008$Normal$Not Calibratied$AEB Option Error$NAVI Option Error$4WD Error$Transmission Error$ESC Error$-$
+40822,008$No Fault$Time-Out$-$Radar DTC Set$Bad Angle$Unknow$-$-$
+40823,008$Normal$DPF Heat Up$Regeneration$Over Temp$LNT Heat Up$DeNOx$DeSOx Temp  Control Mode$DeSOx Lambda Control$
+40824,002$No Cut Off$Cut Off$
+40825,004$C-RGN Succes$Not Used$S-RGN Succes$P-RGN Succes$
+40826,004$No$Main$Cancel$-$
+40827,004$No$Set$Resume$Cancel$
+40828,002$Sync Not Compleat$Sync Compleat$
+40829,004$ALL OFF$EMS$ABS$ESC$
+40830,004$-$LKA$LKA+HBA$LKA+HBA+SLIF$
+40831,002$Diesel$Gasoline$
+40832,004$Auto$Comport$Sport$Not Supported$
+40833,008$Off$Hard Disable$Saft Disable$Wating$Cruise Active$Resume$Cancel$-$
+40834,002$Power$Manual$
+40835,008$Engine Stop$Cranking$Stalled$Running$-$-$-$Fault$
+40837,008$OFF$Before$Heat UP$Regeneration$After$Aborted$Finished$-$
+40838,002$Incomplete$Complete$
+40839,004$Normal$Cranking Fail$Not Ready$Engine Stall$
+40840,032$00000$00001$00010$00011$00100$00101$00110$00111$01000$01001$01010$01011$01100$01101$01110$0111$10000$10001$10010$10011$10100$10101$10110$10111$11000$11001$11010$11011$11100$11101$11110$11111$
+40841,004$Unused$Normal$Fail Module$Fail Light$
+40842,004$Unused$Off$On$-$
+40843,004$Unused$Used$-$-$
+40844,004$OFF$ON$Invalid$Invalid$
+40845,004$No Faults$Minor Faults$Major Faults$Critical Faults$
+40846,004$Not Supported$OFF$ON$Invalid Data or Not Supported$
+40847,002$Normal$Fault$
+40848,004$Normal$Not Calibrated$NAVI Option Error$-$
+40849,004$No Regen$Complete Regen$Service Regen$-$
+40850,002$Open$Fasten$
+40851,009$-$Normal$Start$Heat Up1$Heat Up2$Regenerate$CoolDown$Successful$Currently in Progress$
+40852,004$-$Auto$Sports$-$
+40853,004$-$LOW Line$HIGH Line$-$
+40854,002$EU$US$
+40855,004$psi$kPa$bar$Not Supported$
+40856,002$Not Learnd$Learned$
+40857,002$Not Located$Located$
+40858,002$Not in Progress$In Progress$
+40859,004$Initialized$Timed$Not Timed$-$
+40860,004$Normal$Low$Not available$-$
+40863,004$Engine Stop$-$Stalled$Running$
+40864,002$Field Mode$Inline Mode$
+40865,009$-$Readiness info$MIL OFF,Failure in TCU$MIL On$MIL Blinking$-$-$-$-$
+40866,016$INIT$STANDBY$NOPRESSURECTL$-$PRESSURECTL$PRESSUREREDUCTION$AFTERRUN$LEARN$PURGE$DIAG$-$-$-$-$-$-$
+40868,008$Empty$Restriction$Warning$OK$Full$-$-$-$
+40869,002$Freezed$Unfreeze$
+40870,008$Unavailable$Unavailable$-$-$-$-$-$Available$
+40871,002$Allowed$Not Allowed$
+40872,004$None Request$Hold$Shift to Up$Shift to Down$
+40873,004$Normal$Sports$Comfort$-$
+40874,004$Sedan$Wagon$Limousine$-$
+40875,008$Korea$Europe$Australia$America$China$Gen$-$-$
+40876,002$NONE (Default)$Attention Assist$
+40877,008$Default$Type1$Type2$Type3$Type4$Type5$Type6$Type7$
+40878,004$Off$Charging$Compleat$Invalid$
+40879,016$0$1$2$3$4$5$6$7$R$-$-$-$-$-$-$-$
+40881,004$-$Normal$Close$-$
+40882,008$-$Operational$-$-$Not Operational$-$-$Unknown$
+40883,008$-$Close$Intermediate$-$-$-$-$Unknown$
+40884,004$Initial$Off$On$-$
+40885,004$Initial$Active$Non Active$-$
+40886,004$Initial$Enable$Disable$-$
+40887,002$-$Clutch Filling Check$
+40888,002$None$Ready$
+40889,002$None$Inhibit$
+40890,002$None$Request$
+40891,002$None$Fault$
+40892,002$-$Charge$
+40893,004$Front 6AT$Rear 8AT$7 DCT$Front 8AT$
+40894,004$195/65R15$205/55R16$215/45R17$225/40R18$
+40896,016$IDLE$RTPFRX$RTPFRY$RTPDS$RTPHW$RTPSR$RTPBP$RTPBR$RTPCL$P_Test1$P_Test2$-$-$-$-$-$
+40897,004$No Warn$Level 1$Lever 2$-$
+40901,009$-$Normal$-$Heat UP$Regenerate$-$Cooldown$-$-$
+40902,032$Not Executed$Success$Failure-Time Out$Failure-Unknown$Failure-Target Not Found$Failure-Horizontal Multiple Target Found$Failure-Incorrect Target Range$-$Failure-Target Angle Deviation$Failure-Horizontal Bad Angle$Failure-Vertical Bad Angle$Failure-Market Code Not Correct$Failure-H/W Failure$Failure-Vertical Multiple Target Found$Failure-Over Voltage$Failure-Under Voltage$Failure-RADAR Sensor Over-Temp.$Failure-RADAR Sensor Blockage$Failure-NVM Error$Failure-Dynamic Objects$-$-$-$-$-$-$-$-$-$-$-$-$
+40903,016$EOL$SPC$SPTAC$-$-$-$-$-$-$-$-$-$-$-$-$Initial State$
+40904,008$NONE (Default)$FCWS (CAMERA ONLY)$FCWS with DBS (CAMERA ONLY)$AEB (CAMERA ONLY)$AEB (SENSOR FUSION)$-$-$-$
+40905,004$Stop$Fold$Unfold$-$
+40906,004$Output Off$On(Information)$Blinking(Warning)$Output Check$
+40907,004$No Action (Stop)$Central Open$Central Close$-$
+40908,004$OFF$DOWN$UP$-$
+40909,008$No Action$Manual Down$Manual UP$-$-$Auto Down$Auto UP$-$
+40910,008$No Action$Closing$Opening$Anti Closing$Anti Opening$Top$-$Invalid(Window not max up&Curtain not bottom)$
+40911,004$Bottom$Middle(not Bottom or Top)$Top$Unknown$
+40912,004$Non-Initialized$Initialized$Initializing$-$
+40913,009$-$V_RTE_warnLamp$-$-$-$RPS_AGC_LOST_ACCURACY_BIT$RPS_OTP_NOK_BIT$RPS_ADC_LOCK_LOST$-$
+40914,004$None$Discrete$CAN$SCC$
+40915,002$MT$AT/DCT$
+40916,002$No Fail$Fail$
+40918,004$OFF$Tail On$Head Lamp Low On$Auto Light On $
+40919,004$450 kPa$730 kPa$650 kPa$800 kPa$
+40920,016$-$Shipping Mode$-$-$-$-$-$-$-$Parking Mode$-$-$-$Interim Mode$-$-$
+40921,004$350KPa/50psi$600KPa/87psi$800KPa/116psi$ - KPa/ - psi$
+40922,004$450kPa/65psi$900kPa/130psi$Reserved$Reserved$
+40923,016$Initial Value$P Switch$-$R$-$-$-$D$Nr$Nd$-$-$-$-$-$-$
+40924,032$Not Display$-$D Display$-$N Display$-$-$-$R Display$-$-$-$-$-$-$-$P Display$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+40925,004$None$On$Off$Fault$
+40926,004$Door Close$Drive Door Open$Assist Door Open$Drive&Assist Door Open$
+40927,004$None$Park$Not Park$Error$
+40928,004$Off$Fail$Success$Progress$
+40929,002$No Action$Cancel Initialization$
+40930,002$No Action$Enable$
+40931,008$No Action$Manual Down$Manual Up$-$-$Express Down$Express Up$Short Drop$
+40932,004$OFF$RR Lock$AST RR Lock$-$
+40933,004$No Action$Central Open$Central Close$Short Drop$
+40934,004$Full Close$Half Open$Full Open$Invalid$
+40935,002$No Action$Reverse Action$
+40936,004$No error$Anti Pinch de-calibrated$Switch Error$Invalid$
+40937,008$Normal$Not Calibrated$AEB Option Error$Navigation Option Error$Drivetrain Option Error$-$-$-$
+40945,004$Idle$Active$Finished$-$
+40946,008$Success$Service N/A$Sub-Service N/A$Command N/A$Data invalid$Conditions N/C$Service Failure$Terminated$
+40948,008$-$HI$YG$IG$-$-$-$-$
+40949,002$No Limousine$Limousine$
+40950,004$Pass$On Going$Fail$-$
+40951,009$-$Variant Coding Passed$Not Programmed$Config Mismatched$Feature Mismatched$-$-$-$-$
+40952,009$-$Off$Initial State$Automatic$Factory$Service$-$-$-$
+40953,004$Unknown$Accurate$Faulty$Inaccurate$
+40954,016$EOL Calibration$SPTAC Calibration$-$-$-$-$-$-$-$-$-$-$-$-$-$Initial State (Calibration is not performed)$
+40955,004$Default$-$-$-$
+40956,008$Europe$-$-$-$-$-$-$-$
+40957,002$None ABS/ESC$ABS/ESC$
+40958,002$Not Finished$Finished$
+40959,002$Not Wake Up$Wake Up$
+40960,004$Plug Open$S3 Off$Normal$Circuit Fault$
+40961,002$Initial Value$Fault Status$
+40962,002$Full$Empty$
+40963,004$Gear R Switch Off$Gear R Switch On$-$B-CAN Signal Time-out$
+40964,002$Default$Reset$
+40965,004$Off(defualt)$Disable(Off)$Enable(On)$Reserved$
+40966,004$Normal status$Not Received$Reserved$Invalid$
+40967,004$No Reaction$Mechanical closing$Active closing$Mechanical & Active closing$
+40968,008$Unknown$Open$Slip$Micro Slip$Close$-$-$-$
+40969,004$-$False$True$-$
+40981,002$Normal$Open Status$
+40982,004$Normal Status$Not Received$-$Invalid$
+40983,002$HEV Not Ready$HEV Drivable$
+40984,008$Engine Stop$Start$Idle Speed$Part Load$Pull$Fuel Cut Off$-$-$
+40992,002$Not FOB Searching$FOB Searhing$
+40993,008$-$P$R$N$D$P Release$Idle$-$
+40994,002$OFF$No Hall Sensor$
+40996,004$Unbuckled$Buckled$-$Invalid or Not Supported$
+40997,004$Buckled$Unbuckled$-$Invalid or Not Supported$
+40998,004$Forward$Rearward$-$Invalid or Not Supported$
+40999,016$-$-$-$-$D$N$R$P$Sports Mode$Not Display AT Cluster$-$-$-$-$Intermediate Position$Fault$

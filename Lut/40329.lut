@@ -1,0 +1,32 @@
+0xFF,  0x00,  no factor
+0xFF,  0x01,  Vbat_LoadFail
+0xFF,  0x02,  PDM Terminal output SCB
+0xFF,  0x03,  PDM ESCL output fault
+0xFF,  0x04,  Sub MCU failed
+0xFF,  0x05,  PDM not P position
+0xFF,  0x06,  A_IGN1 ON (PDM detects C_IGN1 ON or A_IGN2 ON)
+0xFF,  0x07,  PDM VS_Error (Vehicle Speed inconsistency)
+0xFF,  0x08,  PDM PP_Error (PDM P position error)
+0xFF,  0x09,  Crypto failed between IPM and PDM
+0xFF,  0x0A,  ESCL broken
+0xFF,  0x0B,  Communication timeout with ESCL
+0xFF,  0x0C,  ESCL state inconsistency
+0xFF,  0x0D,  ESCL Enable fault (SCB or SCB or Open wire)
+0xFF,  0x0E,  Crypto failed beween IPM and ESCL
+0xFF,  0x0F,  ESCL power Off confirmation failed
+0xFF,  0x10,  No feedback from PDM
+0xFF,  0x11,  General failure
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

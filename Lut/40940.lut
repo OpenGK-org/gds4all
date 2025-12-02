@@ -1,0 +1,64 @@
+0xFF, 0x00, Normal Operation
+0xFF, 0x01, Cush VSP Min Vol
+0xFF, 0x02, Back VSP Min Vol
+0xFF, 0x03, Cush VSP Short Batt.
+0xFF, 0x04, Back VSP Short Batt.
+0xFF, 0x05, Cush Fan FET Short Ground
+0xFF, 0x06, Back Fan FET Short Ground
+0xFF, 0x07, Cush Fan FET Open Fault
+0xFF, 0x08, Back Fan FET Open Fault
+0xFF, 0x09, Cush NTC Short Ground
+0xFF, 0x0A, Back NTC Short Ground
+0xFF, 0x0B, Cush NTC Open Fault
+0xFF, 0x0C, Back NTC Open Fault
+0xFF, 0x0D, Cool TED FET Short Ground
+0xFF, 0x0E, Seat Back MAT FET Open
+0xFF, 0x0F, Cool TED FET Open Fault
+0xFF, 0x10, Cush TED Over Temp
+0xFF, 0x11, Back TED Over Temp
+0xFF, 0x12, EE CFG CHKSUM Fault
+0xFF, 0x13, Seat Cush MAT FET Open
+0xFF, 0x14, TED Delta Fault
+0xFF, 0x15, TED Low Side Over Load
+0xFF, 0x16, Batt Fault
+0xFF, 0x17, SW Fault
+0xFF, 0x18, Humidity Fault
+0xFF, 0x19, LIN Timeout Fault
+0xFF, 0x1A, MAT NTC Short Ground
+0xFF, 0x1B, MAT NTC Open Fault
+0xFF, 0x1C, MAT NTC Over Temp
+0xFF, 0x1D, Cush MAT FET Short Ground
+0xFF, 0x1E, Back MAT FET Short Ground
+0xFF, 0x1F, MAT Low Side Fault 
+0xFF, 0xFF, Unknown
+0x00, 0x00, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -
+-, -, -

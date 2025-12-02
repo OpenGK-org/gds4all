@@ -1,0 +1,15 @@
+0xFF, 0x00, 00 Test aborted! No Reason
+0xFF, 0x01, 01 Test aborted! Disabling Fault Present
+0xFF, 0x02, 02 Test aborted! No Reason
+0xFF, 0x03, 03 Test aborted! IAT Decreasing
+0xFF, 0x04, 04 Test aborted! Off Board Purge or Vent Control
+0xFF, 0x05, 05 Test aborted! Off Board Device Control Active
+0xFF, 0x06, 06 Test aborted! Purge or vent Valve Slewing
+0xFF, 0x07, 07 Test aborted! Start Up Coolant Too High
+0xFF, 0x08, 08 Test aborted! Fuel Level Out Of Range
+0xFF, 0x09, 09 Test aborted! Cold Test Criteria Not Met
+0xFF, 0x0A, 0A Test aborted! Off-board Device Diagnostic Clear
+0xFF, 0x0B, 0B Test aborted! Baro. Pressure Out Of Range
+0xFF, 0x0C, 0C Test aborted! Intrusive Control Of Purge Not Achieved
+0xFF, 0x0D, 0D Test aborted! Refueling
+0xFF, 0x00, 00 Not Defined

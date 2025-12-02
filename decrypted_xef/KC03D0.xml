@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by kyc (git) -->
+<systemtree systemid="KC03D0" mmcid="" version="1.0" date="2005-01-22" author="GIT" history="">
+  <commset moduleid="" testerid="" vsschannel="0x0800" protocolid="0x010001">
+    <funcsupport>
+      <function index="1000" desc="1" />
+      <function index="3000" desc="3" />
+      <function index="4000" desc="4" />
+      <function index="5000" desc="5" />
+    </funcsupport>
+    <hardwareset commrelay="0x2000" k_lineselect="0x0000" k_linestatus="0x0010" l_lineselect="0x0002" l_linestatus="0x0020" k_lineswitchstatus="0x0004" l_lineswitchstatus="0x0008" rxlineselect="0x0068" rxlinestatus="0x0000" pulluprelay="0x0000" k_linepullup="0x0001" l_linepullup="0x0002" l_linegnd="0x0000" k_linech="0x0200" l_linech="0x0000" rprogramch="0x0000" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <j2534setconfig datarate="10416" loopback="0" nodeaddress="0x00" networkline="0" p1min="0x0000" p1max="0x0014" p2min="0x0019" p2max="0x0032" p3min="0x0037" p3max="0x1388" p4min="0x0005" p4max="0x0014" w1="0x03E8" w2="0x03E8" w3="0x03E8" w4="0x001E" w5="0x012C" tidle="0x1388" tinil="0x0019" twup="0x0032" parity="0" bitsamplepoint="80" syncjumpwidth="15" t1max="0x0014" t2max="0x0064" t3max="0x0032" t4max="0x0014" t5max="0x0064" iso15765bs="0x00" iso15765stmin="0x00" bstx="0xFFFF" stmintx="0xFFFF" databits="0" fivebaudmod="0" toolmanufacturerspec="0" etc1="" etc2="" etc3="" etc4="" etc5="" />
+    <initaddress>
+      <initaddressvalue address="37" />
+      <initaddressvalue address="" />
+    </initaddress>
+    <startcomm>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </startcomm>
+    <commchannel>
+      <kline>
+        <klinechannel channel="0x0200" />
+        <klinechannel channel="0x0100" />
+        <klinechannel channel="" />
+      </kline>
+    </commchannel>
+    <acknowledge request="686AF1B10175" response="486B98F1" />
+    <commdown>
+      <requestnode request="" response="" />
+      <requestnode request="" response="" />
+    </commdown>
+  </commset>
+  <dtc functionid="1000" functionname="자기진단" functiontype="0" requesttime="2" searchtype="2" startpos="5" readno="2" skipno="0" totalmasking="0000FFFF">
+    <requestcodetree>
+      <requestnode index="1" request="686AF1B376" response="486B98F3" />
+      <requestnode index="" request="" response="" />
+      <requestnode index="" request="" response="" />
+    </requestcodetree>
+    <dtcitemtree header="B1233" index="B1233" maskingvalue="0000FFFF" commcode="9233" compid="71201900">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1234" index="B1234" maskingvalue="0000FFFF" commcode="9234" compid="71201900">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1237" index="B1237" maskingvalue="0000FFFF" commcode="9237" compid="71202200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1238" index="B1238" maskingvalue="0000FFFF" commcode="9238" compid="71202200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1241" maskingvalue="0000FFFF" commcode="9241" compid="71201500" index="B1241">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1242" maskingvalue="0000FFFF" commcode="9242" compid="71201500" index="B1242">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1245" index="B1245-B" maskingvalue="0000FFFF" commcode="9245" compid="71300200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1246" index="B1246-B" maskingvalue="0000FFFF" commcode="9246" compid="71300200">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1249" index="B1249-B" maskingvalue="0000FFFF" commcode="9249" compid="71300300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1250" index="B1250-B" maskingvalue="0000FFFF" commcode="9250" compid="71300300">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1410" index="B1410-G" maskingvalue="0000FFFF" commcode="9410" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1413" maskingvalue="0000FFFF" commcode="9413" compid="" index="B1413-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1414" maskingvalue="0000FFFF" commcode="9414" compid="" index="B1414-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1415" maskingvalue="0000FFFF" commcode="9415" compid="" index="B1415-10">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1416" maskingvalue="0000FFFF" commcode="9416" compid="" index="B1416-3">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B1417" index="B1417-A" maskingvalue="0000FFFF" commcode="9417" compid="">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2406" maskingvalue="0000FFFF" commcode="A406" compid="71300200" index="B2406-A">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2409" maskingvalue="0000FFFF" commcode="A409" compid="71300300" index="B2409">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2415" maskingvalue="0000FFFF" commcode="A415" compid="71300200" index="B2415">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2416" maskingvalue="0000FFFF" commcode="A416" compid="71300300" index="B2416">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2417" maskingvalue="0000FFFF" commcode="A417" compid="71300200" index="B2417-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+    <dtcitemtree header="B2418" maskingvalue="0000FFFF" commcode="A418" compid="71300200" index="B2418-1">
+      <freezeindex index="" />
+    </dtcitemtree>
+  </dtc>
+  <erasememory functionid="2000" functionname="EraseMemory" functiontype="0" startrequiretime="0" endrequiretime="0" requesttime="3">
+    <requestnode index="1" request="686AF114D7" response="486BXX54" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+    <requestnode index="" request="" response="" />
+  </erasememory>
+  <currentdata functionid="3000" functionname="Current Data" functiontype="0" requesttime="3">
+    <requestnode request="" response="" />
+    <requestnode request="" response="" />
+    <currentdatanode header="" index="64" requestcode="686AF1B11589" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="3C" maxvalue="A0" unit="3" floatrange="1" compid="" freeze="">
+      <convrule convtype="1" A="0.5" B="-40" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="65" requestcode="686AF1B1168A" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="3C" maxvalue="A0" unit="3" floatrange="1" compid="14200500" freeze="">
+      <convrule convtype="1" A="0.5" B="-40" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="66" requestcode="686AF1B1178B" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="3C" maxvalue="FF" unit="3" floatrange="1" compid="13300200" freeze="">
+      <convrule convtype="1" A="0.5" B="-40" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="67" requestcode="686AF1B1188C" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="4" floatrange="2" compid="" freeze="">
+      <convrule convtype="1" A="0.0196" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" requestcode="686AF1B1198D" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="8" floatrange="1" compid="71300200" freeze="" index="68">
+      <convrule convtype="1" A="0.39216" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="3050" requestcode="686AF1B11A8E" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="8" floatrange="1" compid="" freeze="">
+      <convrule convtype="1" A="0.39216" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="70" requestcode="686AF1B131A5" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="4" floatrange="2" compid="" freeze="">
+      <convrule convtype="1" A="0.0196" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" requestcode="686AF1B132A6" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="8" floatrange="1" compid="71300200" freeze="" index="71">
+      <convrule convtype="1" A="0.39216" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="3051" requestcode="686AF1B133A7" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="8" floatrange="1" compid="" freeze="">
+      <convrule convtype="1" A="0.39216" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+    <currentdatanode header="" index="1848" requestcode="686AF1B134A8" response="486B98F1" startpos="6" realpos="1" datasize="1" datatype="1" minvalue="00" maxvalue="FF" unit="8" floatrange="1" compid="71300200" freeze="">
+      <convrule convtype="1" A="0.39216" B="0" C="" D="" E="" F="" />
+    </currentdatanode>
+  </currentdata>
+  <actuationtest functionid="4000" functionname="ActuationTest" functiontype="0" startrequiretime="0" endrequiretime="0" requesttime="1">
+    <actuationtestnode header="" index="21" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF2CAE" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="22" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF51D3" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="23" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF52D4" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="24" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF38BA" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="25" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF39BB" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="26" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF3ABC" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="27" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF53D5" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="28" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF3BBD" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="29" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF3CBE" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="353" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF54D6" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="354" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF55D7" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="355" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF56D8" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="30">
+      <starttest>
+        <requestnode request="686AF1BF37B9" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="31">
+      <starttest>
+        <requestnode request="686AF1BF3DBF" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="32">
+      <starttest>
+        <requestnode request="686AF1BF3EC0" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="849">
+      <starttest>
+        <requestnode request="686AF1BF58DA" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="850">
+      <starttest>
+        <requestnode request="686AF1BF59DB" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="851">
+      <starttest>
+        <requestnode request="686AF1BF5ADC" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="142">
+      <starttest>
+        <requestnode request="686AF1BF5BDD" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="" index="143">
+      <starttest>
+        <requestnode request="686AF1BF5CDE" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="144" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF5DDF" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="145" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF5EE0" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="860" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="364" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF60E2" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="365" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF61E3" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+    <actuationtestnode header="" index="366" actuationtestcondition="4" actuationtesttime="0" requesttime="1" stopcondition="1" requestcondition="2" compid="">
+      <starttest>
+        <requestnode request="686AF1BF62E4" response="486B98FF" />
+      </starttest>
+      <stoptest>
+        <requestnode request="686AF1BF5FE1" response="486B98FF" />
+      </stoptest>
+      <endtest>
+        <requestnode request="" response="" />
+      </endtest>
+    </actuationtestnode>
+  </actuationtest>
+  <ecuinfo functionid="5000" functionname="1" functiontype="0">
+    <ecuinfonode index="" startpos="5" readno="2" maskingvalue="FFFF" expresstype="2">
+      <requestnode request="686AF1BE81" response="486B98FE" />
+    </ecuinfonode>
+  </ecuinfo>
+</systemtree>

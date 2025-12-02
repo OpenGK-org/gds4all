@@ -1,0 +1,16 @@
+0xFF,  0x00,  Immo coil error
+0xFF,  0x01,  TP is virgin
+0xFF,  0x02,  TP is learnt and valid
+0xFF,  0x03,  TP is not Valid (TP is present,   but no valid ISK)
+0xFF,  0x04,  TP not present (base-station OK,   but no response from TP)
+0xFF,  0x05,  TP is not valid (TP is present,   but no valid IDE)
+0xFF,  0x06,  Not all data blocks received before "Start FOB learning Request"
+0xFF,  0x07,  TP has already been learnt during this learning session
+0xFF,  0x08,  undefined error
+0xFF,  0x09,  TP is not valid (TP is present,   but no valid PSW)
+-
+-
+-
+-
+-
+-
