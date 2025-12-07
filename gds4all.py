@@ -66,25 +66,29 @@ def load_collections (dataset: str):
 			collections[collection.tag][keyvalue.attrib['key']] = keyvalue.attrib['desc']
 
 def load_ecu (ecu_code: str):
-	try:
-		tree = ET.parse('decrypted_xef/{}.xml'.format(ecu_code))
-		if len(tree.getroot()) == 0:
-			print('File was found but apparently contains no root')
-			raise FileNotFoundError # this is weird, happens with EHST.xml: <?xml version="1.0" encoding="UTF-8"?><systemtree systemid="EHST" mmcid="" version="1.0" date="2005-04-18" author="GIT" history=""/>
-	except FileNotFoundError:
-		if (ecu_code[-1] != '0'):
-			try:
-				return load_ecu(glob.glob('decrypted_xef/{}*.xml'.format(ecu_code))[0].replace('decrypted_xef/', '').replace('.xml', '')) # lmao
-			except IndexError:
-				return False
+	print('Loading ECU code: {}'.format(ecu_code))
+	patterns = {'Exact Match': 'decrypted_xef/{}.xml', 
+			   'Largest DGN Suffix File': 'decrypted_xef/{}[DGN]0.xml', 
+			   'Wildcard': 'decrypted_xef/{}*.xml'}
+	for name, pattern in patterns.items():
+		files = glob.glob(pattern.format(ecu_code))
+		if len(files) == 0:
+			continue
+		elif len(files) == 1:
+			file = files[0]
 		else:
-			return False
-
-	root = tree.getroot()
-	if len(root) == 0:
-		return None
-
-	return root
+			file = max(files, key=lambda file: os.stat(file).st_size)
+		try:
+			tree = ET.parse(file)
+		except ET.ParseError:
+			continue
+		root = tree.getroot()
+		if len(root) == 0:
+			print('File {} was found but apparently contains no root'.format(file))
+		else:
+			print('Loaded ECU using pattern: {}'.format(name))
+			return root
+	return None
 
 def get_message (key: int, attribute: str = None):
 	try:
@@ -199,10 +203,6 @@ def main ():
 	for ecu_node in vehicle_system:
 		ecu_code = ecu_node.attrib['ecucode']
 		ecu = load_ecu(ecu_code)
-
-		if ecu == False:
-			print('Failed to load ECU {}. Trying to match a wildcard now: {}'.format(ecu_code, ecu_code[:-1]))
-			ecu = load_ecu(ecu_code[:-1])
 
 		if ecu == None:
 			print('[!] Failed to load ECU definition: {}'.format(ecu_code))
