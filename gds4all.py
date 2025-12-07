@@ -81,6 +81,7 @@ def load_ecu (ecu_code: str):
 		try:
 			tree = ET.parse(file)
 		except ET.ParseError:
+			print('File {} was found but failed to parse'.format(file))
 			continue
 		root = tree.getroot()
 		if len(root) == 0:
