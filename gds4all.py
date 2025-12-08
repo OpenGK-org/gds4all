@@ -306,8 +306,6 @@ def main ():
 				decimal_points=_get(node, 'floatrange', int),
 				conversion=conversion
 			)
-			if data_node.request_payload != '8211F12101A6':
-				continue
 
 			current_data_nodes[int(data_node.position)] = data_node
 
