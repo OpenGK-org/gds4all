@@ -1,4 +1,3 @@
-import xml.etree.ElementTree as ET
 import argparse
 from utils import load_messages, load_collections, collections
 from data_types import Module
@@ -46,8 +45,8 @@ def decode_dtc_status(status: int) -> list[str]:
     for bit, label in flags:
         if status & (1 << bit):
             results.append(label)
-    # if no meaningful bit flags or only 'MIL on', set to 'History'
-    if not results or results == ['MIL on']:
+    # if no meaningful bit flags set to 'History'
+    if not results:
         results.append('History')
 
     return results
@@ -83,7 +82,16 @@ def main():
             status_labels = decode_dtc_status(dtc.status) if dtc.status is not None else []
             status_str = ', '.join(status_labels) or 'Unknown'
             print(f'  {dtc.header}: {dtc.description or "(unknown code)"} ({status_str})')
-
+        if dtcs:
+            print('\nClear DTCs? [y/n]')
+            if input().strip().lower() == 'y':
+                try:
+                    connection.clear_dtcs()
+                    print('DTCs cleared')
+                except RuntimeError as e:
+                    print('Error: {}'.format(e))
+        else:
+            print('No DTCs detected')
     finally:
         connection.disconnect()
 

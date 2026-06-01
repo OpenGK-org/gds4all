@@ -1,3 +1,5 @@
+import copy
+import struct
 from gkbus.hardware import CanHardware
 from gkbus.transport import Kwp2000OverCanTransport
 from gkbus.protocol import kwp2000
@@ -85,5 +87,18 @@ class EcuConnection:
         handling base-vs-suffixed code matching."""
         for dtc in self.module.dtcs:
             if dtc.header == code or dtc.header.split('-')[0] == code:
-                return dtc
+               # Return a copy so live scan data won't bleed back onto the module's static definitions
+                return copy.copy(dtc)
         return None
+    
+    def clear_dtcs(self):
+        """Clear DTCs from the connected ECU."""
+        if self.bus is None:
+            raise RuntimeError('Not connected - call connect() first')
+
+        try:
+            cmd = kwp2000.commands.ClearDiagnosticInformation()
+            cmd.set_data(struct.pack('>H', kwp2000.enums.DtcGroup.ALL.value))
+            self.bus.execute(cmd).get_data()
+        except kwp2000.Kwp2000NegativeResponseException as e:
+            raise RuntimeError('ECU rejected clear request: {}'.format(e)) from e
