@@ -57,8 +57,10 @@ class EcuConnection:
         for i in range(count):
             offset = 1 + i * 3
             code = self._decode_dtc_code(response[offset:offset + 2])
+            status = response[offset + 2]
             matched = self._match_dtc(code)
             if matched is not None:
+                matched.status = status
                 found.append(matched)
             else:
                 found.append(Dtc(
@@ -67,6 +69,7 @@ class EcuConnection:
                     mask=None,
                     freeze_index='',
                     description=None,
+                    status=status
                 ))
         return found
     

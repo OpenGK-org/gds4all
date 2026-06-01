@@ -154,6 +154,7 @@ class Dtc(GdsDataClass):
 	header: str
 	index: str
 	mask: str # should be hex?
+	status: int
 	freeze_index: str | None
 	description: str | None = None
 
@@ -166,6 +167,7 @@ class Dtc(GdsDataClass):
 			index=node.get('index'),
 			header=node.get('header'),
 			mask=node.get('mask'),
+			status=None,
 			freeze_index=node.findall('freezeindex')[0].get('index') # @todo?
 		)
 

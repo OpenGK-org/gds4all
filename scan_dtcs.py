@@ -34,6 +34,25 @@ def resolve_dtc_descriptions(dtcs, module):
                     break
     return dtcs
 
+def decode_dtc_status(status: int) -> list[str]:
+    # Other bit flags indicate historical issue
+    flags = [
+        (0, 'Active'),
+        (2, 'Pending'),
+        (3, 'Confirmed'),
+        (7, 'MIL on'),
+    ]
+    results = []
+    for bit, label in flags:
+        if status & (1 << bit):
+            results.append(label)
+    # if no meaningful bit flags or only 'MIL on', set to 'History'
+    if not results or results == ['MIL on']:
+        results.append('History')
+
+    return results
+
+
 def main():
     args = load_arguments()
     if args.interactive_select:
@@ -59,10 +78,11 @@ def main():
         print('Reading DTCs...')
         dtcs = connection.read_dtcs()
         dtcs_with_descriptions = resolve_dtc_descriptions(dtcs, module)
-
         print(f'\n{len(dtcs)} DTC(s) found:')
         for dtc in dtcs_with_descriptions:
-            print(f'  {dtc.header}: {dtc.description or "(unknown code)"}')
+            status_labels = decode_dtc_status(dtc.status) if dtc.status is not None else []
+            status_str = ', '.join(status_labels) or 'Unknown'
+            print(f'  {dtc.header}: {dtc.description or "(unknown code)"} ({status_str})')
 
     finally:
         connection.disconnect()

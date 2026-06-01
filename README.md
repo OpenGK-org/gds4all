@@ -4,7 +4,7 @@ Command line GDS parser for 2010 and prior Hyundai vehicles.
 
 It parses and extracts information on vehicle modules. 
 
-Information includes connection payloads and paremeters, DTCs the module can report, data that can be read, actuation tests, and additional functions a module supports.
+Information includes connection payloads and parameters, DTCs the module can report, data that can be read, actuation tests, and additional functions a module supports.
 
 Basic communication has been implemented for reading CAN module DTCs from Linux. Support for K-Line modules and Windows is anticipated in future.
 
@@ -36,6 +36,6 @@ Currently a Linux operating system is assumed. Connect a CANbus adapter to your 
 Any DTCs will be output to the console, including manufacturer specific ones.
 
 ### Parameters
--i --interactive-select Prefill selections with indices
--k --kia Use KIA vehicles
---interface CAN interface name (default: can0)
+- `-i` `--interactive-select` Prefill selections with indices
+- `-k` `--kia` Use KIA vehicles
+- `--interface` CAN interface name (default: can0)
