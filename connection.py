@@ -59,7 +59,7 @@ class EcuConnection:
             offset = 1 + i * 3
             code = decode_dtc_code(response[offset:offset + 2])
             status = response[offset + 2]
-            matched = match_dtc(code)
+            matched = match_dtc(code, self.module)
             if matched is not None:
                 found.append(matched)
             else:
