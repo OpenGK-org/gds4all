@@ -1,4 +1,3 @@
-import xml.etree.ElementTree as ET
 import argparse
 from utils import load_messages, load_collections, collections
 from data_types import Module
@@ -34,6 +33,25 @@ def resolve_dtc_descriptions(dtcs, module):
                     break
     return dtcs
 
+def decode_dtc_status(status: int) -> list[str]:
+    # Other bit flags indicate historical issue
+    flags = [
+        (0, 'Active'),
+        (2, 'Pending'),
+        (3, 'Confirmed'),
+        (7, 'MIL on'),
+    ]
+    results = []
+    for bit, label in flags:
+        if status & (1 << bit):
+            results.append(label)
+    # if no meaningful bit flags set to 'History'
+    if not results:
+        results.append('History')
+
+    return results
+
+
 def main():
     args = load_arguments()
     if args.interactive_select:
@@ -59,11 +77,21 @@ def main():
         print('Reading DTCs...')
         dtcs = connection.read_dtcs()
         dtcs_with_descriptions = resolve_dtc_descriptions(dtcs, module)
-
         print(f'\n{len(dtcs)} DTC(s) found:')
         for dtc in dtcs_with_descriptions:
-            print(f'  {dtc.header}: {dtc.description or "(unknown code)"}')
-
+            status_labels = decode_dtc_status(dtc.status) if dtc.status is not None else []
+            status_str = ', '.join(status_labels) or 'Unknown'
+            print(f'  {dtc.header}: {dtc.description or "(unknown code)"} ({status_str})')
+        if dtcs:
+            print('\nClear DTCs? [y/n]')
+            if input().strip().lower() == 'y':
+                try:
+                    connection.clear_dtcs()
+                    print('DTCs cleared')
+                except RuntimeError as e:
+                    print('Error: {}'.format(e))
+        else:
+            print('No DTCs detected')
     finally:
         connection.disconnect()
 

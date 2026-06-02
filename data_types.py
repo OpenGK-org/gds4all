@@ -155,6 +155,7 @@ class Dtc(GdsDataClass):
 	index: str
 	mask: str # should be hex?
 	freeze_index: str | None
+	status: int | None = None
 	description: str | None = None
 
 	# commcode: str ?? 
