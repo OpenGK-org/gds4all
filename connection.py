@@ -1,10 +1,9 @@
-import copy
 import struct
 from gkbus.hardware import CanHardware
 from gkbus.transport import Kwp2000OverCanTransport
 from gkbus.protocol import kwp2000
 from data_types import Module, Dtc, Protocol
-
+from dtc import decode_dtc_code, match_dtc
 
 class EcuConnection:
     def __init__(self, module: Module, interface: str = 'can0'):
@@ -58,11 +57,10 @@ class EcuConnection:
         found = []
         for i in range(count):
             offset = 1 + i * 3
-            code = self._decode_dtc_code(response[offset:offset + 2])
+            code = decode_dtc_code(response[offset:offset + 2])
             status = response[offset + 2]
-            matched = self._match_dtc(code)
+            matched = match_dtc(code, self.module)
             if matched is not None:
-                matched.status = status
                 found.append(matched)
             else:
                 found.append(Dtc(
@@ -71,25 +69,8 @@ class EcuConnection:
                     mask=None,
                     freeze_index='',
                     description=None,
-                    status=status
                 ))
         return found
-    
-    def _decode_dtc_code(self, code_bytes: bytes) -> str:
-        """Convert 2 raw bytes to standard P/B/C/U-prefixed string."""
-        high = code_bytes[0]
-        family = ['P', 'C', 'B', 'U'][high >> 6]
-        number = ((high & 0x3F) << 8) | code_bytes[1]
-        return f'{family}{number:04X}'
-
-    def _match_dtc(self, code: str) -> Dtc | None:
-        """Find a Dtc in the module's list matching this code,
-        handling base-vs-suffixed code matching."""
-        for dtc in self.module.dtcs:
-            if dtc.header == code or dtc.header.split('-')[0] == code:
-               # Return a copy so live scan data won't bleed back onto the module's static definitions
-                return copy.copy(dtc)
-        return None
     
     def clear_dtcs(self):
         """Clear DTCs from the connected ECU."""
